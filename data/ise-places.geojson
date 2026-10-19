@@ -166,6 +166,171 @@
         "seq": 11
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 136.4397, 34.505 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "伊勢国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 137.0375, 35.1217 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "尾張国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 13
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 137.9689, 36.2386 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "信濃国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 14
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 138.523, 36.4066 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "浅間の嶽",
+        "note": "浅間山",
+        "type": "mountain",
+        "seq": 15
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 139.297, 35.921 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "入間郡",
+        "note": "郡の代表点（Wikidata）",
+        "type": "district",
+        "seq": 16
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 139.4924, 35.9242 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "三芳野の里",
+        "note": "伝承地が複数ある（川越・坂戸など）。座標は川越の三芳野神社（Q11242385）で代用",
+        "type": "settlement",
+        "seq": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 139.45, 35.75 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "武蔵野",
+        "note": "範囲を指す語。Wikidata（武蔵野台地）に座標が無く、点は便宜上のもの",
+        "type": "region",
+        "seq": 18
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.1661, 38.8619 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "陸奥国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 19
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.0173, 38.7417 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "栗原",
+        "note": "栗原郡の代表点（Wikidata）",
+        "type": "district",
+        "seq": 20
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.0173, 38.7417 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "姉歯の松",
+        "note": "伝承地は栗原市金成姉歯。Wikidata に項目が無く、座標は栗原郡の代表点で代用",
+        "type": "landmark",
+        "seq": 21
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 140.4743, 37.776 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "信夫山",
+        "note": "福島市の信夫山",
+        "type": "mountain",
+        "seq": 22
+      },
+      "type": "Feature"
     }
   ]
 }

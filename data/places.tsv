@@ -10,3 +10,14 @@ hiei	比叡の山	mountain	Q748040	35.0667	135.8383	high	富士の高さのた�
 musashi	武蔵国	province	Q907398	35.8061	139.4092	medium	国の代表点（Wikidata）
 shimousa	下総国	province	Q1053695	35.7664	140.3339	medium	国の代表点（Wikidata）
 sumidagawa	隅田川	river	Q222149	35.7186	139.8072	medium	座標は今の隅田川の代表点。当時の渡しの位置ではない
+ise	伊勢国	province	Q864166	34.5050	136.4397	medium	国の代表点（Wikidata）
+owari	尾張国	province	Q514506	35.1217	137.0375	medium	国の代表点（Wikidata）
+shinano	信濃国	province	Q289250	36.2386	137.9689	medium	国の代表点（Wikidata）
+asama	浅間の嶽	mountain	Q242730	36.4066	138.5230	high	浅間山
+iruma	入間郡	district	Q1153801	35.9210	139.2970	medium	郡の代表点（Wikidata）
+miyoshino	三芳野の里	settlement		35.9242	139.4924	low	伝承地が複数ある（川越・坂戸など）。座標は川越の三芳野神社（Q11242385）で代用
+musashino	武蔵野	region	Q2616063	35.7500	139.4500	low	範囲を指す語。Wikidata（武蔵野台地）に座標が無く、点は便宜上のもの
+michinoku	陸奥国	province	Q907389	38.8619	141.1661	medium	国の代表点（Wikidata）
+kurihara	栗原	district	Q6446017	38.7417	141.0173	medium	栗原郡の代表点（Wikidata）
+anehanomatsu	姉歯の松	landmark		38.7417	141.0173	low	伝承地は栗原市金成姉歯。Wikidata に項目が無く、座標は栗原郡の代表点で代用
+shinobuyama	信夫山	mountain	Q6923612	37.7760	140.4743	high	福島市の信夫山
