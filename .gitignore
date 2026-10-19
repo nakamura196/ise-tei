@@ -1,0 +1,15 @@
+# 取得物・道具（scripts/fetch.zsh が作る）
+source/
+tools/
+
+# env / secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/settings.json

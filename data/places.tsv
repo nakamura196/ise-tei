@@ -1,0 +1,12 @@
+id	name	type	wikidata	lat	lon	cert	note
+kyo	京	city	Q751907	35.0000	135.7667	medium	平安京。座標は Wikidata の値（粗い）
+azuma	東	region	Q10343838	36.0000	140.0000	low	東国。範囲を指す語で、点は便宜上のもの
+mikawa	三河国	province	Q768158	35.0264	137.4017	medium	国の代表点（Wikidata）
+yatsuhashi	八橋	landmark		35.0075	137.0757	medium	伝承地。座標は知立市八橋町の無量寿寺（Q11567552）。八橋そのものの Wikidata 項目は無い
+suruga	駿河国	province	Q864170	35.1275	138.4867	medium	国の代表点（Wikidata）
+utsunoyama	宇津の山	pass	Q7903283	34.9333	138.3030	high	宇津ノ谷峠
+fuji	富士の山	mountain	Q39231	35.3606	138.7275	high	富士山
+hiei	比叡の山	mountain	Q748040	35.0667	135.8383	high	富士の高さのたとえとして出る。旅程の地点ではない
+musashi	武蔵国	province	Q907398	35.8061	139.4092	medium	国の代表点（Wikidata）
+shimousa	下総国	province	Q1053695	35.7664	140.3339	medium	国の代表点（Wikidata）
+sumidagawa	隅田川	river	Q222149	35.7186	139.8072	medium	座標は今の隅田川の代表点。当時の渡しの位置ではない

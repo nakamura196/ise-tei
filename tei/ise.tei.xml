@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ja">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>伊勢物語（嵯峨本）</title>
+        <respStmt>
+          <resp>翻刻</resp>
+          <name ref="https://yatanavi.org/text/ise/">中川聡（やたがらすナビ）</name>
+        </respStmt>
+        <respStmt xml:id="snakamura">
+          <resp>TEI 符号化・地名の付与</resp>
+          <name>中村覚（東京大学）</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>中村覚（東京大学）</authority>
+        <availability>
+          <p>翻刻はやたがらすナビの表示により著作権が存在しない。TEI の符号化と地名の付与は
+            <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</ref>。</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="witness">
+          <title>伊勢物語</title>
+          <note>嵯峨本。慶長13年（1608）刊。2巻。</note>
+          <orgName>国文学研究資料館</orgName>
+          <note type="collection">鉄心斎文庫</note>
+          <idno type="DOI">10.20730/200024817</idno>
+          <ref target="https://kokusho.nijl.ac.jp/biblio/200024817">国書データベース</ref>
+        </bibl>
+        <bibl type="transcription">
+          <title>嵯峨本『伊勢物語』</title>
+          <editor>中川聡</editor>
+          <publisher>やたがらすナビ</publisher>
+          <edition>Ver.1.0（2024-03-04）</edition>
+          <ref target="https://yatanavi.org/_media/text/ise/ise_1.0.zip">ise_1.0.zip</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>本文はやたがらすナビの「翻刻」をそのまま用いた（校訂本文は用いない）。翻刻では、漢字の直後のものを除き、繰り返し記号を開いてある。</p>
+      <p>pb の n は国書データベースのコマ番号と見開きの左右（r＝右、l＝左）。左右の領域は画像を縦に二等分した近似値で、のどの位置は測っていない。</p>
+      <p>地名（placeName）は九段だけに付けた。type="comparison" はたとえとして出る地名。</p>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <listPlace>
+            <place xml:id="kyo" type="city" n="1" cert="medium">
+              <placeName>京</placeName>
+              <location><geo>35.0000 135.7667</geo></location>
+              <note>平安京。座標は Wikidata の値（粗い）</note>
+              <idno type="wikidata">Q751907</idno>
+            </place>
+            <place xml:id="azuma" type="region" n="2" cert="low">
+              <placeName>東</placeName>
+              <location><geo>36.0000 140.0000</geo></location>
+              <note>東国。範囲を指す語で、点は便宜上のもの</note>
+              <idno type="wikidata">Q10343838</idno>
+            </place>
+            <place xml:id="mikawa" type="province" n="3" cert="medium">
+              <placeName>三河国</placeName>
+              <location><geo>35.0264 137.4017</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q768158</idno>
+            </place>
+            <place xml:id="yatsuhashi" type="landmark" n="4" cert="medium">
+              <placeName>八橋</placeName>
+              <location><geo>35.0075 137.0757</geo></location>
+              <note>伝承地。座標は知立市八橋町の無量寿寺（Q11567552）。八橋そのものの Wikidata 項目は無い</note>
+            </place>
+            <place xml:id="suruga" type="province" n="5" cert="medium">
+              <placeName>駿河国</placeName>
+              <location><geo>35.1275 138.4867</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q864170</idno>
+            </place>
+            <place xml:id="utsunoyama" type="pass" n="6" cert="high">
+              <placeName>宇津の山</placeName>
+              <location><geo>34.9333 138.3030</geo></location>
+              <note>宇津ノ谷峠</note>
+              <idno type="wikidata">Q7903283</idno>
+            </place>
+            <place xml:id="fuji" type="mountain" n="7" cert="high">
+              <placeName>富士の山</placeName>
+              <location><geo>35.3606 138.7275</geo></location>
+              <note>富士山</note>
+              <idno type="wikidata">Q39231</idno>
+            </place>
+            <place xml:id="hiei" type="mountain" n="8" cert="high">
+              <placeName>比叡の山</placeName>
+              <location><geo>35.0667 135.8383</geo></location>
+              <note>富士の高さのたとえとして出る。旅程の地点ではない</note>
+              <idno type="wikidata">Q748040</idno>
+            </place>
+            <place xml:id="musashi" type="province" n="9" cert="medium">
+              <placeName>武蔵国</placeName>
+              <location><geo>35.8061 139.4092</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q907398</idno>
+            </place>
+            <place xml:id="shimousa" type="province" n="10" cert="medium">
+              <placeName>下総国</placeName>
+              <location><geo>35.7664 140.3339</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1053695</idno>
+            </place>
+            <place xml:id="sumidagawa" type="river" n="11" cert="medium">
+              <placeName>隅田川</placeName>
+              <location><geo>35.7186 139.8072</geo></location>
+              <note>座標は今の隅田川の代表点。当時の渡しの位置ではない</note>
+              <idno type="wikidata">Q222149</idno>
+            </place>
+        </listPlace>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <facsimile sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/manifest">
+    <surface xml:id="c006" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/6" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00006.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z006r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z006l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c007" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/7" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00007.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z007r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z007l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c008" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/8" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00008.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z008r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z008l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c009" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/9" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00009.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z009r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z009l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c010" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/10" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00010.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z010r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z010l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c011" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/11" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00011.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z011r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z011l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c012" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/12" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00012.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z012r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z012l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c013" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/13" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00013.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z013r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z013l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c014" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/14" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00014.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z014r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z014l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c015" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/15" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00015.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z015r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z015l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c016" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/16" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00016.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z016r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z016l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c017" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/17" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00017.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z017r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z017l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c018" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/18" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00018.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z018r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z018l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c019" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/19" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00019.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z019r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z019l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c020" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/20" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00020.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z020r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z020l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c021" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/21" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00021.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z021r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z021l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c022" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/22" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00022.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z022r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z022l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c023" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/23" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00023.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z023r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z023l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c024" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/24" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00024.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z024r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z024l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c025" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/25" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00025.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z025r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z025l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c026" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/26" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00026.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z026r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z026l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c027" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/27" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00027.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z027r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z027l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c028" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/28" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00028.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z028r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z028l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c029" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/29" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00029.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z029r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z029l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c030" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/30" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00030.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z030r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z030l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c031" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/31" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00031.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z031r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z031l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c032" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/32" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00032.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z032r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z032l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c033" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/33" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00033.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z033r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z033l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c034" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/34" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00034.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z034r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z034l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c035" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/35" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00035.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z035r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z035l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c036" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/36" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00036.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z036r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z036l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c037" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/37" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00037.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z037r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z037l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c038" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/38" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00038.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z038r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z038l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c039" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/39" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00039.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z039r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z039l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c040" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/40" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00040.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z040r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z040l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c041" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/41" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00041.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z041r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z041l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c042" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/42" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00042.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z042r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z042l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c043" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/43" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00043.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z043r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z043l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c044" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/44" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00044.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z044r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z044l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c045" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/45" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00045.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z045r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z045l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c046" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/46" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00046.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z046r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z046l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c047" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/47" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00047.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z047r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z047l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c048" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/48" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00048.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z048r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z048l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c049" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/49" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00049.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z049r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z049l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c050" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/50" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00050.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z050r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z050l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c051" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/51" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00051.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z051l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c052" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/52" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00052.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z052r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z052l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c053" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/53" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00053.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z053r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z053l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c054" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/54" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00054.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z054r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z054l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c055" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/55" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00055.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z055r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z055l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c056" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/56" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00056.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z056r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+    </surface>
+    <surface xml:id="c060" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/60" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00060.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z060l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c061" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/61" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00061.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z061r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z061l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c062" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/62" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00062.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z062r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z062l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c063" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/63" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00063.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z063r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z063l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c064" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/64" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00064.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z064r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z064l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c065" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/65" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00065.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z065r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z065l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c066" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/66" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00066.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z066r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z066l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c067" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/67" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00067.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z067r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z067l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c068" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/68" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00068.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z068r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z068l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c069" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/69" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00069.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z069r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z069l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c070" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/70" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00070.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z070r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z070l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c071" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/71" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00071.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z071r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z071l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c072" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/72" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00072.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z072r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z072l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c073" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/73" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00073.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z073r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z073l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c074" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/74" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00074.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z074r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z074l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c075" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/75" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00075.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z075r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z075l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c076" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/76" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00076.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z076r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z076l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c077" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/77" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00077.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z077r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z077l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c078" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/78" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00078.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z078r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z078l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c079" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/79" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00079.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z079r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z079l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c080" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/80" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00080.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z080r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z080l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c081" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/81" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00081.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z081r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z081l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c082" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/82" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00082.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z082r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z082l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c083" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/83" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00083.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z083r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z083l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c084" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/84" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00084.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z084r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z084l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c085" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/85" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00085.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z085r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z085l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c086" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/86" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00086.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z086r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z086l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c087" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/87" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00087.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z087r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z087l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c088" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/88" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00088.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z088r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z088l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c089" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/89" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00089.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z089r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z089l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c090" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/90" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00090.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z090r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z090l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c091" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/91" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00091.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z091r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z091l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c092" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/92" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00092.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z092r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z092l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c093" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/93" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00093.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z093r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z093l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c094" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/94" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00094.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z094r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z094l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c095" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/95" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00095.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z095r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z095l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c096" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/96" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00096.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z096r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z096l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c097" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/97" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00097.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z097r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z097l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c098" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/98" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00098.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z098r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z098l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c099" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/99" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00099.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z099r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z099l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c100" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/100" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00100.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z100r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z100l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c101" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/101" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00101.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z101r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z101l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c102" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/102" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00102.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z102r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z102l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c103" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/103" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00103.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z103r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z103l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c104" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/104" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00104.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z104r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z104l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c105" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/105" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00105.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z105r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z105l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c106" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/106" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00106.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z106r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z106l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c107" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/107" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00107.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z107r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z107l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c108" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/108" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00108.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z108r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z108l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c109" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/109" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00109.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z109r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z109l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c110" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/110" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00110.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z110r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+    </surface>
+    <surface xml:id="c111" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/111" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00111.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z111r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z111l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c112" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/112" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00112.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z112r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z112l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c113" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/113" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00113.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z113r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z113l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c114" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/114" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00114.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z114r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z114l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c115" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/115" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00115.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z115r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z115l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c116" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/116" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00116.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z116r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z116l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c117" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/117" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00117.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z117r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z117l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c118" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/118" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00118.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z118r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z118l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c119" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/119" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00119.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z119r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z119l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c120" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/120" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00120.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z120r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z120l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c121" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/121" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00121.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z121r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+    </surface>
+    <surface xml:id="c122" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/122" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00122.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z122r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z122l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c123" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/123" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00123.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z123r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+      <zone xml:id="z123l" ulx="0" uly="0" lrx="2808" lry="3744"/>
+    </surface>
+    <surface xml:id="c124" sameAs="https://kokusho.nijl.ac.jp/biblio/200024817/canvas/124" ulx="0" uly="0" lrx="5616" lry="3744">
+      <graphic url="https://kokusho.nijl.ac.jp/api/iiif/200024817/v4/NIKI/098-0406/098-0406-00124.tif/full/full/0/default.jpg" width="5616px" height="3744px"/>
+      <zone xml:id="z124r" ulx="2808" uly="0" lrx="5616" lry="3744"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="dan" n="1" xml:id="dan001">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise001"/>
+          <pb n="6r" facs="#z006r"/>
+          <lb n="6r-01"/>むかしおとこうゐかうふりしてならの
+          <lb n="6r-02"/>京かすかの里にしるよししてかりに
+          <lb n="6r-03"/>いにけりそのさとにいとなまめいたる女
+          <lb n="6r-04"/>はらからすみけりこのおとこかいまみて
+          <lb n="6r-05"/>けりおもほえすふるさとにいとはした
+          <lb n="6r-06"/>なくてありけれは心地まとひにけり
+          <lb n="6r-07"/>男のきたりけるかりきぬのすそをきりて
+          <lb n="6r-08"/>うたをかきてやるそのおとこしのふすり
+          <lb n="6r-09"/>のかりきぬをなむきたりける
+          <pb n="6l" facs="#z006l"/>
+          <lb n="6l-01"/><seg type="waka">かすかののわかむらさきのすり衣
+          <lb n="6l-02"/>しのふのみたれかきりしられす</seg>
+          <lb n="6l-03"/>となむをいつきていひやりけるついて
+          <lb n="6l-04"/>おもしろき事ともやおもひけん
+          <pb n="7r" facs="#z007r"/><figure><figDesc>挿絵</figDesc></figure>
+          <pb n="7l" facs="#z007l"/>
+          <lb n="7l-01"/><seg type="waka">みちのくのしのふもちすりたれゆへに
+          <lb n="7l-02"/>みたれそめにしわれならなくに</seg>
+          <lb n="7l-03"/>といふうたの心はへなりむかし人はかく
+          <lb n="7l-04"/>いちはやきみやひをなんしける
+        </ab>
+      </div>
+      <div type="dan" n="2" xml:id="dan002">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise002"/>
+          <lb n="7l-05"/>むかしおとこありけりならの京ははな
+          <lb n="7l-06"/>れこの京は人のいゑまたさたまらさり
+          <lb n="7l-07"/>ける時に西の京に女ありけりかの
+          <lb n="7l-08"/>女世人にはまされりけりその人かたち
+          <lb n="7l-09"/>よりは心なむまさりたりけるひとりのみ
+          <pb n="8r" facs="#z008r"/>
+          <lb n="8r-01"/>もあらさりけらしそれをかのまめおとこ
+          <lb n="8r-02"/>うちものかたらひてかへりきていかか
+          <lb n="8r-03"/>おもひけん時はやよひのついたち雨そを
+          <lb n="8r-04"/>ふるにやりける
+          <lb n="8r-05"/><seg type="waka">おきもせすねもせてよるを明しては
+          <lb n="8r-06"/>春のものとてなかめくらしつ</seg>
+          <pb n="8l" facs="#z008l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="3" xml:id="dan003">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise003"/>
+          <pb n="9r" facs="#z009r"/>
+          <lb n="9r-01"/>むかしおとこありけりけさうしける女
+          <lb n="9r-02"/>のもとにひしきもといふ物をやるとて
+          <lb n="9r-03"/><seg type="waka">思ひあらはむくらの宿にねもしなん
+          <lb n="9r-04"/>ひしきものにはそてをしつつも</seg>
+          <lb n="9r-05"/>二条のきさきのまたみかとにもつかう
+          <lb n="9r-06"/>まつり給はてたた人にておはしける
+          <lb n="9r-07"/>ときのことなり
+          <pb n="9l" facs="#z009l"/>
+          <lb n="9l-01"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="4" xml:id="dan004">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise004"/>
+          <pb n="10r" facs="#z010r"/>
+          <lb n="10r-01"/>むかし東の五条におほきさいの宮お
+          <lb n="10r-02"/>はしましけるにしのたいにすむひとあり
+          <lb n="10r-03"/>けりそれをほいにはあらて心さしふ
+          <lb n="10r-04"/>かかりける人行とふらひけるをむ月の
+          <lb n="10r-05"/>十日はかりのほとにほかにかくれにけり
+          <lb n="10r-06"/>あり所はきけと人のゆきかよふへきところ
+          <lb n="10r-07"/>にもあらさりけれはなをうしとおもひ
+          <lb n="10r-08"/>つつなんありける又のとしのむ月に梅
+          <lb n="10r-09"/>の花さかりにこそをこひていきてたち
+          <pb n="10l" facs="#z010l"/>
+          <lb n="10l-01"/>て見ゐて見々れとこそににるへくも
+          <lb n="10l-02"/>あらすうちなきてあはらなるいたし
+          <lb n="10l-03"/>きに月のかたふくまてふせりてこそを
+          <lb n="10l-04"/>おもひいててよめる
+          <lb n="10l-05"/><seg type="waka">月やあらぬ春やむかしのはるならぬ
+          <lb n="10l-06"/>我身ひとつはもとの身にして</seg>
+          <lb n="10l-07"/>とよみて夜のほのほのとあくるに
+          <lb n="10l-08"/>なくなくかへりにけり
+          <pb n="11r" facs="#z011r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="5" xml:id="dan005">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise005"/>
+          <pb n="11l" facs="#z011l"/>
+          <lb n="11l-01"/>昔おとこありけりひんかしの五条わたり
+          <lb n="11l-02"/>にいとしのひていきけりみそかなる
+          <lb n="11l-03"/>ところなれはかとよりもえいらてわらは
+          <lb n="11l-04"/>へのふみあけたるついひちのくつれより
+          <lb n="11l-05"/>かよひけり人しけくもあらねとたひかさ
+          <lb n="11l-06"/>なりけれはあるしききつけてそのかよひ
+          <lb n="11l-07"/>ちに夜ことに人をすへてまもらせけれは
+          <lb n="11l-08"/>いけともえあはてかへりけりさてよめる
+          <lb n="11l-09"/><seg type="waka">人しれぬわかかよひちのせきもりは
+          <pb n="12r" facs="#z012r"/>
+          <lb n="12r-01"/>よひよひことにうちもねななん</seg>
+          <lb n="12r-02"/>とよめりけれはいといたうこころやみけ
+          <lb n="12r-03"/>りあるしゆるしてけり二条のきさきに
+          <lb n="12r-04"/>しのひてまいりけるを世のきこえあり
+          <lb n="12r-05"/>けれはせうとたちのまもらせたまひけるとそ
+          <pb n="12l" facs="#z012l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="6" xml:id="dan006">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise006"/>
+          <pb n="13r" facs="#z013r"/>
+          <lb n="13r-01"/>昔おとこありけりをんなのえうまし
+          <lb n="13r-02"/>かりけるを年をへてよはひわたりける
+          <lb n="13r-03"/>をからうしてぬすみ出ていとくらきにき
+          <lb n="13r-04"/>けりあくた河といふかはをゐていきけれ
+          <lb n="13r-05"/>はくさのうへにをきたりける露をかれ
+          <lb n="13r-06"/>はなにそとなんおとこにとひける行
+          <lb n="13r-07"/>さきおほく夜もふけにけれはおにある所
+          <lb n="13r-08"/>ともしらてかみさへいといみしうなり
+          <lb n="13r-09"/>雨もいたうふりけれはあはらなるくらに
+          <pb n="13l" facs="#z013l"/>
+          <lb n="13l-01"/>女をはおくにをしいれておとこゆみや
+          <lb n="13l-02"/>なくひをおひてとくちにをりはや夜
+          <lb n="13l-03"/>もあけなんとおもひつつゐたりけるに
+          <lb n="13l-04"/>おにはやひとくちにくひてけりあなやと
+          <lb n="13l-05"/>いひけれと神なるさはきにえきかさり
+          <lb n="13l-06"/>けりやうやう夜もふけゆくにみれは
+          <lb n="13l-07"/>ゐてこしをんなもなしあしすりを
+          <lb n="13l-08"/>してなけともかひなし
+          <lb n="13l-09"/><seg type="waka">しら玉かなにそと人のとひしとき
+          <pb n="14r" facs="#z014r"/>
+          <lb n="14r-01"/>露とこたへてきえなましものを</seg>
+          <lb n="14r-02"/>これは二条のきさきのいとこの女御の御
+          <lb n="14r-03"/>もとにつかうまつるやうにてゐ給へりけ
+          <lb n="14r-04"/>るをかたちのいとめてたくおはしけれは
+          <lb n="14r-05"/>ぬすみておひていてたりけるを御せう
+          <lb n="14r-06"/>とほりかはのおととたらうくにつねの
+          <lb n="14r-07"/>大納言また下らうにて内へまいり給ふに
+          <lb n="14r-08"/>いみしうなくひとあるをききつけてとと
+          <lb n="14r-09"/>めてとりかへしたまうてけりそれをかく
+          <pb n="14l" facs="#z014l"/>
+          <lb n="14l-01"/>おにとはいふ也けりまたいとわかうて
+          <lb n="14l-02"/>きさきのたたにおはしけるときとや
+          <pb n="15r" facs="#z015r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="7" xml:id="dan007">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise007"/>
+          <pb n="15l" facs="#z015l"/>
+          <lb n="15l-01"/>むかし男ありけり京にありわひて
+          <lb n="15l-02"/>あつまにいきけるにいせおはりのあはひ
+          <lb n="15l-03"/>のうみつらをゆくになみのいとしろくた
+          <lb n="15l-04"/>つを見て
+          <lb n="15l-05"/><seg type="waka">いととしく過行かたの恋しきに
+          <lb n="15l-06"/>うらやましくもかへるなみかな</seg>
+          <lb n="15l-07"/>となんよめりける
+          <pb n="16r" facs="#z016r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="8" xml:id="dan008">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise008"/>
+          <pb n="16l" facs="#z016l"/>
+          <lb n="16l-01"/>昔おとこありけり京やすみうかりけん
+          <lb n="16l-02"/>あつまのかたにゆきてすみ所もとむとて
+          <lb n="16l-03"/>ともとする人ひとりふたりしてゆきけり
+          <lb n="16l-04"/>しなののくにあさまのたけにけふり
+          <lb n="16l-05"/>のたつを見て
+          <lb n="16l-06"/><seg type="waka">しなのなるあさまのたけにたつ煙
+          <lb n="16l-07"/>をちこち人のみやはとかめぬ</seg>
+          <pb n="17r" facs="#z017r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="9" xml:id="dan009">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise009a"/>
+          <pb n="17l" facs="#z017l"/>
+          <lb n="17l-01"/>昔男ありけりその男身をえうなき物に思ひ
+          <lb n="17l-02"/>なして<placeName ref="#kyo">京</placeName>にはあらし<placeName ref="#azuma">あつま</placeName>のかたにすむ
+          <lb n="17l-03"/>へきくにもとめにとてゆきけりもとより
+          <lb n="17l-04"/>ともとする人ひとりふたりしていきけり
+          <lb n="17l-05"/>みちしれるひともなくてまとひいきけり
+          <lb n="17l-06"/><placeName ref="#mikawa">みかはのくに</placeName><placeName ref="#yatsuhashi">やつはし</placeName>といふ所にいたり
+          <lb n="17l-07"/>ぬそこを<placeName ref="#yatsuhashi">やつはし</placeName>といひけるは水行河の
+          <lb n="17l-08"/>くもてなれははしをやつわたせるにより
+          <lb n="17l-09"/>てなむ<placeName ref="#yatsuhashi">やつはし</placeName>といひけるそのさはのほ
+          <pb n="18r" facs="#z018r"/>
+          <lb n="18r-01"/>とりの木のかけにおりゐてかれいひくひ
+          <lb n="18r-02"/>けりそのさはにかきつはたいとおもしろ
+          <lb n="18r-03"/>くさきたりそれを見てある人のいはくか
+          <lb n="18r-04"/>きつはたといふいつもしをくのかみにす
+          <lb n="18r-05"/>へてたひの心をよめといひけれはよめる
+          <lb n="18r-06"/><seg type="waka">から衣きつつなれにしつましあれは
+          <lb n="18r-07"/>はるはるきぬるたひをしそ思ふ</seg>
+          <lb n="18r-08"/>とよめりけれはみな人かれいひのうへに
+          <lb n="18r-09"/>涙おとしてほとひにけり
+          <pb n="18l" facs="#z018l"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise009b"/>
+          <pb n="19r" facs="#z019r"/>
+          <lb n="19r-01"/>ゆきゆきて<placeName ref="#suruga">するかのくに</placeName>にいたりぬ<placeName ref="#utsunoyama">うつの
+          <lb n="19r-02"/>山</placeName>にいたりてわかいらんとするみちはい
+          <lb n="19r-03"/>とくらうほそきにつたかへてはしけり物
+          <lb n="19r-04"/>心ほそくすすろなるめを見ることと思ふ
+          <lb n="19r-05"/>にす行者あひたりかかるみちはいかてかいま
+          <lb n="19r-06"/>するといふをみれはみし人なりけり<placeName ref="#kyo">京</placeName>
+          <lb n="19r-07"/>にその人の御もとにとてふみかきてつく
+          <lb n="19r-08"/><seg type="waka"><placeName ref="#suruga">するか</placeName>なる<placeName ref="#utsunoyama">うつの山</placeName>辺のうつつにも
+          <lb n="19r-09"/>夢にもひとにあはぬなりけり</seg>
+          <pb n="19l" facs="#z019l"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise009c"/>
+          <pb n="20r" facs="#z020r"/>
+          <lb n="20r-01"/><placeName ref="#fuji">ふしの山</placeName>をみれはさ月のつこもりに
+          <lb n="20r-02"/>雪いとしろうふれり
+          <lb n="20r-03"/><seg type="waka">ときしらぬ山は<placeName ref="#fuji">富士のね</placeName>いつとてか
+          <lb n="20r-04"/>かのこまたらに雪のふるらん</seg>
+          <lb n="20r-05"/>その山はここにたとへは<placeName ref="#hiei" type="comparison">ひえのやま</placeName>をは
+          <lb n="20r-06"/>たちはかりかさねあけたらんほとしてなり
+          <lb n="20r-07"/>はしほしりのやうになんありける
+          <pb n="20l" facs="#z020l"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise009d"/>
+          <pb n="21r" facs="#z021r"/>
+          <lb n="21r-01"/>なほゆきゆきて<placeName ref="#musashi">むさしのくに</placeName>と<placeName ref="#shimousa">しもつふさ
+          <lb n="21r-02"/>のくに</placeName>とのなかにいとおほきなる河あり
+          <lb n="21r-03"/>それを<placeName ref="#sumidagawa">すみた川</placeName>といふその川のほとりに
+          <lb n="21r-04"/>むれゐておもひやれはかきりなくとをく
+          <lb n="21r-05"/>もきにけるかなとわひあへるにわたしも
+          <lb n="21r-06"/>りはやふねにのれ日もくれぬといふに
+          <lb n="21r-07"/>のりてわたらんとするにみなひと物わ
+          <lb n="21r-08"/>ひしくて<placeName ref="#kyo">京</placeName>に思ふ人なきにしもあらす
+          <lb n="21r-09"/>さるおりしもしろき鳥のはしとあしと
+          <pb n="21l" facs="#z021l"/>
+          <lb n="21l-01"/>あかきしきのおほきさなる水のうへに
+          <lb n="21l-02"/>あそひつついををくふ<placeName ref="#kyo">京</placeName>にはみえぬとり
+          <lb n="21l-03"/>なれはみな人見しらすわたしもりにとひ
+          <lb n="21l-04"/>けれはこれなむ宮こ鳥といふをききて
+          <lb n="21l-05"/><seg type="waka">名にしおははいさこととはん宮こ鳥
+          <lb n="21l-06"/>わか思ふ人はありやなしやと</seg>
+          <lb n="21l-07"/>とよめりけれはふねこそりてなきにけり
+          <pb n="22r" facs="#z022r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="10" xml:id="dan010">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise010"/>
+          <pb n="22l" facs="#z022l"/>
+          <lb n="22l-01"/>昔おとこむさしの国まてまとひありき
+          <lb n="22l-02"/>けりさてそのくににある女をよはひけり
+          <lb n="22l-03"/>ちちはこと人にあはせむといひけるを
+          <lb n="22l-04"/>ははなんあてなる人に心つけたり
+          <lb n="22l-05"/>けるちちはなを人にてははなむふちはら
+          <lb n="22l-06"/>なりけるさてなむあてなる人にとおもひ
+          <lb n="22l-07"/>けるこのむこかねによみてをこせたり
+          <lb n="22l-08"/>けるすむ所なんいるまのこほりみよし
+          <lb n="22l-09"/>ののさとなりける
+          <pb n="23r" facs="#z023r"/>
+          <lb n="23r-01"/><seg type="waka">みよしののたのむのかりもひたふるに
+          <lb n="23r-02"/>君かかたにそよるとなくなる</seg>
+          <lb n="23r-03"/>むこかねかへし
+          <lb n="23r-04"/><seg type="waka">我かたによるとなくなるみよしのの
+          <lb n="23r-05"/>たのむのかりをいつかわすれん</seg>
+          <lb n="23r-06"/>となむ人のくににてもなをかかる事
+          <lb n="23r-07"/>なんやまさりける
+        </ab>
+      </div>
+      <div type="dan" n="11" xml:id="dan011">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise011"/>
+          <lb n="23r-08"/>むかしおとこあつまへゆきけるにとも
+          <lb n="23r-09"/>たちともにみちよりいひおこせける
+          <pb n="23l" facs="#z023l"/>
+          <lb n="23l-01"/><seg type="waka">わするなよほとは雲ゐになりぬとも
+          <lb n="23l-02"/>そら行月のめくりあふまて</seg>
+        </ab>
+      </div>
+      <div type="dan" n="12" xml:id="dan012">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise012"/>
+          <lb n="23l-03"/>昔おとこありけり人のむすめをぬすみて
+          <lb n="23l-04"/>むさし野へゐてゆくほとにぬす人なり
+          <lb n="23l-05"/>けれはくにのかみにからめられにけり
+          <lb n="23l-06"/>女をはくさむらの中にをきてにけ
+          <lb n="23l-07"/>にけりみちくる人この野はぬすひとあ
+          <lb n="23l-08"/>なりとて火つけんとすをんなわひて
+          <lb n="23l-09"/><seg type="waka">むさし野はけふはなやきそわかくさの
+          <pb n="24r" facs="#z024r"/>
+          <lb n="24r-01"/>つまもこもれりわれもこもれり</seg>
+          <lb n="24r-02"/>とよみけるをききて女をはとりてともに
+          <lb n="24r-03"/>ゐていにけり
+          <pb n="24l" facs="#z024l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="13" xml:id="dan013">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise013"/>
+          <pb n="25r" facs="#z025r"/>
+          <lb n="25r-01"/>昔むさしなるおとこ京なる女のもとに
+          <lb n="25r-02"/>きこゆれははつかしきこえねはくるしと
+          <lb n="25r-03"/>かきてうはかきにむさしあふみとかきて
+          <lb n="25r-04"/>をこせてのちをともせすなりにけれは京
+          <lb n="25r-05"/>よりをんな
+          <lb n="25r-06"/><seg type="waka">むさしあふみさすかにかけてたのむには
+          <lb n="25r-07"/>とはぬもつらしとふもうるさし</seg>
+          <lb n="25r-08"/>とあるを見てなんたへかたき心地しける
+          <lb n="25r-09"/><seg type="waka">とへはいふとはねはうらむむさしあふみ
+          <pb n="25l" facs="#z025l"/>
+          <lb n="25l-01"/>かかるおりにや人はしぬらん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="14" xml:id="dan014">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise014"/>
+          <lb n="25l-02"/>むかし男みちのくににすすろに行
+          <lb n="25l-03"/>いたりにけりそこなる女京の人はめつら
+          <lb n="25l-04"/>かにやおほえけむせちにおもへる心
+          <lb n="25l-05"/>なんありけるさてかのをんな
+          <lb n="25l-06"/><seg type="waka">中々に恋にしなすは桑子にそ
+          <lb n="25l-07"/>なるへかりける玉のをはかり</seg>
+          <lb n="25l-08"/>うたさへそひなひたりけるさすかにあ
+          <lb n="25l-09"/>はれとやおもひけんいきてねにけり夜ふ
+          <pb n="26r" facs="#z026r"/>
+          <lb n="26r-01"/>かくいてにけれは女
+          <lb n="26r-02"/><seg type="waka">夜も明はきつにはめなてくたかけの
+          <lb n="26r-03"/>またきになきてせなをやりつる</seg>
+          <lb n="26r-04"/>といへるにおとこ京へなむまかるとて
+          <lb n="26r-05"/><seg type="waka">くりはらのあれはの松の人ならは
+          <lb n="26r-06"/>宮このつとにいさといはましを</seg>
+          <lb n="26r-07"/>といへりけれはよろこほひて思ひけらし
+          <lb n="26r-08"/>とそいひをりける
+          <pb n="26l" facs="#z026l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="15" xml:id="dan015">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise015"/>
+          <pb n="27r" facs="#z027r"/>
+          <lb n="27r-01"/>昔みちのくににてなてうことなき人のめ
+          <lb n="27r-02"/>にかよひけるにあやしうさやうにて
+          <lb n="27r-03"/>あるへき女ともあらすみえけれは
+          <lb n="27r-04"/><seg type="waka">しのふ山忍ひてかよふみちもかな
+          <lb n="27r-05"/>人のこころのおくもみるへく</seg>
+          <lb n="27r-06"/>女かきりなくめてたしと思へとさるさ
+          <lb n="27r-07"/>かなきえひす心を見てはいかかはせむは
+        </ab>
+      </div>
+      <div type="dan" n="16" xml:id="dan016">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise016"/>
+          <lb n="27r-08"/>むかし紀のありつねといふひとありけり
+          <lb n="27r-09"/>みよのみかとにつかうまつりてときに
+          <pb n="27l" facs="#z027l"/>
+          <lb n="27l-01"/>あひけれとのちは世かはり時うつりに
+          <lb n="27l-02"/>けれはよのつねの人のこともあらす人から
+          <lb n="27l-03"/>は心うつくしくあてはかなることをこ
+          <lb n="27l-04"/>のみてことに人にもにすまつしくへても
+          <lb n="27l-05"/>なをむかしよかりし時の心なからよの
+          <lb n="27l-06"/>つねのこともしらすとしころあひなれ
+          <lb n="27l-07"/>たるめやうやうとこはなれてつゐに
+          <lb n="27l-08"/>あまになりてあねのさきたちてなりたる
+          <lb n="27l-09"/>所へ行をおとこまことにむつまし
+          <pb n="28r" facs="#z028r"/>
+          <lb n="28r-01"/>
+          <lb n="28r-02"/>き事こそなかりけれ今はとゆくをいと
+          <lb n="28r-03"/>あはれと思けれとまつしけれはするわ
+          <lb n="28r-04"/>さもなかりけりおもひわひてねんころ
+          <lb n="28r-05"/>にあひかたらひけるともたちのもとに
+          <lb n="28r-06"/>かうかういまはとてまかるをなにこと
+          <lb n="28r-07"/>もいささかなることもえせてつかはすこ
+          <lb n="28r-08"/>ととかきておくに
+          <lb n="28r-09"/><seg type="waka">てをおりてあひみしことをかそふれは
+          <lb n="28r-10"/>とおといひつつよつはへにけり</seg>
+          <pb n="28l" facs="#z028l"/>
+          <lb n="28l-01"/>かのともたちこれを見ていとあはれと
+          <lb n="28l-02"/>思ひてよるのものまてをくりてよめる
+          <lb n="28l-03"/><seg type="waka">年たにもとをとてよつはへにけるを
+          <lb n="28l-04"/>いくたひきみをたのみきぬらん</seg>
+          <lb n="28l-05"/>かくいひやりけれは
+          <lb n="28l-06"/><seg type="waka">これやこのあまのは衣むへしこそ
+          <lb n="28l-07"/>君かみけしとたてまつりけれ</seg>
+          <lb n="28l-08"/>よろこひにたへて又
+          <lb n="28l-09"/><seg type="waka">秋やくるつゆやまかふとおもふまて
+          <pb n="29r" facs="#z029r"/>
+          <lb n="29r-01"/>あるはなみたのふるにそありける</seg>
+        </ab>
+      </div>
+      <div type="dan" n="17" xml:id="dan017">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise017"/>
+          <lb n="29r-02"/>としころをとつれさりける人のさくら
+          <lb n="29r-03"/>のさかりに見にきたりけれはあるし
+          <lb n="29r-04"/><seg type="waka">あたなりと名にこそたてれさくら花
+          <lb n="29r-05"/>としにまれなる人もまちけり</seg>
+          <lb n="29r-06"/>返し
+          <lb n="29r-07"/><seg type="waka">けふこすはあすは雪とそふりなまし
+          <lb n="29r-08"/>きえすはありともはなと見ましや</seg>
+        </ab>
+      </div>
+      <div type="dan" n="18" xml:id="dan018">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise018"/>
+          <lb n="29r-09"/>むかしなま心ある女ありけり男ちかう有
+          <pb n="29l" facs="#z029l"/>
+          <lb n="29l-01"/>けり女うたよむひとなりけれはこころ
+          <lb n="29l-02"/>みんとてきくの花のうつろへるをお
+          <lb n="29l-03"/>りておとこのもとへやる
+          <lb n="29l-04"/><seg type="waka">くれなゐににほふはいつら白雪の
+          <lb n="29l-05"/>えたもとををにふるかとも見ゆ</seg>
+          <lb n="29l-06"/>おとこしらすよみによみける
+          <lb n="29l-07"/><seg type="waka">紅ににほふかうへのしら菊は
+          <lb n="29l-08"/>おりける人のそてかともみゆ</seg>
+          <pb n="30r" facs="#z030r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="19" xml:id="dan019">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise019"/>
+          <pb n="30l" facs="#z030l"/>
+          <lb n="30l-01"/>むかし男みやつかへしける女のかたにこ
+          <lb n="30l-02"/>たちなりける人をあひしりたりけるほと
+          <lb n="30l-03"/>もなくかれにけりおなし所なれは女の
+          <lb n="30l-04"/>めには見ゆる物からおとこはあるもの
+          <lb n="30l-05"/>かともおもひたらすをんな
+          <lb n="30l-06"/><seg type="waka">あまくものよそにも人のなりゆくか
+          <lb n="30l-07"/>さすかにめにはみゆるものから</seg>
+          <lb n="30l-08"/>とよめりけれはおとこ返し
+          <lb n="30l-09"/><seg type="waka">あま雲のよそにのみしてふることは</seg>
+          <pb n="31r" facs="#z031r"/>
+          <lb n="31r-01"/>わかゐる山のかせはやみなり
+          <lb n="31r-02"/>とよめりけるは又おとこある人となんいひける
+        </ab>
+      </div>
+      <div type="dan" n="20" xml:id="dan020">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise020"/>
+          <lb n="31r-03"/>むかし男やまとにある女を見てよはひて
+          <lb n="31r-04"/>あひにけりさてほとへて宮つかへする人
+          <lb n="31r-05"/>なりけれはかへりくるみちにやよひはかり
+          <lb n="31r-06"/>にかえてのもみちのいとおもしろきを
+          <lb n="31r-07"/>おりて女のもとにみちよりいひやる
+          <lb n="31r-08"/><seg type="waka">君かためたおれるえたははるなから
+          <pb n="31l" facs="#z031l"/>
+          <lb n="31l-01"/>かくこそ秋のもみちしにけれ</seg>
+          <lb n="31l-02"/>とてやりたりけれは返事は京にきつき
+          <lb n="31l-03"/>てなんもてきたりける
+          <lb n="31l-04"/><seg type="waka">いつのまにうつろふいろのつきぬ覧
+          <lb n="31l-05"/>きみかさとには春なかるらし</seg>
+          <pb n="32r" facs="#z032r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="21" xml:id="dan021">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise021"/>
+          <pb n="32l" facs="#z032l"/>
+          <lb n="32l-01"/>昔男女いとかしこくおもひかはしてこと
+          <lb n="32l-02"/>心なかりけりさるをいかなることかあり
+          <lb n="32l-03"/>けんいささかなることにつけてよのなか
+          <lb n="32l-04"/>をうしと思ていてていなんと思ひてかかる
+          <lb n="32l-05"/>うたをなむよみてものにかきつけける
+          <lb n="32l-06"/><seg type="waka">いてていなは心かるしといひやせむ
+          <lb n="32l-07"/>世のありさまを人はしらねは</seg>
+          <lb n="32l-08"/>とよみをきていてていにけりこの女かく
+          <lb n="32l-09"/>かきをきたるをけしう心をくへきことも
+          <pb n="33r" facs="#z033r"/>
+          <lb n="33r-01"/>おほえぬをなにによりてかかからんと
+          <lb n="33r-02"/>いといたうなきていつかたにもとめゆ
+          <lb n="33r-03"/>かんとかとにいててとみかう見々けれ
+          <lb n="33r-04"/>といつこをはかりともおほえさりけれは
+          <lb n="33r-05"/>かへりいりて
+          <lb n="33r-06"/><seg type="waka">おもふかひなき世なりけりとし月を
+          <lb n="33r-07"/>あたにちきりてわれやすまひし</seg>
+          <lb n="33r-08"/>といひてなかめをり
+          <lb n="33r-09"/><seg type="waka">人はいさおもひやすらんたまかつら
+          <pb n="33l" facs="#z033l"/>
+          <lb n="33l-01"/>おもかけにのみいととみえつつ</seg>
+          <lb n="33l-02"/>この女いとひさしくありてねむしわひて
+          <lb n="33l-03"/>にやありけむいひをこせたる
+          <lb n="33l-04"/><seg type="waka">今はとてわするるくさのたねをたに
+          <lb n="33l-05"/>人の心にまかせすもかな</seg>
+          <lb n="33l-06"/>返し
+          <lb n="33l-07"/><seg type="waka">わすれくさうふとたにきく物ならは
+          <lb n="33l-08"/>おもひけりとはしりもしなまし</seg>
+          <lb n="33l-09"/>又々ありしよりけにいひかはして男
+          <pb n="34r" facs="#z034r"/>
+          <lb n="34r-01"/><seg type="waka">わするらんと思ふ心のうたかひに
+          <lb n="34r-02"/>ありしよりけに物そかなしき</seg>
+          <lb n="34r-03"/>返し
+          <lb n="34r-04"/><seg type="waka">なか空にたちゐる雲のあともなく
+          <lb n="34r-05"/>身のはかなくもなりにけるかな</seg>
+          <lb n="34r-06"/>とはいひけれとをのか世々になりに
+          <lb n="34r-07"/>けれはうとくなりにけり
+        </ab>
+      </div>
+      <div type="dan" n="22" xml:id="dan022">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise022"/>
+          <lb n="34r-08"/>昔はかなくてたえにけるなかなをやわ
+          <lb n="34r-09"/>すれさりけむ女のもとより
+          <pb n="34l" facs="#z034l"/>
+          <lb n="34l-01"/><seg type="waka">うきなから人をはえしもわすれねは
+          <lb n="34l-02"/>かつうらみつつ猶そ恋しき</seg>
+          <lb n="34l-03"/>といへりけれはされはよといひておとこ
+          <lb n="34l-04"/><seg type="waka">あひ見ては心ひとつをかはしまの
+          <lb n="34l-05"/>水のなかれてたえしとそ思ふ</seg>
+          <lb n="34l-06"/>とはいひけれとその夜いにけりいに
+          <lb n="34l-07"/>しへ行さきのことともなといひて
+          <lb n="34l-08"/><seg type="waka">秋の夜のちよをひとよになすらへて
+          <lb n="34l-09"/>やちよしねはやあくときのあらん</seg>
+          <pb n="35r" facs="#z035r"/>
+          <lb n="35r-01"/>返し
+          <lb n="35r-02"/><seg type="waka">あきのよのちよを一夜になせりとも
+          <lb n="35r-03"/>ことはのこりてとりやなきなむ</seg>
+          <lb n="35r-04"/>いにしへよりもあはれにてなん
+          <lb n="35r-05"/>かよひける
+          <pb n="35l" facs="#z035l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="23" xml:id="dan023">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise023a"/>
+          <pb n="36r" facs="#z036r"/>
+          <lb n="36r-01"/>昔ゐなかわたらひしける人のことも井
+          <lb n="36r-02"/>のもとにいててあそひけるをおとなに
+          <lb n="36r-03"/>なりにけれはおとこも女もはちかはして
+          <lb n="36r-04"/>ありけれはおとこはこの女をこそえめと
+          <lb n="36r-05"/>思ふ女はこの男をと思ひつつおやのあは
+          <lb n="36r-06"/>すれともきかてなむありけるさてこのと
+          <lb n="36r-07"/>なりのおとこのもとよりかくなん
+          <lb n="36r-08"/><seg type="waka">つつゐつの井つつにかけしまろかたけ
+          <lb n="36r-09"/>すきにけらしないもみさるまに</seg>
+          <pb n="36l" facs="#z036l"/>
+          <lb n="36l-01"/>返し
+          <lb n="36l-02"/><seg type="waka">くらへこしふりわけかみもかたすきぬ
+          <lb n="36l-03"/>きみならすしてたれかあくへき</seg>
+          <lb n="36l-04"/>なといひいひてつゐにほいのことく
+          <lb n="36l-05"/>あひにけり
+          <pb n="37r" facs="#z037r"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise023b"/>
+          <pb n="37l" facs="#z037l"/>
+          <lb n="37l-01"/>さてとしころふるほとに女おやなくた
+          <lb n="37l-02"/>よりなくなるままにもろともにいふかひ
+          <lb n="37l-03"/>なくてあらんやはとてかうちのくにた
+          <lb n="37l-04"/>かやすのこほりにいきかよふ所いてき
+          <lb n="37l-05"/>にけりさりけれとこのもとの女あしと思
+          <lb n="37l-06"/>へるけしきもなくていたしやりけれは
+          <lb n="37l-07"/>男こと心ありてかかるにやあらむとおもひ
+          <lb n="37l-08"/>うたかひてせむさいのなかにかくれ
+          <lb n="37l-09"/>ゐてかうちへいぬるかほにてみれはこの
+          <pb n="38r" facs="#z038r"/>
+          <lb n="38r-01"/>女いとようけさうしてうちなかめて
+          <lb n="38r-02"/><seg type="waka">風ふけはおきつしらなみたつた山
+          <lb n="38r-03"/>夜半にやきみかひとりこゆらん</seg>
+          <lb n="38r-04"/>とよみけるをききてかきりなくかなしと
+          <lb n="38r-05"/>おもひてかうちへもいかすなりにけり
+          <pb n="38l" facs="#z038l"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise023c"/>
+          <pb n="39r" facs="#z039r"/>
+          <lb n="39r-01"/>まれまれかのたかやすにきてみれははし
+          <lb n="39r-02"/>めこそこころにくくもつくりけれいまは
+          <lb n="39r-03"/>うちとけててつからいゐかひとりてけ
+          <lb n="39r-04"/>このうつは物にもりけるを見て心う
+          <lb n="39r-05"/>かりていかすなりにけりさりけれはかの
+          <lb n="39r-06"/>女やまとのかたを見やりて
+          <lb n="39r-07"/><seg type="waka">きみかあたりみつつををらんい駒山
+          <lb n="39r-08"/>くもなかくしそ雨はふるとも</seg>
+          <lb n="39r-09"/>といひてみいたすにからうしてやまと
+          <pb n="39l" facs="#z039l"/>
+          <lb n="39l-01"/>ひとこんといへりよろこひてまつに
+          <lb n="39l-02"/>たひたひ過ぬれは
+          <lb n="39l-03"/><seg type="waka">君こむといひし夜ことにすきぬれは
+          <lb n="39l-04"/>たのまぬもののこひつつそふる</seg>
+          <lb n="39l-05"/>といひけれとおとこすますなりにけり
+          <pb n="40r" facs="#z040r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="24" xml:id="dan024">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise024"/>
+          <pb n="40l" facs="#z040l"/>
+          <lb n="40l-01"/>むかし男かたゐなかにすみけり男宮つか
+          <lb n="40l-02"/>へしにとてわかれおしみてゆきにける
+          <lb n="40l-03"/>ままにみとせこさりけれは待わひたりけ
+          <lb n="40l-04"/>るにいとねんころにいひける人にこよひ
+          <lb n="40l-05"/>あはんとちきりたりけるにこの男きた
+          <lb n="40l-06"/>りけりこのとあけたまへとたたきけれと
+          <lb n="40l-07"/>あけてうたをなむよみていたしたりける
+          <lb n="40l-08"/><seg type="waka">あら玉の年のみとせをまちわひて
+          <lb n="40l-09"/>たたこよひこそにゐまくらすれ</seg>
+          <pb n="41r" facs="#z041r"/><figure><figDesc>挿絵</figDesc></figure>
+          <pb n="41l" facs="#z041l"/>
+          <lb n="41l-01"/>といひいたしたりけれは
+          <lb n="41l-02"/><seg type="waka">あつさ弓まゆみつきゆみとしをへて
+          <lb n="41l-03"/>わかせしかことうるはしみせよ</seg>
+          <lb n="41l-04"/>といひていなんとしけれは女
+          <lb n="41l-05"/><seg type="waka">あつさ弓ひけとひかねとむかしより
+          <lb n="41l-06"/>こころはきみによりにし物を</seg>
+          <lb n="41l-07"/>といひけれとおとこかへりにけり女いと
+          <lb n="41l-08"/>かなしくてしりにたちてをひゆけと
+          <lb n="41l-09"/>えをひつかてし水のある所にふしに
+          <pb n="42r" facs="#z042r"/>
+          <lb n="42r-01"/>けりそこなりけるいはにおよひのちして
+          <lb n="42r-02"/>かきつけける
+          <lb n="42r-03"/><seg type="waka">あひおもはてかれぬる人をととめかね
+          <lb n="42r-04"/>わか身はいまそきえはてぬめる</seg>
+          <lb n="42r-05"/>とかきてそこにいたつらになりにけり
+        </ab>
+      </div>
+      <div type="dan" n="25" xml:id="dan025">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise025"/>
+          <lb n="42r-06"/>昔おとこありけりあはしともいはさり
+          <lb n="42r-07"/>けるをんなのさすかなりけるかもとに
+          <lb n="42r-08"/>いひやりける
+          <lb n="42r-09"/><seg type="waka">秋の野にささわけしあさの袖よりも
+          <pb n="42l" facs="#z042l"/>
+          <lb n="42l-01"/>あはてぬるよそひちまさりける</seg>
+          <lb n="42l-02"/>いろこのみなる女返し
+          <lb n="42l-03"/><seg type="waka">見るめなき我身をうらとしらねはや
+          <lb n="42l-04"/>かれなてあまのあしたゆくくる</seg>
+        </ab>
+      </div>
+      <div type="dan" n="26" xml:id="dan026">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise026"/>
+          <lb n="42l-05"/>むかし男五条わたりなりける女をええす
+          <lb n="42l-06"/>なりけることとわひたりける人の返事に
+          <lb n="42l-07"/><seg type="waka">おもほえず袖にみなとのさはくかな
+          <lb n="42l-08"/>もろこし舟のよりしはかりに</seg>
+        </ab>
+      </div>
+      <div type="dan" n="27" xml:id="dan027">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise027"/>
+          <lb n="42l-09"/>昔おとこ女のもとにひと夜いきて又もい
+          <pb n="43r" facs="#z043r"/>
+          <lb n="43r-01"/>かすなりにけれは女のてあらふ所に
+          <lb n="43r-02"/>ぬきすをうちやりてたらひのかけに見え
+          <lb n="43r-03"/>けるをみつから
+          <lb n="43r-04"/><seg type="waka">われはかり物思ふ人はまたもあらし
+          <lb n="43r-05"/>とおもへは水のしたにもありけり</seg>
+          <lb n="43r-06"/>とよむをこさりけるおとこたちききて
+          <lb n="43r-07"/><seg type="waka">みなくちに我や見ゆらむかはつさへ
+          <lb n="43r-08"/>水のしたにてもろこゑになく</seg>
+          <pb n="43l" facs="#z043l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="28" xml:id="dan028">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise028"/>
+          <pb n="44r" facs="#z044r"/>
+          <lb n="44r-01"/>昔いろこのみなりける女いてていにけれは
+          <lb n="44r-02"/><seg type="waka">なとてかくあふこかたみになりにけん
+          <lb n="44r-03"/>水もらさしとむすひしものを</seg>
+        </ab>
+      </div>
+      <div type="dan" n="29" xml:id="dan029">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise029"/>
+          <lb n="44r-04"/>むかし東宮の女御の御かたのはなの賀に
+          <lb n="44r-05"/>めしあつけられたりけるに
+          <lb n="44r-06"/><seg type="waka">花にあかぬなけきはいつもせしかとも
+          <lb n="44r-07"/>けふのこよひににるときはなし</seg>
+          <pb n="44l" facs="#z044l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="30" xml:id="dan030">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise030"/>
+          <pb n="45r" facs="#z045r"/>
+          <lb n="45r-01"/>昔おとこはつかなりける女のもとに
+          <lb n="45r-02"/><seg type="waka">あふ事はたまのをはかりおもほえて
+          <lb n="45r-03"/>つらきこころのなかく見ゆらむ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="31" xml:id="dan031">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise031"/>
+          <lb n="45r-04"/>むかし宮のうちにてあるこたちのつほね
+          <lb n="45r-05"/>のまへをわたりけるになにのあたにか
+          <lb n="45r-06"/>おもひけんよしやくさはよならんさ
+          <lb n="45r-07"/>かみむといふおとこ
+          <lb n="45r-08"/><seg type="waka">つみもなき人をうけへはわすれくさ
+          <lb n="45r-09"/>をのかうへにそおふといふなる</seg>
+          <pb n="45l" facs="#z045l"/>
+          <lb n="45l-01"/>といふをねたむ女もありけり
+        </ab>
+      </div>
+      <div type="dan" n="32" xml:id="dan032">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise032"/>
+          <lb n="45l-02"/>むかし物いひける女にとしころありて
+          <lb n="45l-03"/><seg type="waka">いにしへのしつのをたまきくり返し
+          <lb n="45l-04"/>むかしをいまになすよしもかな</seg>
+          <lb n="45l-05"/>といへりけれとなにとも思はすや有けむ
+        </ab>
+      </div>
+      <div type="dan" n="33" xml:id="dan033">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise033"/>
+          <lb n="45l-06"/>むかし男つのくにむはらのこほりにかよ
+          <lb n="45l-07"/>ひける女このたひいきては又はこじとお
+          <lb n="45l-08"/>もへるけしきなれはおとこ
+          <lb n="45l-09"/><seg type="waka">あしへよりみちくるしほのいやましに
+          <pb n="46r" facs="#z046r"/>
+          <lb n="46r-01"/>きみにこころをおもひますかな</seg>
+          <lb n="46r-02"/>返し
+          <lb n="46r-03"/><seg type="waka">こもり江に思ふこころをいかてかは
+          <lb n="46r-04"/>舟さすさほのさしてしるへき</seg>
+          <lb n="46r-05"/>ゐなか人のことにてはよしやあしや
+        </ab>
+      </div>
+      <div type="dan" n="34" xml:id="dan034">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise034"/>
+          <lb n="46r-06"/>むかしおとこつれなかりける人のもとに
+          <lb n="46r-07"/><seg type="waka">いへはえにいはねはむねにさはかれて
+          <lb n="46r-08"/>心ひとつになけくころかな</seg>
+          <lb n="46r-09"/>おもなくていへるなるへし
+        </ab>
+      </div>
+      <div type="dan" n="35" xml:id="dan035">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise035"/>
+          <pb n="46l" facs="#z046l"/>
+          <lb n="46l-01"/>昔心にもあらてたえたる人のもとに
+          <lb n="46l-02"/><seg type="waka">玉のををあはをによりてむすへれは
+          <lb n="46l-03"/>たえてののちもあはんとそ思ふ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="36" xml:id="dan036">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise036"/>
+          <lb n="46l-04"/>むかしわすれぬるなめりととひことし
+          <lb n="46l-05"/>ける女のもとに
+          <lb n="46l-06"/><seg type="waka">谷せはみみねまてはへるたまかつら
+          <lb n="46l-07"/>たえむと人にわかおもはなくに</seg>
+        </ab>
+      </div>
+      <div type="dan" n="37" xml:id="dan037">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise037"/>
+          <lb n="46l-08"/>昔おとこいろこのみなりける女にあへり
+          <lb n="46l-09"/>けりうしろめたくやおもひけん
+          <pb n="47r" facs="#z047r"/>
+          <lb n="47r-01"/><seg type="waka">我ならてしたひもとくなあさかほの
+          <lb n="47r-02"/>ゆふかけまたぬ花にはありとも</seg>
+          <lb n="47r-03"/>返し
+          <lb n="47r-04"/><seg type="waka">ふたりしてむすひしひもをひとりして
+          <lb n="47r-05"/>あひ見るまてはとかしとそ思ふ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="38" xml:id="dan038">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise038"/>
+          <lb n="47r-06"/>むかし紀のありつねかりいきたるにあり
+          <lb n="47r-07"/>きてをそくきけるによみてやりける
+          <lb n="47r-08"/><seg type="waka">きみにより思ひならひぬ世の中の
+          <lb n="47r-09"/>人はこれをやこひといふらむ</seg>
+          <pb n="47l" facs="#z047l"/>
+          <lb n="47l-01"/>返し
+          <lb n="47l-02"/><seg type="waka">ならはねは世の人ことになにをかも
+          <lb n="47l-03"/>こひとはいふととひしわれしも</seg>
+        </ab>
+      </div>
+      <div type="dan" n="39" xml:id="dan039">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise039"/>
+          <lb n="47l-04"/>昔西院のみかとと申すみかとおはし
+          <lb n="47l-05"/>ましけりそのみかとの御こたかいこと
+          <lb n="47l-06"/>申すいまそかりけりそのみこうせ給ひて
+          <lb n="47l-07"/>おほんはふりの夜その宮のとなりなり
+          <lb n="47l-08"/>けるおとこ御はふり見んとて女車に
+          <lb n="47l-09"/>あひのりていてたりけりいとひさしう
+          <pb n="48r" facs="#z048r"/>
+          <lb n="48r-01"/>ゐていてたてまつらすうちなきてやみ
+          <lb n="48r-02"/>ぬへかりけるあひたにあめのしたの
+          <lb n="48r-03"/>いろこのみ源のいたるといふ人これも物
+          <lb n="48r-04"/>見るにこの車を女車と見てよりきて
+          <lb n="48r-05"/>とかくなまめくあひたにかのいたるほ
+          <lb n="48r-06"/>たるをとりて女のくるまにいれたりける
+          <lb n="48r-07"/>をくるまなりける人このほたるのともす
+          <lb n="48r-08"/>火にや見ゆらんともしけちなんする
+          <lb n="48r-09"/>そののるおとこのよめる
+          <pb n="48l" facs="#z048l"/>
+          <lb n="48l-01"/><seg type="waka">いてていなはかきりなるへみともしけち
+          <lb n="48l-02"/>としへぬるかとなくこゑをきけ</seg>
+          <lb n="48l-03"/>かのいたるかへし
+          <lb n="48l-04"/><seg type="waka">いとあはれなくそきこゆるともしけち
+          <lb n="48l-05"/>きゆる物ともわれはしらすな</seg>
+          <lb n="48l-06"/>あめのしたのいろこのみのうたにて
+          <lb n="48l-07"/>は猶そありける
+          <lb n="48l-08"/>　いたるはしたかふかおほちなりみこ
+          <lb n="48l-09"/>　のほいなし
+        </ab>
+      </div>
+      <div type="dan" n="40" xml:id="dan040">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise040"/>
+          <pb n="49r" facs="#z049r"/>
+          <lb n="49r-01"/>昔わかきおとこけしうはあらぬ女を
+          <lb n="49r-02"/>思ひけりさかしらするおやありて思ひ
+          <lb n="49r-03"/>もそつくとてこの女をほかへをひやらん
+          <lb n="49r-04"/>とすさこそいへまたをいやらすひとのこ
+          <lb n="49r-05"/>なれはまた心いきおひなかりけれはとと
+          <lb n="49r-06"/>むるいきおひなしをんなもいやし
+          <lb n="49r-07"/>けれはすまふちからなしさるあひたに
+          <lb n="49r-08"/>おもひはいやまさりにまさるにはかにお
+          <lb n="49r-09"/>やこの女ををひうつおとこちの涙をなか
+          <pb n="49l" facs="#z049l"/>
+          <lb n="49l-01"/>せともととむるよしなしゐていてていぬ
+          <lb n="49l-02"/>おとこなくなくよめる
+          <lb n="49l-03"/><seg type="waka">いてていなはたれか別のかたからん
+          <lb n="49l-04"/>ありしにまさるけふはかなしも</seg>
+          <lb n="49l-05"/>とよみてたえいりにけりおやあはてに
+          <lb n="49l-06"/>けりなをおもひてこそいひしかいと
+          <lb n="49l-07"/>かくしもあらしとおもふにしむしちに
+          <lb n="49l-08"/>たえいりにけれはまとひて願たてけり
+          <lb n="49l-09"/>けふのいりあひはかりにたえいりて又の
+          <pb n="50r" facs="#z050r"/>
+          <lb n="50r-01"/>日のいぬのときはかりになむからうして
+          <lb n="50r-02"/>いきいてたりけるむかしのわか人はさる
+          <lb n="50r-03"/>すける物おもひをなんしけるいまのお
+          <lb n="50r-04"/>きなまさにしてんや
+        </ab>
+      </div>
+      <div type="dan" n="41" xml:id="dan041">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise041"/>
+          <lb n="50r-05"/>むかし女はらからふたり有けりひとりは
+          <lb n="50r-06"/>いやしきおとこのまつしきひとりは
+          <lb n="50r-07"/>あてなる男もたりけりいやしき男もた
+          <lb n="50r-08"/>るしはすのつこもりにうへのきぬをあ
+          <lb n="50r-09"/>らひててつからはりけり心さしはいたし
+          <pb n="50l" facs="#z050l"/>
+          <lb n="50l-01"/>けれとさるいやしきわさもならはさり
+          <lb n="50l-02"/>けれはうへのきぬのかたをはりやりてけ
+          <lb n="50l-03"/>りせむかたもなくてたたなきになきけり
+          <lb n="50l-04"/>これをかのあてなるおとこききていと心
+          <lb n="50l-05"/>くるしかりけれはいときよらなるろう
+          <lb n="50l-06"/>さうのうへのきぬを見いててやるとて
+          <lb n="50l-07"/><seg type="waka">むらさきのいろこき時はめもはるに
+          <lb n="50l-08"/>野なるくさ木そわかれさりける</seg>
+          <lb n="50l-09"/>むさし野の心なるへし
+        </ab>
+      </div>
+      <div type="dan" n="42" xml:id="dan042">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise042"/>
+          <pb n="51l" facs="#z051l"/>
+          <lb n="51l-01"/>昔おとこいろこのみとしるしる女を
+          <lb n="51l-02"/>あひいへりけりされとにくくはたあらざ
+          <lb n="51l-03"/>りけりしはしはいきけれとなをいとう
+          <lb n="51l-04"/>しろめたくさりとていかてはたえあるま
+          <lb n="51l-05"/>しかりけり猶はたえあらさりける中
+          <lb n="51l-06"/>なりけれはふつか三日はかりさはること
+          <lb n="51l-07"/>ありてえいかてかくなむ
+          <lb n="51l-08"/><seg type="waka">いててこしあとたにいまたかはらしを
+          <lb n="51l-09"/>たかかよひちといまはなるらん</seg>
+          <pb n="52r" facs="#z052r"/>
+          <lb n="52r-01"/>ものうたかはしさによめるなりけり
+        </ab>
+      </div>
+      <div type="dan" n="43" xml:id="dan043">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise043"/>
+          <lb n="52r-02"/>むかしかやのみこと申すみこおはし
+          <lb n="52r-03"/>ましけりそのみこ女をおほしめして
+          <lb n="52r-04"/>いとかしこくめくみつかう給ひける
+          <lb n="52r-05"/>を人なまめきてありけるをわれのみと
+          <lb n="52r-06"/>おもひけるを又ひとききつけてふみやる
+          <lb n="52r-07"/>ほとときすのかたをかきて
+          <lb n="52r-08"/><seg type="waka">郭公なかなくさとのあまたあれは
+          <lb n="52r-09"/>なをうとまれぬおもふものから</seg>
+          <pb n="52l" facs="#z052l"/>
+          <lb n="52l-01"/>といへりこの女けしきをとりて
+          <lb n="52l-02"/><seg type="waka">名のみたつしてのたおさはけさそなく
+          <lb n="52l-03"/>いほりあまたとうとまれぬれは</seg>
+          <lb n="52l-04"/>時はさ月になむありけるおとこ返し
+          <lb n="52l-05"/><seg type="waka">いほりおほきしてのたおさはなをたのむ
+          <lb n="52l-06"/>わかすむさとにこゑしたえすは</seg>
+        </ab>
+      </div>
+      <div type="dan" n="44" xml:id="dan044">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise044"/>
+          <lb n="52l-07"/>むかしあかたへ行人にむまのはなむ
+          <lb n="52l-08"/>けせんとてよひてうとき人にしあらさり
+          <lb n="52l-09"/>けれはいゑとうしさか月ささせて女
+          <pb n="53r" facs="#z053r"/>
+          <lb n="53r-01"/>のさうそくかつけんとすあるしのおとこ
+          <lb n="53r-02"/>うたによみてものこしにゆひつけさす
+          <lb n="53r-03"/><seg type="waka">いててゆく君かためにとぬきつれは
+          <lb n="53r-04"/>われさへもなくなりぬへきかな</seg>
+          <lb n="53r-05"/>この哥はあるかなかにおもしろけれは
+          <lb n="53r-06"/>心とめてよますはらにあちはひて
+        </ab>
+      </div>
+      <div type="dan" n="45" xml:id="dan045">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise045"/>
+          <lb n="53r-07"/>むかし男ありけり人のむすめのかしつく
+          <lb n="53r-08"/>いかてこのおとこにものいはんとおもひ
+          <lb n="53r-09"/>けりうちいてむことかたくやありけん
+          <pb n="53l" facs="#z053l"/>
+          <lb n="53l-01"/>ものやみになりてしぬへきときにか
+          <lb n="53l-02"/>くこそおもひしかといひけるをおやきき
+          <lb n="53l-03"/>つけてなくなくつけたりけれはまとひ
+          <lb n="53l-04"/>きたりけれとしにけれはつれつれと
+          <lb n="53l-05"/>こもりけりときはみな月のつこもり
+          <lb n="53l-06"/>いとあつきころをひによゐはあそびをり
+          <lb n="53l-07"/>て夜ふけてややすすしき風ふきけり
+          <lb n="53l-08"/>ほたるたかくとひあかりこのおとこ見ふ
+          <lb n="53l-09"/>せりて
+          <pb n="54r" facs="#z054r"/>
+          <lb n="54r-01"/><seg type="waka">ゆくほたる雲の上まていぬへくは
+          <lb n="54r-02"/>秋かせふくとかりにつけこせ
+          <lb n="54r-03"/>くれかたき夏の日くらしなかむれは
+          <lb n="54r-04"/>そのこととなくものそかなしき</seg>
+          <pb n="54l" facs="#z054l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="46" xml:id="dan046">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise046"/>
+          <pb n="55r" facs="#z055r"/>
+          <lb n="55r-01"/>むかし男いとうるはしきともありけりか
+          <lb n="55r-02"/>た時さらすあひおもひけるを人のくにへ
+          <lb n="55r-03"/>いきけるをいとあはれとおもひてわかれ
+          <lb n="55r-04"/>にけり月日へてをこせたるふみにあさ
+          <lb n="55r-05"/>ましくえたいめんせて月日のへに
+          <lb n="55r-06"/>けること忘やし給ひけんといたく思ひ
+          <lb n="55r-07"/>わひてなむ侍世中の人の心はめかる
+          <lb n="55r-08"/>れはわすれぬへき物にこそあめれといへ
+          <lb n="55r-09"/>りけれはよみてやる
+          <pb n="55l" facs="#z055l"/>
+          <lb n="55l-01"/><seg type="waka">めかるともおもほえなくにわすらるる
+          <lb n="55l-02"/>ときしなけれはおもかけにたつ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="47" xml:id="dan047">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise047"/>
+          <lb n="55l-03"/>むかしおとこねんころにいかてと思ふ女
+          <lb n="55l-04"/>ありけりされとこのおとこをあたなりと
+          <lb n="55l-05"/>ききてつれなさのみまさりつついへる
+          <lb n="55l-06"/><seg type="waka">おほぬさのひくてあまたになりぬれは
+          <lb n="55l-07"/>おもへとえこそたのまさりけれ</seg>
+          <lb n="55l-08"/>返しおとこ
+          <lb n="55l-09"/><seg type="waka">おほぬさと名にこそたてれなかれても
+          <pb n="56r" facs="#z056r"/>
+          <lb n="56r-01"/>つゐによるせはありといふものを</seg>
+        </ab>
+      </div>
+      <div type="dan" n="48" xml:id="dan048">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise048"/>
+          <lb n="56r-02"/>昔おとこ有けりむまのはなむけせんとて
+          <lb n="56r-03"/>人をまちけるにこさりけれは
+          <lb n="56r-04"/><seg type="waka">いまそしるくるしき物と人またむ
+          <lb n="56r-05"/>さとをはかれすとふへかりけり</seg>
+        </ab>
+      </div>
+      <div type="dan" n="49" xml:id="dan049">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise049"/>
+          <pb n="60l" facs="#z060l"/>
+          <lb n="60l-01"/>むかしおとこいもうとのいとおかしけ
+          <lb n="60l-02"/>なりけるを見をりて
+          <lb n="60l-03"/><seg type="waka">うらわかみねよけにみゆるわか草を
+          <lb n="60l-04"/>人のむすはんことをしそ思ふ</seg>
+          <lb n="60l-05"/>ときこえけり返し
+          <lb n="60l-06"/><seg type="waka">はつ草のなとめつらしきことのはを
+          <lb n="60l-07"/>うらなくものをおもひけるかな</seg>
+          <pb n="61r" facs="#z061r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="50" xml:id="dan050">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise050"/>
+          <pb n="61l" facs="#z061l"/>
+          <lb n="61l-01"/>むかし男ありけりうらむる人をうらみて
+          <lb n="61l-02"/><seg type="waka">とりのこをとをつつとをはかさぬとも
+          <lb n="61l-03"/>おもはぬ人をおもふものかは</seg>
+          <lb n="61l-04"/>といへりけれは
+          <lb n="61l-05"/><seg type="waka">あさ露はきえのこりてもありぬへし
+          <lb n="61l-06"/>たれかこのよをたのみはつへき</seg>
+          <lb n="61l-07"/>又おとこ
+          <lb n="61l-08"/><seg type="waka">ふく風にこそのさくらはちらすとも
+          <lb n="61l-09"/>あなたのみかた人のこころは</seg>
+          <pb n="62r" facs="#z062r"/>
+          <lb n="62r-01"/>又女返し
+          <lb n="62r-02"/><seg type="waka">ゆく水にかすかくよりもはかなきは
+          <lb n="62r-03"/>おもはぬ人をおもふなりけり</seg>
+          <lb n="62r-04"/>またおとこ
+          <lb n="62r-05"/><seg type="waka">行水と過るよはひとちるはなと
+          <lb n="62r-06"/>いつれまててふことをきくらむ</seg>
+          <lb n="62r-07"/>あたくらへかたみにしけるおとこ女のし
+          <lb n="62r-08"/>のひありきしけることなるへし
+          <pb n="62l" facs="#z062l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="51" xml:id="dan051">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise051"/>
+          <pb n="63r" facs="#z063r"/>
+          <lb n="63r-01"/>むかし男人のせむさいに菊うへけるに
+          <lb n="63r-02"/><seg type="waka">うへしうへはあきなき時やさかさらん
+          <lb n="63r-03"/>花こそちらめねさへかれめや</seg>
+          <pb n="63l" facs="#z063l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="52" xml:id="dan052">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise052"/>
+          <pb n="64r" facs="#z064r"/>
+          <lb n="64r-01"/>昔おとこありけり人のもとよりかさなり
+          <lb n="64r-02"/>ちまきををこせたりける返ことに
+          <lb n="64r-03"/><seg type="waka">あやめかり君はぬまにそまとひける
+          <lb n="64r-04"/>われは野にいててかるそわひしき</seg>
+          <lb n="64r-05"/>とてきしをなむやりける
+        </ab>
+      </div>
+      <div type="dan" n="53" xml:id="dan053">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise053"/>
+          <lb n="64r-06"/>むかしおとこあひかたき女にあひて物
+          <lb n="64r-07"/>かたりなとするほとにとりのなきけれは
+          <lb n="64r-08"/><seg type="waka">いかてかは鳥のなくらん人しれす
+          <lb n="64r-09"/>思ふこころはまた夜ふかきに</seg>
+        </ab>
+      </div>
+      <div type="dan" n="54" xml:id="dan054">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise054"/>
+          <pb n="64l" facs="#z064l"/>
+          <lb n="64l-01"/>昔男つれなかりける女にいひやりける
+          <lb n="64l-02"/><seg type="waka">ゆきやらぬ夢ちをたとるたもとには
+          <lb n="64l-03"/>あまつ空なるつゆやをくらん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="55" xml:id="dan055">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise055"/>
+          <lb n="64l-04"/>むかしおとこおもひかけたる女のえう
+          <lb n="64l-05"/>ましうなりてのよに
+          <lb n="64l-06"/><seg type="waka">思はすはありもすらめとことの葉の
+          <lb n="64l-07"/>をりふしことにたのまるるかな</seg>
+        </ab>
+      </div>
+      <div type="dan" n="56" xml:id="dan056">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise056"/>
+          <lb n="64l-08"/>むかし男ふしておもひおきておもひおもひ
+          <lb n="64l-09"/>あまりて
+          <pb n="65r" facs="#z065r"/>
+          <lb n="65r-01"/>
+          <lb n="65r-02"/><seg type="waka">わか袖はくさのいほりにあらねとも
+          <lb n="65r-03"/>くるれは露のやとりなりけり</seg>
+        </ab>
+      </div>
+      <div type="dan" n="57" xml:id="dan057">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise057"/>
+          <lb n="65r-04"/>むかしおとこ人しれぬものおもひけり
+          <lb n="65r-05"/>つれなき人のもとに
+          <lb n="65r-06"/><seg type="waka">恋わひぬあまのかるもにやとるてふ
+          <lb n="65r-07"/>我から身をもくたきつるかな</seg>
+        </ab>
+      </div>
+      <div type="dan" n="58" xml:id="dan058">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise058"/>
+          <lb n="65r-08"/>昔こころつきて色このみなるおとこなか
+          <lb n="65r-09"/>をかといふ所にいゑつくりてをりけり
+          <lb n="65r-10"/>そこのとなりなりける宮はらにことも
+          <pb n="65l" facs="#z065l"/>
+          <lb n="65l-01"/>なき女とものゐなかなりけれは田からん
+          <lb n="65l-02"/>とてこの男のあるを見ていみしのすきも
+          <lb n="65l-03"/>ののしわさやとてあつまりていりきけれ
+          <lb n="65l-04"/>はこの男にけておくにかくれにけれは女
+          <lb n="65l-05"/><seg type="waka">あれにけりあはれいく世のやとなれや
+          <lb n="65l-06"/>すみけん人のをとつれもせぬ</seg>
+          <lb n="65l-07"/>といひてこの宮にあつまりきゐてあり
+          <lb n="65l-08"/>けれはおとこ
+          <lb n="65l-09"/><seg type="waka">むくらおひてあれたる宿のうれたきは
+          <pb n="66r" facs="#z066r"/>
+          <lb n="66r-01"/>かりにもおにのすたくなりけり</seg>
+          <lb n="66r-02"/>とてなんいたしたりけるこの女ともほ
+          <lb n="66r-03"/>ひろはんといひけれは
+          <lb n="66r-04"/><seg type="waka">うちわひておちほひろふときかませは
+          <lb n="66r-05"/>われもたつらにゆかましものを</seg>
+        </ab>
+      </div>
+      <div type="dan" n="59" xml:id="dan059">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise059"/>
+          <lb n="66r-06"/>むかしおとこ京をいかか思ひけむひんかし
+          <lb n="66r-07"/>山にすまむとおもひいりて
+          <lb n="66r-08"/><seg type="waka">すみわひぬいまはかきりと山さとに
+          <lb n="66r-09"/>身をかくすへきやともとめてむ</seg>
+          <pb n="66l" facs="#z066l"/>
+          <lb n="66l-01"/>かくて物いたくやみてしにいりたりけれ
+          <lb n="66l-02"/>はおもてに水そそきなとしていきいてて
+          <lb n="66l-03"/><seg type="waka">わかうへに露そをくなるあまの川
+          <lb n="66l-04"/>とわたる舟のかひのしつくか</seg>
+          <lb n="66l-05"/>となんいひていきいてたりける
+        </ab>
+      </div>
+      <div type="dan" n="60" xml:id="dan060">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise060"/>
+          <lb n="66l-06"/>昔おとこありけり宮つかへいそかしく
+          <lb n="66l-07"/>心もまめならさりけるほとのいへとうし
+          <lb n="66l-08"/>まめにおもはんといふ人につきて人の
+          <lb n="66l-09"/>くにへいにけりこのおとこ宇佐のつかひ
+          <pb n="67r" facs="#z067r"/>
+          <lb n="67r-01"/>にていきけるにあるくにのしそうの
+          <lb n="67r-02"/>官人のめにてなむあるとききて女あるし
+          <lb n="67r-03"/>にかはらけとらせよさらすはのましとい
+          <lb n="67r-04"/>ひけれはかはらけとりていたしたりける
+          <lb n="67r-05"/>にさかななりけるたちはなをとりて
+          <lb n="67r-06"/><seg type="waka">さ月まつ花たちはなのかをかけは
+          <lb n="67r-07"/>むかしのひとの袖のかそする</seg>
+          <lb n="67r-08"/>といひけるにそおもひいててあまになり
+          <lb n="67r-09"/>て山にいりてそありける
+          <pb n="67l" facs="#z067l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="61" xml:id="dan061">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise061"/>
+          <pb n="68r" facs="#z068r"/>
+          <lb n="68r-01"/>昔おとこつくしまていきたりけるに
+          <lb n="68r-02"/>これはいろこのむといふすきものとすた
+          <lb n="68r-03"/>れのうちなる人のいひけるをききて
+          <lb n="68r-04"/><seg type="waka">そめ川をわたらんひとのいかてかは
+          <lb n="68r-05"/>色になるてふことのなからん</seg>
+          <lb n="68r-06"/>女返し
+          <lb n="68r-07"/><seg type="waka">なにしおははあたにそあるへきたはれ嶋
+          <lb n="68r-08"/>なみのぬれきぬきるといふなり</seg>
+        </ab>
+      </div>
+      <div type="dan" n="62" xml:id="dan062">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise062"/>
+          <lb n="68r-09"/>むかし年ころをとつれさりける女心かし
+          <pb n="68l" facs="#z068l"/>
+          <lb n="68l-01"/>こくやあらさりけんはかなき人のことに
+          <lb n="68l-02"/>つきて人のくになりける人につかはれて
+          <lb n="68l-03"/>もと見し人のまへにいてきてものくは
+          <lb n="68l-04"/>せなとしけりよさりこの有つるひとたま
+          <lb n="68l-05"/>へとあるしにいひけれはをこせたりけり
+          <lb n="68l-06"/>おとこわれをはしらすやとて
+          <lb n="68l-07"/><seg type="waka">いにしへのにほひはいつらさくら花
+          <lb n="68l-08"/>こけるからともなりにけるかな</seg>
+          <lb n="68l-09"/>といふをいとはつかしとおもひていらへ
+          <pb n="69r" facs="#z069r"/>
+          <lb n="69r-01"/>もせてゐたるをなといらへもせぬといへ
+          <lb n="69r-02"/>は涙のこほるるにめもみえす物もいは
+          <lb n="69r-03"/>れすといふ
+          <lb n="69r-04"/><seg type="waka">これやこの我にあふみをのかれつつ
+          <lb n="69r-05"/>とし月ふれとまさりかほなき</seg>
+          <lb n="69r-06"/>といひてきぬぬきてとらせけれとすてて
+          <lb n="69r-07"/>にけにけりいつちいぬらんともしらす
+        </ab>
+      </div>
+      <div type="dan" n="63" xml:id="dan063">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise063"/>
+          <lb n="69r-08"/>むかし世心つける女いかて心なさけあらむ
+          <lb n="69r-09"/>男にあひえてしかなと思へといひ
+          <pb n="69l" facs="#z069l"/>
+          <lb n="69l-01"/>いてむたよりもなさにまことならぬ夢
+          <lb n="69l-02"/>かたりをす子三人をよひてかたりけり
+          <lb n="69l-03"/>ふたりのこはなさけなくいらへてやみぬ
+          <lb n="69l-04"/>さふらふなりける子なむよき御おとこそ
+          <lb n="69l-05"/>いてこんとあはするにこの女けしき
+          <lb n="69l-06"/>いとよしこと人はいとなさけなしいかて
+          <lb n="69l-07"/>この在五中将にあはせてしかなと思ふ
+          <lb n="69l-08"/>心ありかりしありきけるにいきあひ
+          <lb n="69l-09"/>てみちにてむまのくちをとりてかうかう
+          <pb n="70r" facs="#z070r"/>
+          <lb n="70r-01"/>なんおもふといひけれはあはれかりて
+          <lb n="70r-02"/>きてねにけりさてのち男みえさりけれは
+          <lb n="70r-03"/>女おとこのいゑにいきてかいまみけるを
+          <lb n="70r-04"/>おとこほのかに見て
+          <lb n="70r-05"/><seg type="waka">ももとせに一とせたらぬつくもかみ
+          <lb n="70r-06"/>われをこふらしおもかけにみゆ</seg>
+          <lb n="70r-07"/>とていてたつけしきを見てむはらから
+          <lb n="70r-08"/>たちにかかりていゑにきてうちふせり
+          <lb n="70r-09"/>おとこかの女のせしやうにしのひて
+          <pb n="70l" facs="#z070l"/>
+          <lb n="70l-01"/>たてりて見れは女なけきてぬとて
+          <lb n="70l-02"/><seg type="waka">さむしろに衣かたしきこよひもや
+          <lb n="70l-03"/>恋しき人にあはてのみねん</seg>
+          <lb n="70l-04"/>とよみけるをおとこあはれと思ひてその
+          <lb n="70l-05"/>夜はねにけり世中のれいとして思ふ
+          <lb n="70l-06"/>をはおもひおもはぬをは思はぬものをこ
+          <lb n="70l-07"/>の人はおもふをもおもはぬをもけちめみ
+          <lb n="70l-08"/>せぬ心なんありける
+          <pb n="71r" facs="#z071r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="64" xml:id="dan064">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise064"/>
+          <pb n="71l" facs="#z071l"/>
+          <lb n="71l-01"/>昔おとこみそかにかたらふわさもせさり
+          <lb n="71l-02"/>けれはいつくなりけむあやしさによめる
+          <lb n="71l-03"/><seg type="waka">吹風にわか身をなさはたますたれ
+          <lb n="71l-04"/>ひまもとめつついるへきものを</seg>
+          <lb n="71l-05"/>返し
+          <lb n="71l-06"/><seg type="waka">とりとめぬ風にはありとも玉すたれ
+          <lb n="71l-07"/>たかゆるさはかひまもとむへき</seg>
+        </ab>
+      </div>
+      <div type="dan" n="65" xml:id="dan065">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise065a"/>
+          <lb n="71l-08"/>むかしおほやけおほしてつかうたまふ
+          <lb n="71l-09"/>女の色ゆるされたるありけりおほみやす
+          <pb n="72r" facs="#z072r"/>
+          <lb n="72r-01"/>む所にていますかりけるいとこなりける
+          <lb n="72r-02"/>殿上にさふらひけるありはらなりける
+          <lb n="72r-03"/>おとこのまたいとわかかりけるをこの女
+          <lb n="72r-04"/>あひしりたりけり男女かたゆるされたり
+          <lb n="72r-05"/>けれは女のある所にきてむかひをりけ
+          <lb n="72r-06"/>れは女いとかたはなり身もほろひなん
+          <lb n="72r-07"/>かくなせそといひけれは
+          <lb n="72r-08"/><seg type="waka">思ふにはしのふることそまけにける
+          <lb n="72r-09"/>あふにしかへはさもあらはあれ</seg>
+          <pb n="72l" facs="#z072l"/>
+          <lb n="72l-01"/>といひてさうしにおりたまへれはれい
+          <lb n="72l-02"/>のこのみさうしには人の見るをもしらて
+          <lb n="72l-03"/>のほりゐけれはこの女おもひわひて里へ
+          <lb n="72l-04"/>ゆくされはなにのよきこととおもひて
+          <lb n="72l-05"/>いきかよひけれはみな人ききてわらひけ
+          <lb n="72l-06"/>りつとめてとのもつかさのみるにくつは
+          <lb n="72l-07"/>とりておくになけいれてのほりぬかく
+          <lb n="72l-08"/>かたはにしつつありわたるにみもいた
+          <lb n="72l-09"/>つらになりぬへけれはつゐにほろひぬ
+          <pb n="73r" facs="#z073r"/>
+          <lb n="73r-01"/>へしとてこのおとこいかにせむわか
+          <lb n="73r-02"/>かかる心やめ給へとほとけ神にも申しけ
+          <lb n="73r-03"/>れといやまさりにのみおほえつつなを
+          <lb n="73r-04"/>わりなく恋しうのみおほえけれはおん
+          <lb n="73r-05"/>やうしかんなきよひて恋せしといふ
+          <lb n="73r-06"/>はらへのくしてなんいきけるはら
+          <lb n="73r-07"/>へけるままにいととかなしきことかすま
+          <lb n="73r-08"/>さりてありしよりけにこひしくの
+          <lb n="73r-09"/>みおほえけれは
+          <pb n="73l" facs="#z073l"/>
+          <lb n="73l-01"/><seg type="waka">恋せしとみたらし川にせしみそき
+          <lb n="73l-02"/>神はうけすもなりにけるかな</seg>
+          <lb n="73l-03"/>といひてなむいにける
+          <pb n="74r" facs="#z074r"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise065b"/>
+          <pb n="74l" facs="#z074l"/>
+          <lb n="74l-01"/>このみかとはかほかたちよくおはし
+          <lb n="74l-02"/>ましてほとけの御なを御心にいれて御
+          <lb n="74l-03"/>こゑはいとたうとくて申給ふをききて
+          <lb n="74l-04"/>女はいたうなきけりかかるきみにつかう
+          <lb n="74l-05"/>まつらてすくせつたなくかなしきことこ
+          <lb n="74l-06"/>のおとこにほたされてとてなんなき
+          <lb n="74l-07"/>けるかかるほとにみかときこしめしつけ
+          <lb n="74l-08"/>てこの男をはなかしつかはしてけれ
+          <lb n="74l-09"/>はこの女のいとこの宮す所女をはまかて
+          <pb n="75r" facs="#z075r"/>
+          <lb n="75r-01"/>させてくらにこめてしおり給ふけれは
+          <lb n="75r-02"/>くらにこもりてなく
+          <lb n="75r-03"/><seg type="waka">あまのかるもにすむ虫のわれからと
+          <lb n="75r-04"/>ねをこそなかめ世をはうらみし</seg>
+          <lb n="75r-05"/>となきをれはこのおとこは人のくにより
+          <lb n="75r-06"/>夜ことにきつつふえをいとおもしろくふ
+          <lb n="75r-07"/>きてこゑはおかしうてそあはれにう
+          <lb n="75r-08"/>たひけるかかれはこの女はくらにこもり
+          <lb n="75r-09"/>なからそれにそあなるとはきけとあひ
+          <pb n="75l" facs="#z075l"/>
+          <lb n="75l-01"/>見るへきにもあらてなむ有ける
+          <lb n="75l-02"/><seg type="waka">さりともと思ふらんこそかなしけれ
+          <lb n="75l-03"/>あるにもあらぬ身をしらすして</seg>
+          <lb n="75l-04"/>と思ひおり男は女しあはねはかくしあり
+          <lb n="75l-05"/>きつつ人のくににありきてかくうたふ
+          <lb n="75l-06"/><seg type="waka">いたつらにゆきてはきぬる物ゆへに
+          <lb n="75l-07"/>見まくほしさにいさなはれつつ</seg>
+          <lb n="75l-08"/>水のおの御ときなるへしおほ宮すむ所も
+          <lb n="75l-09"/>そめとののきさきなり五条のきさきとも
+        </ab>
+      </div>
+      <div type="dan" n="66" xml:id="dan066">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise066"/>
+          <pb n="76r" facs="#z076r"/>
+          <lb n="76r-01"/>昔おとこつのくににしる所ありけるに
+          <lb n="76r-02"/>あにおととともたちひきゐてなに
+          <lb n="76r-03"/>はのかたにいきけりなきさを見れは舟
+          <lb n="76r-04"/>とものあるをみて
+          <lb n="76r-05"/><seg type="waka">なにはつをけさこそみつのうらことに
+          <lb n="76r-06"/>これやこのよをうみわたるふね</seg>
+          <lb n="76r-07"/>これをあはれかりて人々かへりにけり
+        </ab>
+      </div>
+      <div type="dan" n="67" xml:id="dan067">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise067"/>
+          <lb n="76r-08"/>昔おとこせうえうしにおもふとちかひ
+          <lb n="76r-09"/>つらねていつみのくにへきさらきはかりに
+          <pb n="76l" facs="#z076l"/>
+          <lb n="76l-01"/>いきけりかうちのくにいこまの山を
+          <lb n="76l-02"/>見れはくもりみはれみ立ゐるくもやま
+          <lb n="76l-03"/>すあしたよりくもりてひるはれたり
+          <lb n="76l-04"/>雪いとしろう木のすゑにふりたりそ
+          <lb n="76l-05"/>れを見てかのゆく人のなかにたたひ
+          <lb n="76l-06"/>とりよみける
+          <lb n="76l-07"/><seg type="waka">きのふけふ雲のたちまひかくろふは
+          <lb n="76l-08"/>花のはやしをうしとなりけり</seg>
+          <pb n="77r" facs="#z077r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="68" xml:id="dan068">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise068"/>
+          <pb n="77l" facs="#z077l"/>
+          <lb n="77l-01"/>むかしおとこいつみのくにへいきけり
+          <lb n="77l-02"/>住よしのこほり住吉のさとすみよし
+          <lb n="77l-03"/>のはまをゆくにいとおもしろけれはおり
+          <lb n="77l-04"/>ゐつつゆくある人すみよしのはまとよ
+          <lb n="77l-05"/>めといふ
+          <lb n="77l-06"/><seg type="waka">かりなきて菊のはなさく秋はあれと
+          <lb n="77l-07"/>春のうみ辺にすみよしのはま</seg>
+          <lb n="77l-08"/>とよめりけれはみなひとひとよますなり
+          <lb n="77l-09"/>にけり
+          <pb n="78r" facs="#z078r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="69" xml:id="dan069">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise069"/>
+          <pb n="78l" facs="#z078l"/>
+          <lb n="78l-01"/>昔おとこ有けりそのおとこいせのくにに
+          <lb n="78l-02"/>かりのつかひにいきけるにかのいせ
+          <lb n="78l-03"/>の斎宮なりけるひとのおやつねのつかひ
+          <lb n="78l-04"/>よりはこの人よくいたはれといひやれり
+          <lb n="78l-05"/>けれはおやの事なりけれはいとねん
+          <lb n="78l-06"/>ころにいたはりけりあしたにはかりに
+          <lb n="78l-07"/>いたしたててやりゆふさりはかへりつつ
+          <lb n="78l-08"/>そこにこさせけりかくてねんころにいた
+          <lb n="78l-09"/>つきけり二日といふ夜おとこわれてあ
+          <pb n="79r" facs="#z079r"/>
+          <lb n="79r-01"/>はんといふ女もはたあはしとも思へらす
+          <lb n="79r-02"/>されとひとめしけけれはえあはすつかひ
+          <lb n="79r-03"/>さねとある人なれはとをくもやとさす女
+          <lb n="79r-04"/>のねやもちかくありけれは女人をしつ
+          <lb n="79r-05"/>めてねひとつはかりにおとこのもとに
+          <lb n="79r-06"/>きたりけり男はたねられさりけれはとの
+          <lb n="79r-07"/>かたをみいたしてふせるに月のおほ
+          <lb n="79r-08"/>ろなるにちいさきわらはをさきにたてて
+          <lb n="79r-09"/>人たてり男いとうれしくてわかぬる所
+          <pb n="79l" facs="#z079l"/>
+          <lb n="79l-01"/>にゐていりてねひとつよりうしみつ
+          <lb n="79l-02"/>まてあるにまたなにこともかたらはぬに
+          <lb n="79l-03"/>かへりにけりおとこいとかなしくてねす
+          <lb n="79l-04"/>なりにけりつとめていふかしけれとわか
+          <lb n="79l-05"/>人をやるへきにしあらねはいと心もと
+          <lb n="79l-06"/>なくてまちをれはあけはなれてしはし
+          <lb n="79l-07"/>あるに女のもとよりことははなくて
+          <lb n="79l-08"/><seg type="waka">君やこしわれやゆきけんおもほえす
+          <lb n="79l-09"/>ゆめかうつつかねてかさめてか</seg>
+          <pb n="80r" facs="#z080r"/>
+          <lb n="80r-01"/>おとこいといたうなきてよめる
+          <lb n="80r-02"/><seg type="waka">かきくらす心のやみにまとひにき
+          <lb n="80r-03"/>夢うつつとはこよひ(一説よる人)さためよ</seg>
+          <lb n="80r-04"/>とよみてやりてかりにいてぬ野にあり
+          <lb n="80r-05"/>けと心はそらにてこよひたに人しつめ
+          <lb n="80r-06"/>ていととくあはんと思ふにくにのかみいつ
+          <lb n="80r-07"/>きの宮のかみかけたるかりのつかひあり
+          <lb n="80r-08"/>とききて夜ひとよさけのみしけれはも
+          <lb n="80r-09"/>はらあひこともえせてあけはおはりの国
+          <pb n="80l" facs="#z080l"/>
+          <lb n="80l-01"/>へたちなんとすれはおとこも人しれす
+          <lb n="80l-02"/>ちの涙をなかせとえあはす夜やうやう
+          <lb n="80l-03"/>あけなんとするほとに女かたより
+          <lb n="80l-04"/>いたすさかつきのさらにうたをかきて
+          <lb n="80l-05"/>いたしたりとりてみれは
+          <lb n="80l-06"/><seg type="waka">かち人のわたれとぬれぬえにしあれは</seg>
+          <lb n="80l-07"/>とかきてすゑはなしそのさかつきのさら
+          <lb n="80l-08"/>につゐまつのすみしてうたのすゑ
+          <lb n="80l-09"/>をかきつく
+          <pb n="81r" facs="#z081r"/>
+          <lb n="81r-01"/><seg type="waka">又あふさかのせきはこえなん</seg>
+          <lb n="81r-02"/>とてあくれはおはりのくにへこえにけり
+          <lb n="81r-03"/>斎宮は水のおの御とき文徳天皇の御女こ
+          <lb n="81r-04"/>れたかのみこのいもうと
+          <pb n="81l" facs="#z081l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="70" xml:id="dan070">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise070"/>
+          <pb n="82r" facs="#z082r"/>
+          <lb n="82r-01"/>むかしおとこかりのつかひよりかへりき
+          <lb n="82r-02"/>けるにおほよとのわたりにやとり
+          <lb n="82r-03"/>ていつきのみやのわらはへにいひかけ
+          <lb n="82r-04"/>ける
+          <lb n="82r-05"/><seg type="waka">みるめかる方やいつこそさほさして
+          <lb n="82r-06"/>われにをしへよあまのつり舟</seg>
+        </ab>
+      </div>
+      <div type="dan" n="71" xml:id="dan071">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise071"/>
+          <lb n="82r-07"/>むかしおとこいせの斎宮に内のつかひ
+          <lb n="82r-08"/>にてまいれりけれはかのみやにすきこと
+          <lb n="82r-09"/>いひける女わたくしことにて
+          <pb n="82l" facs="#z082l"/>
+          <lb n="82l-01"/><seg type="waka">ちはやふる神のいかきもこえぬへし
+          <lb n="82l-02"/>おほみや人の見まくほしさに</seg>
+          <lb n="82l-03"/>おとこ
+          <lb n="82l-04"/><seg type="waka">恋しくはきても見よかしちはやふる
+          <lb n="82l-05"/>神のいさむるみちならなくに</seg>
+          <pb n="83r" facs="#z083r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="72" xml:id="dan072">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise072"/>
+          <pb n="83l" facs="#z083l"/>
+          <lb n="83l-01"/>昔おとこいせのくになりける女又えあ
+          <lb n="83l-02"/>はてとなりのくにへいくとていみしう
+          <lb n="83l-03"/>うらみけれは女
+          <lb n="83l-04"/><seg type="waka">おほよとの松はつらくもあらなくに
+          <lb n="83l-05"/>うらみてのみもかへるなみかな</seg>
+        </ab>
+      </div>
+      <div type="dan" n="73" xml:id="dan073">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise073"/>
+          <lb n="83l-06"/>昔そこにはありときけとせうそこをたに
+          <lb n="83l-07"/>いふへくもあらぬ女のあたりを思ひける
+          <lb n="83l-08"/><seg type="waka">めには見て手にはとられぬ月のうちの
+          <lb n="83l-09"/>かつらのことき君にそありける</seg>
+        </ab>
+      </div>
+      <div type="dan" n="74" xml:id="dan074">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise074"/>
+          <pb n="84r" facs="#z084r"/>
+          <lb n="84r-01"/>むかし男女をいたううらみて
+          <lb n="84r-02"/><seg type="waka">岩ねふみかさなる山にあらねとも
+          <lb n="84r-03"/>あはぬ日おほくこひわたるかな</seg>
+        </ab>
+      </div>
+      <div type="dan" n="75" xml:id="dan075">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise075"/>
+          <lb n="84r-04"/>むかしおとこいせのくににゐていきて
+          <lb n="84r-05"/>あらんといひけれは女
+          <lb n="84r-06"/><seg type="waka">おほよとの浜におふてふ見るからに
+          <lb n="84r-07"/>こころはなきぬかたらはねとも</seg>
+          <lb n="84r-08"/>といひてましてつれなかりけれはおとこ
+          <lb n="84r-09"/><seg type="waka">袖ぬれてあまのかりほすわたつ海の
+          <pb n="84l" facs="#z084l"/>
+          <lb n="84l-01"/>みるをあふにてやまんとやする</seg>
+          <lb n="84l-02"/>女
+          <lb n="84l-03"/><seg type="waka">岩まよりおふるみるめしつれなくは
+          <lb n="84l-04"/>しほひしほみちかひもありなむ</seg>
+          <lb n="84l-05"/>又おとこ
+          <lb n="84l-06"/><seg type="waka">なみたにそぬれつつしほる世の人の
+          <lb n="84l-07"/>つらき心はそてのしつくか</seg>
+          <lb n="84l-08"/>世にあふ事かたき女になん
+        </ab>
+      </div>
+      <div type="dan" n="76" xml:id="dan076">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise076"/>
+          <lb n="84l-09"/>むかし二条のきさきのまた春宮のみやす
+          <pb n="85r" facs="#z085r"/>
+          <lb n="85r-01"/>む所と申けるとき氏神にまうて給ける
+          <lb n="85r-02"/>にこの衛つかさにさふらひけるおきな
+          <lb n="85r-03"/>人々のろくたまはるついてに御車より
+          <lb n="85r-04"/>たまはりてよみてたてまつりける
+          <lb n="85r-05"/><seg type="waka">おほはらやをしほの山もけふこそは
+          <lb n="85r-06"/>神世のこともおもひいつらめ</seg>
+          <lb n="85r-07"/>とて心にもかなしとやおもひけんいかか
+          <lb n="85r-08"/>おもひけむしらすかし
+        </ab>
+      </div>
+      <div type="dan" n="77" xml:id="dan077">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise077"/>
+          <lb n="85r-09"/>むかし田むらのみかとと申すみかとお
+          <pb n="85l" facs="#z085l"/>
+          <lb n="85l-01"/>はしましけりその時の女御たかき
+          <lb n="85l-02"/>こと申すみまそかりけりそれうせ給て
+          <lb n="85l-03"/>安祥寺にてみわさしけり人々ささけ
+          <lb n="85l-04"/>物たてまつりけりたてまつりあつめたる物
+          <lb n="85l-05"/>ちささけはかりなりそこはくのささけもの
+          <lb n="85l-06"/>を木の枝につけてたうのまへにたて
+          <lb n="85l-07"/>たれは山もさらにたうのまへにうこき
+          <lb n="85l-08"/>いてたるやうになんみえけるそれを
+          <lb n="85l-09"/>右大将にいまそかりけるふちはらのつね
+          <pb n="86r" facs="#z086r"/>
+          <lb n="86r-01"/>ゆきと申すいまそかりてかうのをはる
+          <lb n="86r-02"/>ほとにうたよむ人々をめしあつめて
+          <lb n="86r-03"/>けふのみわさを題にて春の心はえある
+          <lb n="86r-04"/>うたたてまつらせ給右のむまのかみなり
+          <lb n="86r-05"/>けるおきなめはたかひなからよみける
+          <lb n="86r-06"/><seg type="waka">山のみなうつりてけふにあふ事は
+          <lb n="86r-07"/>はるのわかれをとふとなるへし</seg>
+          <lb n="86r-08"/>とよみたりけるをいまみれはよくもあら
+          <lb n="86r-09"/>さりけりそのかみはこれやまさりけん
+          <pb n="86l" facs="#z086l"/>
+          <lb n="86l-01"/>あはれかりけり
+        </ab>
+      </div>
+      <div type="dan" n="78" xml:id="dan078">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise078"/>
+          <lb n="86l-02"/>むかしたかきこと申す女御おはしま
+          <lb n="86l-03"/>しけりうせ給てなななぬかのみわさ
+          <lb n="86l-04"/>安祥寺にてしけり右大将ふちはらの
+          <lb n="86l-05"/>つねゆきといふ人いまそかりけりそのみ
+          <lb n="86l-06"/>わさにまうて給ひてかへさに山しなの
+          <lb n="86l-07"/>せむしのみこおはしますそのやましな
+          <lb n="86l-08"/>の宮にたきおとし水はしらせなとして
+          <lb n="86l-09"/>おもしろくつくられたるにまうて給うて
+          <pb n="87r" facs="#z087r"/>
+          <lb n="87r-01"/>年ころよそにはつかうまつれとちか
+          <lb n="87r-02"/>くはいまたつかうまつらすこよひはここ
+          <lb n="87r-03"/>にさふらはんと申たまふみこよろ
+          <lb n="87r-04"/>こひ給ふてよるのおましのまうけをさ
+          <lb n="87r-05"/>せたまふさるにかの大将いててたは
+          <lb n="87r-06"/>かり給ふやう宮つかへのはしめにたた
+          <lb n="87r-07"/>なをやはあるへき三条のおほみゆきせし
+          <lb n="87r-08"/>時紀のくにの千里のはまにありける
+          <lb n="87r-09"/>いとおもしろきいしたてまつれりきほみ
+          <pb n="87l" facs="#z087l"/>
+          <lb n="87l-01"/>ゆきののちたてまつれりしかはある人
+          <lb n="87l-02"/>のみさうしのまへのみそにすへたり
+          <lb n="87l-03"/>しをしまこのみたまふきみなりこの
+          <lb n="87l-04"/>いしをたてまつらんとの給てみすいしん
+          <lb n="87l-05"/>とねりしてとりにつかはすいくはく
+          <lb n="87l-06"/>もなくてもてきぬこのいしききし
+          <lb n="87l-07"/>よりは見るはまされりこれをたたにたて
+          <lb n="87l-08"/>まつらはすすろなるへしとて人々
+          <lb n="87l-09"/>にうたよませたまふ右のむまのかみなり
+          <pb n="88r" facs="#z088r"/>
+          <lb n="88r-01"/>ける人のをなんあをきこけをきさみて
+          <lb n="88r-02"/>まきゑのかたにこのうたをつけてたてまつりける
+          <lb n="88r-03"/><seg type="waka">あかねとも岩にそかふるいろみえぬ
+          <lb n="88r-04"/>こころをみせんよしのなけれは</seg>
+          <lb n="88r-05"/>となんよめりける
+          <pb n="88l" facs="#z088l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="79" xml:id="dan079">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise079"/>
+          <pb n="89r" facs="#z089r"/>
+          <lb n="89r-01"/>むかしうちのなかにみこうまれたまへり
+          <lb n="89r-02"/>けり御うふやに人々うたよみけり御
+          <lb n="89r-03"/>おほちかたなりけるおきなのよめる
+          <lb n="89r-04"/><seg type="waka">わか門にちひろあるかけをうへつれは
+          <lb n="89r-05"/>なつふゆたれかかくれさるへき</seg>
+          <lb n="89r-06"/>これはさたかすのみこときの人中将の
+          <lb n="89r-07"/>ことなむいひけるあにの中納言ゆきひら
+          <lb n="89r-08"/>のむすめのはらなり
+        </ab>
+      </div>
+      <div type="dan" n="80" xml:id="dan080">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise080"/>
+          <pb n="89l" facs="#z089l"/>
+          <lb n="89l-01"/>むかしおとろへたるいへにふちの花
+          <lb n="89l-02"/>うへたるひとありけりやよひのつこもり
+          <lb n="89l-03"/>にその日あめそほふるに人のもとへ
+          <lb n="89l-04"/>おりてたてまつらすとてよめる
+          <lb n="89l-05"/><seg type="waka">ぬれつつそしゐておりつる年の内に
+          <lb n="89l-06"/>はるはいくかもあらしとおもへは</seg>
+          <pb n="90r" facs="#z090r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="81" xml:id="dan081">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise081"/>
+          <pb n="90l" facs="#z090l"/>
+          <lb n="90l-01"/>むかし左のおほいまうちきみいまそかり
+          <lb n="90l-02"/>けりかも河のほとりに六条わたりに家を
+          <lb n="90l-03"/>いとおもしろくつくりてすみ給ひけり神
+          <lb n="90l-04"/>な月のつこもりかた菊の花うつろひさか
+          <lb n="90l-05"/>りなるに紅葉のちくさに見ゆるおりみこ
+          <lb n="90l-06"/>たちおはしまさせてよひと夜さけのみし
+          <lb n="90l-07"/>あそひて夜あけもてゆくほとにこのとの
+          <lb n="90l-08"/>のおもしろきをほむるうたよむそこにあ
+          <lb n="90l-09"/>りけるかたゐおきなたいしきのしたには
+          <pb n="91r" facs="#z091r"/>
+          <lb n="91r-01"/>ひありきて人にみなよませはててよめる
+          <lb n="91r-02"/><seg type="waka">しほかまにいつかきにけんあさなきに
+          <lb n="91r-03"/>つりする舟はここによらなん</seg>
+          <lb n="91r-04"/>となむよみけるみちのくににいきたりけ
+          <lb n="91r-05"/>るにあやしくおもしろきところところおほ
+          <lb n="91r-06"/>かりけりわかみかと六十よ国のなかにし
+          <lb n="91r-07"/>ほかまといふ所ににたる所なかりけりさ
+          <lb n="91r-08"/>れはなむかのおきなさらにここをめてて
+          <lb n="91r-09"/>しほかまにいつかきにけんとよめりける
+          <pb n="91l" facs="#z091l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="82" xml:id="dan082">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise082a"/>
+          <pb n="92r" facs="#z092r"/>
+          <lb n="92r-01"/>むかしこれたかのみこと申すみこおは
+          <lb n="92r-02"/>しましけり山さきのあなたにみなせ
+          <lb n="92r-03"/>といふところに宮ありけり年ことのさ
+          <lb n="92r-04"/>くらの花さかりにはその宮へなむおはし
+          <lb n="92r-05"/>ましけるその時みきのむまのかみなり
+          <lb n="92r-06"/>ける人をつねにゐておはしましけり
+          <lb n="92r-07"/>時よへて久しくなりにけれはその人の
+          <lb n="92r-08"/>名わすれにけりかりはねんころにも
+          <lb n="92r-09"/>せてさけをのみのみつつやまとうたに
+          <pb n="92l" facs="#z092l"/>
+          <lb n="92l-01"/>かかれりけり今かりするかたののなきさ
+          <lb n="92l-02"/>のいへそのゐんの桜ことにおもしろし
+          <lb n="92l-03"/>その木のもとにおりゐてえたをおりてか
+          <lb n="92l-04"/>さしにさしてかみなかしもみな哥よみ
+          <lb n="92l-05"/>けりうまのかみなりける人のよめる
+          <lb n="92l-06"/><seg type="waka">世中にたえてさくらのなかりせは
+          <lb n="92l-07"/>はるの心はのとけからまし</seg>
+          <lb n="92l-08"/>となんよみたりける又ひとのうた
+          <lb n="92l-09"/><seg type="waka">ちれはこそいととさくらはめてたけれ
+          <pb n="93r" facs="#z093r"/>
+          <lb n="93r-01"/>うき世になにかひさしかるへき</seg>
+          <lb n="93r-02"/>とてその木のもとはたちてかへるにひ
+          <lb n="93r-03"/>くれになりぬ御ともなる人さけをもた
+          <lb n="93r-04"/>せて野よりいてきたりこのさけをのみ
+          <lb n="93r-05"/>てむとてよき所をもとめゆくにあまの
+          <lb n="93r-06"/>かはといふ所にいたりぬみこにむまの
+          <lb n="93r-07"/>かみおほみきまいるみこののたまひける
+          <lb n="93r-08"/>かたのをかりてあまのかはのほとりにい
+          <lb n="93r-09"/>たるをたいにてうたよみてさかつきは
+          <pb n="93l" facs="#z093l"/>
+          <lb n="93l-01"/>させとのたまうけれはかのむまのかみよ
+          <lb n="93l-02"/>みてたてまつりける
+          <lb n="93l-03"/><seg type="waka">かりくらしたなはたつめに宿からん
+          <lb n="93l-04"/>あまのかはらに我はきにけり</seg>
+          <lb n="93l-05"/>みこうたを返々すし給うてかへし
+          <lb n="93l-06"/>えしたまはすきのありつね御ともに
+          <lb n="93l-07"/>つかうまつれりそれか返し
+          <lb n="93l-08"/><seg type="waka">一とせにひとたひきますきみまては
+          <lb n="93l-09"/>やとかす人もあらしとそおもふ</seg>
+          <pb n="94r" facs="#z094r"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise082b"/>
+          <pb n="94l" facs="#z094l"/>
+          <lb n="94l-01"/>かへりて宮にいらせたまひぬよふくる
+          <lb n="94l-02"/>まてさけのみものかたりしてあるしの
+          <lb n="94l-03"/>みこゑひていり給ひなんとす十一日の
+          <lb n="94l-04"/>月もかくれなんとすれはかのむまのかみ
+          <lb n="94l-05"/>のよめる
+          <lb n="94l-06"/><seg type="waka">あかなくにまたきも月のかくるるか
+          <lb n="94l-07"/>山のはにけていれすもあらなん</seg>
+          <lb n="94l-08"/>みこにかはりたてまつりてきのありつね
+          <lb n="94l-09"/><seg type="waka">をしなへてみねもたいらになりななむ
+          <pb n="95r" facs="#z095r"/>
+          <lb n="95r-01"/>やまのはなくは月もいらしを</seg>
+        </ab>
+      </div>
+      <div type="dan" n="83" xml:id="dan083">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise083"/>
+          <lb n="95r-02"/>むかしみなせにかよひ給ひしこれたかの
+          <lb n="95r-03"/>みこれいのかりしにおはしますとも
+          <lb n="95r-04"/>にうまのかみなるおきなつかうまつれり
+          <lb n="95r-05"/>日ころへて宮にかへり給うけり御を
+          <lb n="95r-06"/>くりしてとくいなむとおもふにおほみ
+          <lb n="95r-07"/>きたまひろくたまはんとてつかはささり
+          <lb n="95r-08"/>けりこのむまのかみ心もとなかりて
+          <lb n="95r-09"/><seg type="waka">まくらとてくさひきむすふこともせし
+          <pb n="95l" facs="#z095l"/>
+          <lb n="95l-01"/>あきの夜とたにたのまれなくに</seg>
+          <lb n="95l-02"/>とよみけるときはやよひのつこもりなり
+          <lb n="95l-03"/>けりみこおほとのこもらてあかし給てけ
+          <lb n="95l-04"/>りかくしつつまうてつかうまつりける
+          <lb n="95l-05"/>をおもひのほかに御くしおろし
+          <lb n="95l-06"/>たまうてけりむ月におかみたてまつらん
+          <lb n="95l-07"/>とてをのにまうてたるにひえの山のふ
+          <lb n="95l-08"/>もとなれは雪いとたかししゐてみむろ
+          <lb n="95l-09"/>にまうてておかみたてまつるにつれつれ
+          <pb n="96r" facs="#z096r"/>
+          <lb n="96r-01"/>といとものかなしくておはしましけれは
+          <lb n="96r-02"/>ややひさしくさふらひていにしへ
+          <lb n="96r-03"/>のことなとおもひいててきこえけりさて
+          <lb n="96r-04"/>もさふらひてしかなと思へとおほや
+          <lb n="96r-05"/>けことともありけれはえさふらはてゆふ
+          <lb n="96r-06"/>くれにかへるとて
+          <lb n="96r-07"/><seg type="waka">わすれては夢かとそ思ふおもひきや
+          <lb n="96r-08"/>雪ふみわけてきみを見んとは</seg>
+          <lb n="96r-09"/>とてなんなくなくきにける
+          <pb n="96l" facs="#z096l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="84" xml:id="dan084">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise084"/>
+          <pb n="97r" facs="#z097r"/>
+          <lb n="97r-01"/>昔おとこありけり身はいやしなからはは
+          <lb n="97r-02"/>なむ宮なりけるそのははなかをかといふ
+          <lb n="97r-03"/>所にすみ給けり子は京に宮つかへし
+          <lb n="97r-04"/>けれはまうつとしけれとしはしはえ
+          <lb n="97r-05"/>まうてすひとつ子にさへありけれはいと
+          <lb n="97r-06"/>かなしうし給ひけりさるにしはすはかり
+          <lb n="97r-07"/>にとみのこととて御ふみありおとろきて
+          <lb n="97r-08"/>みれはうたあり
+          <lb n="97r-09"/><seg type="waka">おいぬれはさらぬ別のありといへは
+          <pb n="97l" facs="#z097l"/>
+          <lb n="97l-01"/>いよいよみまくほしき君かな</seg>
+          <lb n="97l-02"/>かの子いたううちなきてよめる
+          <lb n="97l-03"/><seg type="waka">世中にさらぬわかれのなくもかな
+          <lb n="97l-04"/>千よもといのる人のこのため</seg>
+        </ab>
+      </div>
+      <div type="dan" n="85" xml:id="dan085">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise085"/>
+          <lb n="97l-05"/>むかしおとこありけりわらはよりつかう
+          <lb n="97l-06"/>まつりけるきみ御くしおろし給うて
+          <lb n="97l-07"/>けりむ月にはかならすまうてけりおほ
+          <lb n="97l-08"/>やけの宮つかへしけれはつねには
+          <lb n="97l-09"/>えまうてすされともとの心うしなはて
+          <pb n="98r" facs="#z098r"/>
+          <lb n="98r-01"/>まうてけるになんありけるむかしつかう
+          <lb n="98r-02"/>まつりし人そくなるせんしなるあまた
+          <lb n="98r-03"/>まいりあつまりてむ月なれはことたつと
+          <lb n="98r-04"/>ておほみきたまひけりゆきこほすかこと
+          <lb n="98r-05"/>ふりてひねもすにやますみなひとゑ
+          <lb n="98r-06"/>ひて雪にふりこめられたりといふを題
+          <lb n="98r-07"/>にてうたありけり
+          <lb n="98r-08"/><seg type="waka">思へとも身をしわけねはめかれせぬ
+          <lb n="98r-09"/>ゆきのつもるそわかこころなる</seg>
+          <pb n="98l" facs="#z098l"/>
+          <lb n="98l-01"/>とよめりけれはみこいといたうあはれか
+          <lb n="98l-02"/>り給うて御そぬきてたまへりけり
+        </ab>
+      </div>
+      <div type="dan" n="86" xml:id="dan086">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise086"/>
+          <lb n="98l-03"/>むかしいとわかきおとこわかき女をあひ
+          <lb n="98l-04"/>いへりけりをのをのおや有けれはつつ
+          <lb n="98l-05"/>みていひさしてやみにけり年ころへて
+          <lb n="98l-06"/>女のもとになを心さしはたさんとや思
+          <lb n="98l-07"/>けんおとこうたをよみてやれりけり
+          <lb n="98l-08"/><seg type="waka">今まてにわすれぬ人は世にもあらし
+          <lb n="98l-09"/>をのかさまさま年のへぬれは</seg>
+          <pb n="99r" facs="#z099r"/>
+          <lb n="99r-01"/>とてやみにけりおとこも女もあひはな
+          <lb n="99r-02"/>れぬ宮つかへになんいてにける
+        </ab>
+      </div>
+      <div type="dan" n="87" xml:id="dan087">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise087a"/>
+          <lb n="99r-03"/>むかしおとこつの国むはらのこほりあし
+          <lb n="99r-04"/>やのさとにしるよししていきてすみ
+          <lb n="99r-05"/>けりむかしのうたに
+          <lb n="99r-06"/><seg type="waka">蘆のやのなたのしほやきいとまなみ
+          <lb n="99r-07"/>つけのをくしもささすきにけり</seg>
+          <lb n="99r-08"/>とよみけるそこのさとをよみけるここ
+          <lb n="99r-09"/>をなんあしやのなたとはいひけるこの
+          <pb n="99l" facs="#z099l"/>
+          <lb n="99l-01"/>おとこなま宮つかへしけれはそれを
+          <lb n="99l-02"/>たよりにてゑうのすけともあつまり
+          <lb n="99l-03"/>きにけりこの男のこのかみもゑふのかみ
+          <lb n="99l-04"/>なりけりそのいゑのまへの海のほとりに
+          <lb n="99l-05"/>あそひありきていさこの山のかみにあり
+          <lb n="99l-06"/>といふぬのひきのたき見にのほらんと
+          <lb n="99l-07"/>いひてのほりて見るにそのたきものより
+          <lb n="99l-08"/>ことなりなかさ二十丈ひろさ五丈はかり
+          <lb n="99l-09"/>なるいしのおもてにしらきぬにいはを
+          <pb n="100r" facs="#z100r"/>
+          <lb n="100r-01"/>つつめらんやうになんありけるさる
+          <lb n="100r-02"/>たきのかみにわらうたのおほきさして
+          <lb n="100r-03"/>さしいてたるいしありそのいしの
+          <lb n="100r-04"/>うへにはしりかかる水はせうかうし
+          <lb n="100r-05"/>くりのおほきさにてこほれおつそこ
+          <lb n="100r-06"/>なる人にみなたきのうたよますかのゑふ
+          <lb n="100r-07"/>のかみまつよむ
+          <lb n="100r-08"/><seg type="waka">我世をはけふかあすかとまつかひの
+          <lb n="100r-09"/>なみたのたきといつれたかけん</seg>
+          <pb n="100l" facs="#z100l"/>
+          <lb n="100l-01"/>あるしつきによむ
+          <lb n="100l-02"/><seg type="waka">ぬきみたる人こそあるらししら玉の
+          <lb n="100l-03"/>まなくもちるか袖のせはきに</seg>
+          <lb n="100l-04"/>とよめりけれはかたへの人わらふことに
+          <lb n="100l-05"/>やありけんこのうたにめててやみにけり
+          <pb n="101r" facs="#z101r"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise087b"/>
+          <pb n="101l" facs="#z101l"/>
+          <lb n="101l-01"/>かへりくるみちとをくてうせにし宮内卿
+          <lb n="101l-02"/>もちよしか家のまへくるに日くれ
+          <lb n="101l-03"/>ぬやとりのかたをみやれはあまのいさり
+          <lb n="101l-04"/>する火おほく見ゆるにかのあるしの
+          <lb n="101l-05"/>おとこよむ
+          <lb n="101l-06"/><seg type="waka">はるる夜のほしか河辺のほたるかも
+          <lb n="101l-07"/>わかすむかたのあまのたく火か</seg>
+          <lb n="101l-08"/>とよみていゑにかへりきぬその夜みな
+          <lb n="101l-09"/>みの風ふきてなみいとたかしつとめて
+          <pb n="102r" facs="#z102r"/>
+          <lb n="102r-01"/>そのいゑのめのこともいててうきみるの
+          <lb n="102r-02"/>なみによせられたるひろひていゑのうち
+          <lb n="102r-03"/>にもてきぬ女かたよりそのみるをたかつ
+          <lb n="102r-04"/>きにもりてかしはをおほひていたしたる
+          <lb n="102r-05"/>かしはにかけり
+          <lb n="102r-06"/><seg type="waka">わたつ海のかさしにさすといはふもも
+          <lb n="102r-07"/>きみかためにはおしまさりけり</seg>
+          <lb n="102r-08"/>ゐなかひとのうたにてはあまれり
+          <lb n="102r-09"/>やたらすや
+          <pb n="102l" facs="#z102l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="88" xml:id="dan088">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise088"/>
+          <pb n="103r" facs="#z103r"/>
+          <lb n="103r-01"/>むかしいとわかきにはあらぬこれかれと
+          <lb n="103r-02"/>もたちともあつまりて月を見てそれか
+          <lb n="103r-03"/>中にひとり
+          <lb n="103r-04"/><seg type="waka">おほかたは月をもめてしこれそこの
+          <lb n="103r-05"/>つもれはひとの老となるもの</seg>
+        </ab>
+      </div>
+      <div type="dan" n="89" xml:id="dan089">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise089"/>
+          <lb n="103r-06"/>むかしいやしからぬおとこわれよりはま
+          <lb n="103r-07"/>さりたる人をおもひかけてとしへける
+          <lb n="103r-08"/><seg type="waka">人しれすわれ恋しなはあちきなく
+          <lb n="103r-09"/>いつれの神になき名おほせむ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="90" xml:id="dan090">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise090"/>
+          <pb n="103l" facs="#z103l"/>
+          <lb n="103l-01"/>むかしつれなき人をいかてと思ひわたり
+          <lb n="103l-02"/>けれはあはれとやおもひけんさらはあす
+          <lb n="103l-03"/>ものこしにてもといへりけるをかきり
+          <lb n="103l-04"/>なくうれしく又うたかはしかりけれは
+          <lb n="103l-05"/>おもしろかりける桜につけて
+          <lb n="103l-06"/><seg type="waka">さくら花けふこそかくもにほふとも
+          <lb n="103l-07"/>あなたのみかたあすのよのこと</seg>
+          <lb n="103l-08"/>といふ心はへもあるへし
+        </ab>
+      </div>
+      <div type="dan" n="91" xml:id="dan091">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise091"/>
+          <lb n="103l-09"/>むかし月日のゆくをさへなけくおとこ三
+          <pb n="104r" facs="#z104r"/>
+          <lb n="104r-01"/>月つこもりかたに
+          <lb n="104r-02"/><seg type="waka">おしめとも春のかきりのけふの日の
+          <lb n="104r-03"/>ゆふくれにさへなりにけるかな</seg>
+        </ab>
+      </div>
+      <div type="dan" n="92" xml:id="dan092">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise092"/>
+          <lb n="104r-04"/>昔恋しさにきつつかへれと女にせう
+          <lb n="104r-05"/>そこをたにえせてよめる
+          <lb n="104r-06"/><seg type="waka">あしへこくたななし小舟いくそたひ
+          <lb n="104r-07"/>ゆきかへるらんしる人もなみ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="93" xml:id="dan093">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise093"/>
+          <lb n="104r-08"/>昔おとこ身はいやしくていとになき
+          <lb n="104r-09"/>人をおもひかけたりけりすこしたのみ
+          <pb n="104l" facs="#z104l"/>
+          <lb n="104l-01"/>ぬへきさまにやありけんふしておも
+          <lb n="104l-02"/>ひおきておもひ思ひわひてよめる
+          <lb n="104l-03"/><seg type="waka">あふなあふな思ひはすへしなそへなく
+          <lb n="104l-04"/>たかきいやしきくるしかりけり</seg>
+          <lb n="104l-05"/>むかしもかかることは世のことはりに
+          <lb n="104l-06"/>やありけむ
+          <pb n="105r" facs="#z105r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="94" xml:id="dan094">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise094"/>
+          <pb n="105l" facs="#z105l"/>
+          <lb n="105l-01"/>昔おとこありけりいかか有けんそのおと
+          <lb n="105l-02"/>こすますなりにけり後におとこあり
+          <lb n="105l-03"/>けれと子あるなかなりけれはこまかに
+          <lb n="105l-04"/>こそあらねとときときものいひをこせ
+          <lb n="105l-05"/>けり女かたにゑかく人なりけれはかき
+          <lb n="105l-06"/>にやれりけるをいまのおとこのもの
+          <lb n="105l-07"/>すとてひとひふつかをこせさりけりかの
+          <lb n="105l-08"/>おとこいとつらくをのかきこゆることをは
+          <lb n="105l-09"/>いままてたまはねはことはりとおもへと
+          <pb n="106r" facs="#z106r"/>
+          <lb n="106r-01"/>なを人をはうらみつへき物になむあり
+          <lb n="106r-02"/>けるとてろうしてよみてやれりける時は
+          <lb n="106r-03"/>あきになんありける
+          <lb n="106r-04"/><seg type="waka">秋の夜は春日わするるものなれや
+          <lb n="106r-05"/>かすみにきりやちへまさるらん</seg>
+          <lb n="106r-06"/>となむよめりける女返し
+          <lb n="106r-07"/><seg type="waka">ちちのあきひとつの春にむかはめや
+          <lb n="106r-08"/>もみちも花もともにこそちれ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="95" xml:id="dan095">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise095"/>
+          <lb n="106r-09"/>むかし二条のきさきにつかうまつる男
+          <pb n="106l" facs="#z106l"/>
+          <lb n="106l-01"/>ありけり女のつかうまつるをつねに見
+          <lb n="106l-02"/>かはしてよはひわたりけりいかて物こし
+          <lb n="106l-03"/>にたいめんしておほつかなくおもひ
+          <lb n="106l-04"/>つめたることすこしはるかさむといひ
+          <lb n="106l-05"/>けれは女いとしのひてものこしに
+          <lb n="106l-06"/>あひにけりものかたりなとしておとこ
+          <lb n="106l-07"/><seg type="waka">ひこほしにこひはまさりぬあまの河
+          <lb n="106l-08"/>へたつるせきをいまはやめてよ</seg>
+          <lb n="106l-09"/>このうたにめててあひにけり
+          <pb n="107r" facs="#z107r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="96" xml:id="dan096">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise096"/>
+          <pb n="107l" facs="#z107l"/>
+          <lb n="107l-01"/>昔おとこ有けり女をとかくいふこと月日
+          <lb n="107l-02"/>へにけりいは木にしあらねは心くるしとや
+          <lb n="107l-03"/>思けむやうやうあはれと思ひけりそのころ
+          <lb n="107l-04"/>みな月のもちはかりなりけれは女身にかさ
+          <lb n="107l-05"/>ひとつふたついてきにけり女いひをこせ
+          <lb n="107l-06"/>たるいまはなにの心もなし身にかさも
+          <lb n="107l-07"/>ひとつふたついてたりときもいとあつし
+          <lb n="107l-08"/>すこしあき風ふきたちなん時かならす
+          <lb n="107l-09"/>あはんといへりけり秋まつころをひに
+          <pb n="108r" facs="#z108r"/>
+          <lb n="108r-01"/>ここかしこよりその人のもとへいなむす
+          <lb n="108r-02"/>なりとてくせちいてきにけりさりけれは
+          <lb n="108r-03"/>女のせうとにはかにむかへにきたりさ
+          <lb n="108r-04"/>れはこの女かえてのはつもみちをひろは
+          <lb n="108r-05"/>せてうたをよみてかきつけてをこせたり
+          <lb n="108r-06"/><seg type="waka">あきかけていひしなからもあらなくに
+          <lb n="108r-07"/>木葉ふりしくえにこそありけれ</seg>
+          <lb n="108r-08"/>とかきをきてかしこより人をこせはこれ
+          <lb n="108r-09"/>をやれとていぬさてやかてのちつゐに
+          <pb n="108l" facs="#z108l"/>
+          <lb n="108l-01"/>けふまてしらすよくてやあらんあし
+          <lb n="108l-02"/>くてやあらむいにし所もしらすかの
+          <lb n="108l-03"/>おとこはあまのさかてをうちてなんの
+          <lb n="108l-04"/>ろひをるなるむくつけきことひとののろ
+          <lb n="108l-05"/>ひことはおふ物にやあらんおはぬ
+          <lb n="108l-06"/>ものにやあらんいまこそはみめとそ
+          <lb n="108l-07"/>いふなる
+        </ab>
+      </div>
+      <div type="dan" n="97" xml:id="dan097">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise097"/>
+          <lb n="108l-08"/>昔ほりかはのおほいまうちきみと申い
+          <lb n="108l-09"/>まそかりけり四十の賀九条の家にてせら
+          <pb n="109r" facs="#z109r"/>
+          <lb n="109r-01"/>れける日中将なりけるおきな
+          <lb n="109r-02"/><seg type="waka">さくら花ちりかひくもれ老らくの
+          <lb n="109r-03"/>こむといふなる道まかふかに</seg>
+        </ab>
+      </div>
+      <div type="dan" n="98" xml:id="dan098">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise098"/>
+          <lb n="109r-04"/>むかしおほきおほいまうち君ときこゆる
+          <lb n="109r-05"/>おはしけりつかうまつるおとこ長月はかり
+          <lb n="109r-06"/>に梅のつくりえたにきしをつけて
+          <lb n="109r-07"/>たてまつるとて
+          <lb n="109r-08"/><seg type="waka">わかたのむ君かためにとおる花は
+          <lb n="109r-09"/>ときしもわかぬものにそ有ける</seg>
+          <pb n="109l" facs="#z109l"/>
+          <lb n="109l-01"/>とよみてたてまつりたりけれはいとかしこ
+          <lb n="109l-02"/>くをかしかり給ひてつかひにろくた
+          <lb n="109l-03"/>まへりけり
+          <pb n="110r" facs="#z110r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="99" xml:id="dan099">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise099"/>
+          <lb n="110r-01"/>むかしおとこ右近の馬場のひをりの日む
+          <lb n="110r-02"/>かひにたてたりける車に女のかほの
+          <lb n="110r-03"/>したすたれよりほのかにみえけれは中将
+          <lb n="110r-04"/>なりけるおとこのよみてやりける
+          <lb n="110r-05"/><seg type="waka">みすもあらす見もせぬ人の恋しくは
+          <lb n="110r-06"/>あやなくけふやなかめくらさむ</seg>
+          <lb n="110r-07"/>返し
+          <lb n="110r-08"/><seg type="waka">しるしらぬなにかあやなくわきていはむ
+          <lb n="110r-09"/>おもひのみこそしるへなりけれ</seg>
+          <pb n="111r" facs="#z111r"/>
+          <lb n="111r-01"/>のちはたれとしりにけり
+        </ab>
+      </div>
+      <div type="dan" n="100" xml:id="dan100">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise100"/>
+          <lb n="111r-02"/>昔おとこ後凉殿のはさまをわたりけれは
+          <lb n="111r-03"/>あるやむことなきひとの御つほねよりわ
+          <lb n="111r-04"/>すれくさをしのふ草とやいふとていた
+          <lb n="111r-05"/>させ給へりけれはたまはりて
+          <lb n="111r-06"/><seg type="waka">わすれ草おふる野へとは見るらめと
+          <lb n="111r-07"/>こはしのふなり後もたのまん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="101" xml:id="dan101">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise101"/>
+          <lb n="111r-08"/>むかし左兵衛督なりけるありはらのゆき
+          <lb n="111r-09"/>ひらといふありけりその人の家によき
+          <pb n="111l" facs="#z111l"/>
+          <lb n="111l-01"/>さけありとききてうへにありける左中弁
+          <lb n="111l-02"/>ふちはらのまさちかといふをなむまらう
+          <lb n="111l-03"/>とさねにてその日はあるしまうけした
+          <lb n="111l-04"/>りけるなさけある人にてかめにはなを
+          <lb n="111l-05"/>させりその花のなかにあやしきふちの花
+          <lb n="111l-06"/>ありけりはなのしなひ三尺六寸はかりなむ
+          <lb n="111l-07"/>有けるそれをたいにてよむよみはてか
+          <lb n="111l-08"/>たにあるしのはらからなるあるしし
+          <lb n="111l-09"/>たまふとききてきたりけれはとらへてよ
+          <pb n="112r" facs="#z112r"/>
+          <lb n="112r-01"/>ませけるもとよりうたのことはしらさり
+          <lb n="112r-02"/>けれはすまひけれとしゐてよませけれは
+          <lb n="112r-03"/>かくなむ
+          <lb n="112r-04"/><seg type="waka">さくはなのしたにかくるる人をほみ
+          <lb n="112r-05"/>ありしにまさるふちのかけかも</seg>
+          <lb n="112r-06"/>なとかくしもよむといひけれはおほき
+          <lb n="112r-07"/>おととのゑい花のさかりにみまそかりて
+          <lb n="112r-08"/>藤氏のことにさかゆるを思ひてよめると
+          <lb n="112r-09"/>なむいひけるみな人そしらすなりにけり
+          <pb n="112l" facs="#z112l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="102" xml:id="dan102">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise102"/>
+          <pb n="113r" facs="#z113r"/>
+          <lb n="113r-01"/>昔おとこありけり哥はよまさりけれと世
+          <lb n="113r-02"/>のなかを思ひしりたりけりあてなる女の
+          <lb n="113r-03"/>あまになりて世中をおもひうむして京
+          <lb n="113r-04"/>にもあらすはるかなる山さとにすみけり
+          <lb n="113r-05"/>もとしそくなりけれはよみてやりける
+          <lb n="113r-06"/><seg type="waka">そむくとて雲にはのらぬものなれと
+          <lb n="113r-07"/>よのうきことそよそになるてふ</seg>
+          <lb n="113r-08"/>となんいひやりける斎宮のみやなり
+        </ab>
+      </div>
+      <div type="dan" n="103" xml:id="dan103">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise103"/>
+          <lb n="113r-09"/>むかしおとこ有けりいとまめにしち
+          <pb n="113l" facs="#z113l"/>
+          <lb n="113l-01"/>ようにてあたなる心なかりけりふかくさ
+          <lb n="113l-02"/>のみかとになむつかうまつりける心あ
+          <lb n="113l-03"/>やまりやしたりけんみこたちのつかひ給
+          <lb n="113l-04"/>ける人をあひいへりけりさて
+          <lb n="113l-05"/><seg type="waka">ねぬる夜の夢をはかなみまとろめは
+          <lb n="113l-06"/>いやはかなにもなりまさるかな</seg>
+          <lb n="113l-07"/>となんよみてやりけるさるうたのきた
+          <lb n="113l-08"/>なけさよ
+        </ab>
+      </div>
+      <div type="dan" n="104" xml:id="dan104">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise104"/>
+          <lb n="113l-09"/>むかしことなる事なくてあまになれる
+          <pb n="114r" facs="#z114r"/>
+          <lb n="114r-01"/>人有けりかたちをやつしたれと物や
+          <lb n="114r-02"/>ゆかしかりけむかものまつり見にいてたり
+          <lb n="114r-03"/>けるをおとこうたよみてやる
+          <lb n="114r-04"/><seg type="waka">よをうみのあまとし人をみるからに
+          <lb n="114r-05"/>めくはせよともたのまるるかな</seg>
+          <lb n="114r-06"/>これは斎宮のものみたまひける車に
+          <lb n="114r-07"/>かくきこえたりけれは見さしてかへり
+          <lb n="114r-08"/>たまひにけりとなむ
+        </ab>
+      </div>
+      <div type="dan" n="105" xml:id="dan105">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise105"/>
+          <lb n="114r-09"/>むかしおとこかくてはしぬへしといひ
+          <pb n="114l" facs="#z114l"/>
+          <lb n="114l-01"/>やりたりけれは女
+          <lb n="114l-02"/><seg type="waka">しら露はけなはけななむきえすとて
+          <lb n="114l-03"/>玉にぬくへき人もあらしを</seg>
+          <lb n="114l-04"/>といへりけれはいとなめしと思ひけれと
+          <lb n="114l-05"/>心さしはいやまさりけり
+        </ab>
+      </div>
+      <div type="dan" n="106" xml:id="dan106">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise106"/>
+          <lb n="114l-06"/>むかしおとこみこたちのせうえうし
+          <lb n="114l-07"/>給う所にまうてて立田川のほとりにて
+          <lb n="114l-08"/><seg type="waka">ちはやふる神代もきかすたつたかは
+          <lb n="114l-09"/>からくれなゐに水くるるとは</seg>
+          <pb n="115r" facs="#z115r"/>
+          <lb n="115r-01"/>  【絵】
+        </ab>
+      </div>
+      <div type="dan" n="107" xml:id="dan107">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise107"/>
+          <pb n="115l" facs="#z115l"/>
+          <lb n="115l-01"/>昔あてなるおとこありけりその男のもと
+          <lb n="115l-02"/>なりける人を内記にありける藤はらの
+          <lb n="115l-03"/>としゆきといふ人よはひけりされと
+          <lb n="115l-04"/>またわかけれはふみもおさおさし
+          <lb n="115l-05"/>からすこと葉もいひしらすいはんや哥は
+          <lb n="115l-06"/>よまさりけれはかのあるしなる人あむを
+          <lb n="115l-07"/>かきてかかせてやりけりめてまとひに
+          <lb n="115l-08"/>けりさておとこのよめる
+          <lb n="115l-09"/><seg type="waka">つれつれのなかめにまさるなみた川
+          <pb n="116r" facs="#z116r"/>
+          <lb n="116r-01"/>袖のみひちてあふよしもなし</seg>
+          <lb n="116r-02"/>返しれいのおとこ女にかはりて
+          <lb n="116r-03"/><seg type="waka">あさみこそ袖はひつらめなみた河
+          <lb n="116r-04"/>身さへなかるときかはたのまむ</seg>
+          <lb n="116r-05"/>といへりけれはおとこいといたうめて
+          <lb n="116r-06"/>いままてまきてふはこにいれてありと
+          <lb n="116r-07"/>なむいふなるおとこふみをこせたりえて
+          <lb n="116r-08"/>後のことなりけりあめのふりぬへきに
+          <lb n="116r-09"/>なんみわつらひ侍る身さいはひあらは
+          <pb n="116l" facs="#z116l"/>
+          <lb n="116l-01"/>この雨はふらしといへりけれはれいの男
+          <lb n="116l-02"/>女にかはりてよみてやらす
+          <lb n="116l-03"/><seg type="waka">かすかすに思ひおもはすとひかたみ
+          <lb n="116l-04"/>身をしる雨はふりそまされる</seg>
+          <lb n="116l-05"/>とよみてやれりけれはみのもかさもとり
+          <lb n="116l-06"/>あへてしととにぬれてまとひきにけり
+        </ab>
+      </div>
+      <div type="dan" n="108" xml:id="dan108">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise108"/>
+          <lb n="116l-07"/>むかし女人の心をうらみて
+          <lb n="116l-08"/><seg type="waka">風ふけはとはになみこす岩なれや
+          <lb n="116l-09"/>わか衣手のかはくときなき</seg>
+          <pb n="117r" facs="#z117r"/>
+          <lb n="117r-01"/>とつねのことくさにいひけるをきき
+          <lb n="117r-02"/>おひけるおとこ
+          <lb n="117r-03"/><seg type="waka">よゐことにかはつのあまたなく田には
+          <lb n="117r-04"/>水こそまされあめはふらねと</seg>
+        </ab>
+      </div>
+      <div type="dan" n="109" xml:id="dan109">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise109"/>
+          <lb n="117r-05"/>むかしおとこともたちの人をうしな
+          <lb n="117r-06"/>へるかもとにやりける
+          <lb n="117r-07"/><seg type="waka">花よりも人こそあたになりにけれ
+          <lb n="117r-08"/>いつれをさきにこひんとかみし</seg>
+        </ab>
+      </div>
+      <div type="dan" n="110" xml:id="dan110">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise110"/>
+          <lb n="117r-09"/>昔おとこみそかにかよふ女ありけりそれ
+          <pb n="117l" facs="#z117l"/>
+          <lb n="117l-01"/>かもとよりこよひ夢になん見え給ひ
+          <lb n="117l-02"/>つるといへりけれは男
+          <lb n="117l-03"/><seg type="waka">思ひあまり出にし玉のあるならん
+          <lb n="117l-04"/>夜ふかくみえはたまむすひせよ</seg>
+        </ab>
+      </div>
+      <div type="dan" n="111" xml:id="dan111">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise111"/>
+          <lb n="117l-05"/>むかしおとこやむことなき女のもとに
+          <lb n="117l-06"/>なくなりにけるをとふらふやうにて
+          <lb n="117l-07"/>いひやりける
+          <lb n="117l-08"/><seg type="waka">いにしへは有もやしけん今そしる
+          <lb n="117l-09"/>またみぬ人をこふるものとは</seg>
+          <pb n="118r" facs="#z118r"/>
+          <lb n="118r-01"/>返し
+          <lb n="118r-02"/><seg type="waka">したひものしるしとするもとけなくに
+          <lb n="118r-03"/>かたるかことはこひすそあるへき</seg>
+          <lb n="118r-04"/>又返し
+          <lb n="118r-05"/><seg type="waka">恋しとはさらにもいはししたひもの
+          <lb n="118r-06"/>とけむを人はそれとしらなん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="112" xml:id="dan112">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise112"/>
+          <lb n="118r-07"/>むかしおとこねんころにいひちきり
+          <lb n="118r-08"/>ける女のことさまになりにけれは
+          <lb n="118r-09"/><seg type="waka">すまのあまのしほやく煙風をいたみ
+          <pb n="118l" facs="#z118l"/>
+          <lb n="118l-01"/>おもはぬかたにたなひきにけり</seg>
+        </ab>
+      </div>
+      <div type="dan" n="113" xml:id="dan113">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise113"/>
+          <lb n="118l-02"/>むかしおとこやもめにてゐて
+          <lb n="118l-03"/><seg type="waka">なかからぬいのちのほとに忘るるは
+          <lb n="118l-04"/>いかにみしかき心なるらん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="114" xml:id="dan114">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise114"/>
+          <lb n="118l-05"/>昔仁和のみかとせり川に行かうし
+          <lb n="118l-06"/>給ける時いまはさることにけなく思けれ
+          <lb n="118l-07"/>ともとつきにけることなれはおほたかの
+          <lb n="118l-08"/>たかかひにてさふらはせたまひけるすり
+          <lb n="118l-09"/>かりきぬのたもとにかきつけける
+          <pb n="119r" facs="#z119r"/>
+          <lb n="119r-01"/><seg type="waka">おきなさひ人なとかめそかりころも
+          <lb n="119r-02"/>けふはかりとそたつもなくなる</seg>
+          <lb n="119r-03"/>おほやけの御けしきあしかりけりをの
+          <lb n="119r-04"/>かよはひをおもひけれとわかからぬ人は
+          <lb n="119r-05"/>ききおひけりとや
+        </ab>
+      </div>
+      <div type="dan" n="115" xml:id="dan115">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise115"/>
+          <lb n="119r-06"/>むかしみちのくににておとこ女すみけり
+          <lb n="119r-07"/>おとこ宮こへいなんといふこの女いと
+          <lb n="119r-08"/>かなしうてむまのはなむけをたにせむと
+          <lb n="119r-09"/>ておきのゐて宮こしまといふ所にてさけ
+          <pb n="119l" facs="#z119l"/>
+          <lb n="119l-01"/>のませてよめる
+          <lb n="119l-02"/><seg type="waka">おきのゐて身をやくよりもかなしきは
+          <lb n="119l-03"/>みやこしまへのわかれなりけり</seg>
+        </ab>
+      </div>
+      <div type="dan" n="116" xml:id="dan116">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise116"/>
+          <lb n="119l-04"/>昔おとこすすろにみちのくにまてまとひ
+          <lb n="119l-05"/>いにけり京に思ふ人にいひやる
+          <lb n="119l-06"/><seg type="waka">なみまよりみゆるこしまのはまひさし
+          <lb n="119l-07"/>ひさしくなりぬ君にあひ見て</seg>
+          <lb n="119l-08"/>なに事もみなよくなりにけりとなん
+          <lb n="119l-09"/>いひやりける
+        </ab>
+      </div>
+      <div type="dan" n="117" xml:id="dan117">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise117"/>
+          <pb n="120r" facs="#z120r"/>
+          <lb n="120r-01"/>むかしみかと住吉に行幸し給ひけり
+          <lb n="120r-02"/><seg type="waka">我見てもひさしくなりぬ住よしの
+          <lb n="120r-03"/>きしのひめ松いく世へぬらん</seg>
+          <lb n="120r-04"/>おほむ神けきやうし給ひて
+          <lb n="120r-05"/><seg type="waka">むつましと君はしらなみみつかきの
+          <lb n="120r-06"/>ひさしき世よりいはひそめてき</seg>
+        </ab>
+      </div>
+      <div type="dan" n="118" xml:id="dan118">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise118"/>
+          <lb n="120r-07"/>むかしおとこひさしくをともせてわす
+          <lb n="120r-08"/>るるこころもなしまいりこんといへり
+          <lb n="120r-09"/>けれは
+          <pb n="120l" facs="#z120l"/>
+          <lb n="120l-01"/><seg type="waka">玉かつらはふ木あまたになりぬれは
+          <lb n="120l-02"/>たえぬ心のうれしけもなし</seg>
+        </ab>
+      </div>
+      <div type="dan" n="119" xml:id="dan119">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise119"/>
+          <lb n="120l-03"/>昔女のあたなるおとこのかたみとてをき
+          <lb n="120l-04"/>たる物ともを見て
+          <lb n="120l-05"/><seg type="waka">かたみこそ今はあたなれこれなくは
+          <lb n="120l-06"/>わするるときもあらましものを</seg>
+          <pb n="121r" facs="#z121r"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="dan" n="120" xml:id="dan120">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise120"/>
+          <lb n="121r-01"/>むかしおとこ女のまたよへすとおほえた
+          <lb n="121r-02"/>るか人の御もとにしのひてものきこえ
+          <lb n="121r-03"/>てのちほとへて
+          <lb n="121r-04"/><seg type="waka">あふみなるつくまのまつりとくせなむ
+          <lb n="121r-05"/>つれなき人のなへのかす見ん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="121" xml:id="dan121">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise121"/>
+          <lb n="121r-06"/>むかしおとこ梅つほより雨にぬれて
+          <lb n="121r-07"/>人のまかりいつるを見て
+          <lb n="121r-08"/><seg type="waka">うくひすの花をぬふてふかさもかな
+          <lb n="121r-09"/>ぬるめる人にきせてかへさむ</seg>
+          <pb n="122r" facs="#z122r"/>
+          <lb n="122r-01"/>返し
+          <lb n="122r-02"/><seg type="waka">鶯のはなをぬふてふかさはいな
+          <lb n="122r-03"/>おもひをつけよほしてかへさん</seg>
+        </ab>
+      </div>
+      <div type="dan" n="122" xml:id="dan122">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise122"/>
+          <lb n="122r-04"/>むかし男ちきれることあやまれる人に
+          <lb n="122r-05"/><seg type="waka">やましろのゐての玉水てにむすひ
+          <lb n="122r-06"/>たのみしかひもなき世なりけり</seg>
+          <lb n="122r-07"/>といひやれといらへもせす
+        </ab>
+      </div>
+      <div type="dan" n="123" xml:id="dan123">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise123"/>
+          <lb n="122r-08"/>昔おとこありけりふかくさにすみける女
+          <lb n="122r-09"/>をやうやうあきかたにやおもひけん
+          <pb n="122l" facs="#z122l"/>
+          <lb n="122l-01"/>かかるうたをよみけり
+          <lb n="122l-02"/><seg type="waka">年をへて住こしさとを出ていなは
+          <lb n="122l-03"/>いととふかくさ野とやなりなむ</seg>
+          <lb n="122l-04"/>女返し
+          <lb n="122l-05"/><seg type="waka">野とならはうつらとなりて鳴をらん
+          <lb n="122l-06"/>かりにたにやは君はこさらん</seg>
+          <lb n="122l-07"/>とよめりけるにめててゆかむとおもふ
+          <lb n="122l-08"/>心なくなりにけり
+        </ab>
+      </div>
+      <div type="dan" n="124" xml:id="dan124">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise124"/>
+          <lb n="122l-09"/>むかしおとこいかなりける事をおもひ
+          <pb n="123r" facs="#z123r"/>
+          <lb n="123r-01"/>けるおりにかよめる
+          <lb n="123r-02"/><seg type="waka">思ふ事いはてそたたにやみぬへき
+          <lb n="123r-03"/>我とひとしき人しなけれは</seg>
+        </ab>
+      </div>
+      <div type="dan" n="125" xml:id="dan125">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise125"/>
+          <lb n="123r-04"/>昔おとこわつらひて心地しぬへくお
+          <lb n="123r-05"/>ほえけれは
+          <lb n="123r-06"/><seg type="waka">つゐにゆく道とはかねてききしかと
+          <lb n="123r-07"/>昨日けふとはおもはさりしを</seg>
+          <pb n="123l" facs="#z123l"/><figure><figDesc>挿絵</figDesc></figure>
+        </ab>
+      </div>
+      <div type="colophon" n="oku" xml:id="oku">
+        <ab>
+          <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_iseoku"/>
+          <pb n="124r" facs="#z124r"/>
+          <lb n="124r-01"/>伊勢物語新刊就余需勘校抑京極黄
+          <lb n="124r-02"/>門一本之奥書云此物語之根源古人之説々
+          <lb n="124r-03"/>不同云々如今以天福年取被与孫女書正之
+          <lb n="124r-04"/>然而猶恐有訂校之遺失也更図画巻中
+          <lb n="124r-05"/>之趣分以為上下巻雖不足動好女人情
+          <lb n="124r-06"/>聊為令悦稚童眼目而已
+          <lb n="124r-07"/>　　慶長戊申仲夏上浣
+          <lb n="124r-08"/>　　　　　　　　　　也足叟（花押）
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
