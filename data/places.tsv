@@ -19,7 +19,7 @@ miyoshino	三芳野の里	settlement		35.9242	139.4924	low	伝承地が複数あ
 musashino	武蔵野	region	Q2616063	35.7500	139.4500	low	範囲を指す語。Wikidata（武蔵野台地）に座標が無く、点は便宜上のもの
 michinoku	陸奥国	province	Q907389	38.8619	141.1661	medium	国の代表点（Wikidata）
 kurihara	栗原	district	Q6446017	38.7417	141.0173	medium	栗原郡の代表点（Wikidata）
-anehanomatsu	姉歯の松	landmark		38.7417	141.0173	low	伝承地は栗原市金成姉歯。Wikidata に項目が無く、座標は栗原郡の代表点で代用
+anehanomatsu	姉歯の松	landmark		38.7878	141.0719	medium	伝承地は栗原市金成梨崎の姉歯の松。Wikidata に項目が無く、座標は OpenStreetMap の「姉歯の松」の点（2026-10-18 見直し。旧は栗原郡の代表点で約 7km ずれていた）
 shinobuyama	信夫山	mountain	Q6923612	37.7760	140.4743	high	福島市の信夫山
 yamato	大和国	province	Q907495	34.3278	135.9061	medium	国の代表点（Wikidata）
 kawachi	河内国	province	Q1047150	34.6464	135.6158	medium	国の代表点（Wikidata）
@@ -33,38 +33,38 @@ nagaoka	長岡	settlement	Q1052803	34.9432	135.7032	medium	長岡京の跡の代
 higashiyama	東山	mountain	Q10343950	35.0000	135.7900	low	京の東の山並み。Wikidata の項目に座標が無く、点は手で置いた概略のもの
 usa	宇佐	shrine	Q715632	33.5260	131.3746	medium	宇佐神宮
 tsukushi	筑紫	region	Q1206461	33.5129	130.5238	low	範囲を指す語。Wikidata の項目に座標が無く、大宰府のあった太宰府市（Q728218）の代表点で代用
-somekawa	染河	river		33.5170	130.5300	low	伝承地は太宰府の藍染川。Wikidata に項目が無く、点は手で置いた概略のもの
+somekawa	染河	river		33.5186	130.5346	medium	伝承地は太宰府の藍染川。Wikidata に項目が無く、座標は OpenStreetMap の藍染川の点（2026-10-18 見直し）
 tawarejima	たはれ島	island	Q11665527	32.7121	130.5913	high	宇土市沖の風流島
 mitarashigawa	御手洗川	river		35.0391	135.7730	low	賀茂社の御手洗川。下鴨・上賀茂のどちらかは決めない。座標は下鴨神社（Q701620）で代用
 naniwa	難波	region	Q11659550	34.6870	135.5100	low	難波津。Wikidata の項目に座標が無く、点は手で置いた概略のもの
-mitsu	御津	landmark		34.6760	135.5000	low	難波の御津。Wikidata に項目が無く、点は手で置いた概略のもの
+mitsu	御津	landmark		34.6706	135.5007	low	難波の御津。所在には諸説あり、大阪市中央区の三津寺のあたりとする説に従った。座標は OpenStreetMap の三津寺の点（2026-10-18 見直し）
 izumi	和泉国	province	Q1047117	34.3886	135.3825	medium	国の代表点（Wikidata）
 sumiyoshi	住吉	shrine	Q705949	34.6125	135.4929	medium	郡・里・浜をまとめて一つの地名にした。座標は住吉大社
 ausaka	逢坂の関	pass	Q10551417	34.9942	135.8557	medium	逢坂関
-oyodo	大淀	landmark		34.5477	136.6235	low	伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、明和町（Q1203258）の代表点で代用
+oyodo	大淀	landmark		34.5612	136.6607	medium	伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、大淀漁港の南の浜に地図を見て置いた（2026-10-18 見直し。旧は明和町の代表点で内陸だった）
 oharano	大原野	area	Q29841191	34.9603	135.6561	medium	Wikidata の項目に座標が無い。座標は大原野神社（Q3594020）で代用
 oshio	小塩の山	mountain	Q11459560	34.9617	135.6342	high	小塩山
 anshoji	安祥寺	temple	Q11451144	34.9957	135.8158	medium	今の寺の位置。当時の伽藍は山上にもあった
 yamashina	山科	area	Q1076993	34.9725	135.8136	medium	山科区の代表点（Wikidata）
 kii	紀伊国	province	Q864053	33.7753	135.7306	medium	国の代表点（Wikidata）
-chisato	千里の浜	coast	Q11406837	33.7570	135.3180	low	みなべ町の千里の浜。Wikidata の項目に座標が無く、点は手で置いた概略のもの
+chisato	千里の浜	coast	Q11406837	33.7730	135.2948	medium	みなべ町山内の千里の浜。Wikidata の項目に座標が無く、OpenStreetMap の「千里の浜」の点を使った（2026-10-18 見直し。旧の点は南部湾の海上だった）
 kamogawa	鴨川	river	Q27218	34.9910	135.7700	medium	座標は六条あたりの鴨川に手で置いた
 rokujo	六条	area		34.9905	135.7650	low	平安京の六条、鴨川の近く（河原院のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの
 shiogama	塩竈	settlement	Q496448	38.3144	141.0220	medium	塩竈市の代表点（Wikidata）
 yamazaki	山崎	settlement	Q450287	34.9028	135.6885	medium	大山崎町の代表点（Wikidata）
 minase	水無瀬	settlement		34.8849	135.6730	medium	座標は水無瀬離宮の跡とされる水無瀬神宮（Q705121）
 katano	交野	area	Q819646	34.7879	135.6799	low	交野が原。範囲を指す語で、座標は交野市の代表点で代用
-nagisanoin	渚の院	building		34.8233	135.6614	low	惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、点は手で置いた概略のもの
+nagisanoin	渚の院	building		34.8319	135.6579	medium	惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、座標は渚元町の代表点（国土地理院の地名検索）（2026-10-18 見直し）
 amanokawa	天の河	river	Q11443656	34.8194	135.6433	medium	枚方・交野を流れる天野川
-ono	小野	settlement		35.1140	135.8340	low	山城国愛宕郡の小野（大原のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの
+ono	小野	settlement		35.1068	135.8401	low	山城国愛宕郡の小野（大原のあたり）。範囲を指す語。惟喬親王の墓がある大原上野町の代表点（国土地理院の地名検索）で代用（2026-10-18 見直し）
 ashiya	芦屋	settlement	Q725514	34.7270	135.3041	medium	芦屋市の代表点（Wikidata）
 nunobiki	布引の滝	waterfall	Q3695449	34.7097	135.1939	high	神戸市の布引の滝
 kujo	九条	area		34.9800	135.7550	low	平安京の九条大路のあたり。Wikidata に項目が無く、点は手で置いた概略のもの
-ukon	右近の馬場	landmark		35.0292	135.7350	low	北野の右近馬場。Wikidata に項目が無く、北野天満宮（Q662176）で代用
+ukon	右近の馬場	landmark		35.0294	135.7357	medium	北野の右近馬場。Wikidata に項目が無く、座標は OpenStreetMap の「右近馬場」の説明板の点（2026-10-18 見直し）
 tatsutagawa	龍田川	river	Q11598373	34.5956	135.7181	medium	今の竜田川の代表点。歌枕の龍田川は大和川の一部を指すとする説もある
 suma	須磨	coast	Q1155010	34.6586	135.1337	medium	須磨区の代表点（Wikidata）
-serikawa	芹川	river		34.9350	135.7450	low	山城国の芹川（鳥羽のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの。滋賀県の芹川（Q9072119）とは別
-okinoi	沖の井	landmark		38.2865	141.0055	low	伝承地は多賀城市八幡。Wikidata に項目が無く、点は手で置いた概略のもの
+serikawa	芹川	river		34.9460	135.7572	low	山城国の芹川（鳥羽のあたり）。川の位置は定まらず、名の残る伏見区下鳥羽芹川町の代表点（国土地理院の地名検索）で代用（2026-10-18 見直し）。滋賀県の芹川（Q9072119）とは別
+okinoi	沖の井	landmark		38.2868	141.0033	medium	伝承地は多賀城市八幡の「沖の石」。Wikidata に項目が無く、座標は OpenStreetMap の沖の石の点（2026-10-18 見直し）
 miyakojima	都島	landmark		38.2900	141.0100	low	陸奥の都島。所在は定まらない。沖の井の近くとして手で置いた便宜上の点
 omi	近江国	province	Q843882	35.2114	136.1239	medium	国の代表点（Wikidata）
 yamashiro	山城国	province	Q749276	34.8819	135.8006	medium	国の代表点（Wikidata）

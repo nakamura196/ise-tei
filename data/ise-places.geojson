@@ -305,13 +305,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 141.0173, 38.7417 ]
+        "coordinates": [ 141.0719, 38.7878 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "姉歯の松",
-        "note": "伝承地は栗原市金成姉歯。Wikidata に項目が無く、座標は栗原郡の代表点で代用",
+        "note": "伝承地は栗原市金成梨崎の姉歯の松。Wikidata に項目が無く、座標は OpenStreetMap の「姉歯の松」の点（2026-10-18 見直し。旧は栗原郡の代表点で約 7km ずれていた）",
         "type": "landmark",
         "seq": 21
       },
@@ -515,13 +515,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 130.53, 33.517 ]
+        "coordinates": [ 130.5346, 33.5186 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "染河",
-        "note": "伝承地は太宰府の藍染川。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "note": "伝承地は太宰府の藍染川。Wikidata に項目が無く、座標は OpenStreetMap の藍染川の点（2026-10-18 見直し）",
         "type": "river",
         "seq": 35
       },
@@ -575,13 +575,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.5, 34.676 ]
+        "coordinates": [ 135.5007, 34.6706 ]
       },
       "properties": {
         "confidence": "low",
         "modern_name": "",
         "place_in_text": "御津",
-        "note": "難波の御津。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "note": "難波の御津。所在には諸説あり、大阪市中央区の三津寺のあたりとする説に従った。座標は OpenStreetMap の三津寺の点（2026-10-18 見直し）",
         "type": "landmark",
         "seq": 39
       },
@@ -635,13 +635,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 136.6235, 34.5477 ]
+        "coordinates": [ 136.6607, 34.5612 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "大淀",
-        "note": "伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、明和町（Q1203258）の代表点で代用",
+        "note": "伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、大淀漁港の南の浜に地図を見て置いた（2026-10-18 見直し。旧は明和町の代表点で内陸だった）",
         "type": "landmark",
         "seq": 43
       },
@@ -725,13 +725,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.318, 33.757 ]
+        "coordinates": [ 135.2948, 33.773 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "千里の浜",
-        "note": "みなべ町の千里の浜。Wikidata の項目に座標が無く、点は手で置いた概略のもの",
+        "note": "みなべ町山内の千里の浜。Wikidata の項目に座標が無く、OpenStreetMap の「千里の浜」の点を使った（2026-10-18 見直し。旧の点は南部湾の海上だった）",
         "type": "coast",
         "seq": 49
       },
@@ -830,13 +830,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.6614, 34.8233 ]
+        "coordinates": [ 135.6579, 34.8319 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "渚の院",
-        "note": "惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "note": "惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、座標は渚元町の代表点（国土地理院の地名検索）（2026-10-18 見直し）",
         "type": "building",
         "seq": 56
       },
@@ -860,13 +860,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.834, 35.114 ]
+        "coordinates": [ 135.8401, 35.1068 ]
       },
       "properties": {
         "confidence": "low",
         "modern_name": "",
         "place_in_text": "小野",
-        "note": "山城国愛宕郡の小野（大原のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "note": "山城国愛宕郡の小野（大原のあたり）。範囲を指す語。惟喬親王の墓がある大原上野町の代表点（国土地理院の地名検索）で代用（2026-10-18 見直し）",
         "type": "settlement",
         "seq": 58
       },
@@ -920,13 +920,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.735, 35.0292 ]
+        "coordinates": [ 135.7357, 35.0294 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "右近の馬場",
-        "note": "北野の右近馬場。Wikidata に項目が無く、北野天満宮（Q662176）で代用",
+        "note": "北野の右近馬場。Wikidata に項目が無く、座標は OpenStreetMap の「右近馬場」の説明板の点（2026-10-18 見直し）",
         "type": "landmark",
         "seq": 62
       },
@@ -965,13 +965,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 135.745, 34.935 ]
+        "coordinates": [ 135.7572, 34.946 ]
       },
       "properties": {
         "confidence": "low",
         "modern_name": "",
         "place_in_text": "芹川",
-        "note": "山城国の芹川（鳥羽のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの。滋賀県の芹川（Q9072119）とは別",
+        "note": "山城国の芹川（鳥羽のあたり）。川の位置は定まらず、名の残る伏見区下鳥羽芹川町の代表点（国土地理院の地名検索）で代用（2026-10-18 見直し）。滋賀県の芹川（Q9072119）とは別",
         "type": "river",
         "seq": 65
       },
@@ -980,13 +980,13 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 141.0055, 38.2865 ]
+        "coordinates": [ 141.0033, 38.2868 ]
       },
       "properties": {
-        "confidence": "low",
+        "confidence": "med",
         "modern_name": "",
         "place_in_text": "沖の井",
-        "note": "伝承地は多賀城市八幡。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "note": "伝承地は多賀城市八幡の「沖の石」。Wikidata に項目が無く、座標は OpenStreetMap の沖の石の点（2026-10-18 見直し）",
         "type": "landmark",
         "seq": 66
       },
