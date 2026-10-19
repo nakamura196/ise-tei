@@ -70,3 +70,7 @@ omi	近江国	province	Q843882	35.2114	136.1239	medium	国の代表点（Wikidat
 yamashiro	山城国	province	Q749276	34.8819	135.8006	medium	国の代表点（Wikidata）
 ide	井手	settlement	Q1203097	34.8005	135.8145	medium	井手町の代表点（Wikidata）
 fukakusa	深草	area	Q30933141	34.9550	135.7730	low	Wikidata の項目に座標が無い。伏見区深草のあたりに手で置いた概略の点
+nara	平城京	city	Q862509	34.6911	135.7947	medium	奈良の都。座標は Wikidata の値（粗い）
+kasuga	春日の里	area	Q11513508	34.6850	135.8420	low	Wikidata の項目（奈良市春日）に座標が無い。春日野（今の奈良公園の東）のあたりに手で置いた概略の点
+nishinokyo	西の京	area		35.0030	135.7350	low	平安京の右京。範囲を指す語で、Wikidata に項目が無い。右京の中ほどに手で置いた便宜上の点
+akutagawa	芥川	river	Q11614729	34.8110	135.6189	medium	摂津国の芥川（今の高槻市）とする通説に従った。座標は今の芥川の代表点

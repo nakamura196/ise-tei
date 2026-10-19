@@ -455,6 +455,29 @@
               <note>Wikidata の項目に座標が無い。伏見区深草のあたりに手で置いた概略の点</note>
               <idno type="wikidata">Q30933141</idno>
             </place>
+            <place xml:id="nara" type="city" n="72" cert="medium">
+              <placeName>平城京</placeName>
+              <location><geo>34.6911 135.7947</geo></location>
+              <note>奈良の都。座標は Wikidata の値（粗い）</note>
+              <idno type="wikidata">Q862509</idno>
+            </place>
+            <place xml:id="kasuga" type="area" n="73" cert="low">
+              <placeName>春日の里</placeName>
+              <location><geo>34.6850 135.8420</geo></location>
+              <note>Wikidata の項目（奈良市春日）に座標が無い。春日野（今の奈良公園の東）のあたりに手で置いた概略の点</note>
+              <idno type="wikidata">Q11513508</idno>
+            </place>
+            <place xml:id="nishinokyo" type="area" n="74" cert="low">
+              <placeName>西の京</placeName>
+              <location><geo>35.0030 135.7350</geo></location>
+              <note>平安京の右京。範囲を指す語で、Wikidata に項目が無い。右京の中ほどに手で置いた便宜上の点</note>
+            </place>
+            <place xml:id="akutagawa" type="river" n="75" cert="medium">
+              <placeName>芥川</placeName>
+              <location><geo>34.8110 135.6189</geo></location>
+              <note>摂津国の芥川（今の高槻市）とする通説に従った。座標は今の芥川の代表点</note>
+              <idno type="wikidata">Q11614729</idno>
+            </place>
         </listPlace>
       </settingDesc>
     </profileDesc>
@@ -1041,8 +1064,8 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise001"/>
           <pb n="6r" facs="#z006r"/>
-          <lb n="6r-01"/>むかしおとこうゐかうふりしてならの
-          <lb n="6r-02"/>京かすかの里にしるよししてかりに
+          <lb n="6r-01"/>むかしおとこうゐかうふりして<placeName ref="#nara">ならの
+          <lb n="6r-02"/>京</placeName><placeName ref="#kasuga">かすかの里</placeName>にしるよししてかりに
           <lb n="6r-03"/>いにけりそのさとにいとなまめいたる女
           <lb n="6r-04"/>はらからすみけりこのおとこかいまみて
           <lb n="6r-05"/>けりおもほえすふるさとにいとはした
@@ -1051,13 +1074,13 @@
           <lb n="6r-08"/>うたをかきてやるそのおとこしのふすり
           <lb n="6r-09"/>のかりきぬをなむきたりける
           <pb n="6l" facs="#z006l"/>
-          <lb n="6l-01"/><seg type="waka">かすかののわかむらさきのすり衣
+          <lb n="6l-01"/><seg type="waka"><placeName ref="#kasuga">かすかの</placeName>のわかむらさきのすり衣
           <lb n="6l-02"/>しのふのみたれかきりしられす</seg>
           <lb n="6l-03"/>となむをいつきていひやりけるついて
           <lb n="6l-04"/>おもしろき事ともやおもひけん
           <pb n="7r" facs="#z007r"/><figure><figDesc>挿絵</figDesc></figure>
           <pb n="7l" facs="#z007l"/>
-          <lb n="7l-01"/><seg type="waka">みちのくのしのふもちすりたれゆへに
+          <lb n="7l-01"/><seg type="waka"><placeName ref="#michinoku">みちのく</placeName>のしのふもちすりたれゆへに
           <lb n="7l-02"/>みたれそめにしわれならなくに</seg>
           <lb n="7l-03"/>といふうたの心はへなりむかし人はかく
           <lb n="7l-04"/>いちはやきみやひをなんしける
@@ -1066,9 +1089,9 @@
       <div type="dan" n="2" xml:id="dan002">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise002"/>
-          <lb n="7l-05"/>むかしおとこありけりならの京ははな
-          <lb n="7l-06"/>れこの京は人のいゑまたさたまらさり
-          <lb n="7l-07"/>ける時に西の京に女ありけりかの
+          <lb n="7l-05"/>むかしおとこありけり<placeName ref="#nara">ならの京</placeName>ははな
+          <lb n="7l-06"/>れこの<placeName ref="#kyo">京</placeName>は人のいゑまたさたまらさり
+          <lb n="7l-07"/>ける時に<placeName ref="#nishinokyo">西の京</placeName>に女ありけりかの
           <lb n="7l-08"/>女世人にはまされりけりその人かたち
           <lb n="7l-09"/>よりは心なむまさりたりけるひとりのみ
           <pb n="8r" facs="#z008r"/>
@@ -1100,7 +1123,7 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise004"/>
           <pb n="10r" facs="#z010r"/>
-          <lb n="10r-01"/>むかし東の五条におほきさいの宮お
+          <lb n="10r-01"/>むかし東の<placeName ref="#gojo">五条</placeName>におほきさいの宮お
           <lb n="10r-02"/>はしましけるにしのたいにすむひとあり
           <lb n="10r-03"/>けりそれをほいにはあらて心さしふ
           <lb n="10r-04"/>かかりける人行とふらひけるをむ月の
@@ -1125,7 +1148,7 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise005"/>
           <pb n="11l" facs="#z011l"/>
-          <lb n="11l-01"/>昔おとこありけりひんかしの五条わたり
+          <lb n="11l-01"/>昔おとこありけりひんかしの<placeName ref="#gojo">五条</placeName>わたり
           <lb n="11l-02"/>にいとしのひていきけりみそかなる
           <lb n="11l-03"/>ところなれはかとよりもえいらてわらは
           <lb n="11l-04"/>へのふみあけたるついひちのくつれより
@@ -1150,7 +1173,7 @@
           <lb n="13r-01"/>昔おとこありけりをんなのえうまし
           <lb n="13r-02"/>かりけるを年をへてよはひわたりける
           <lb n="13r-03"/>をからうしてぬすみ出ていとくらきにき
-          <lb n="13r-04"/>けりあくた河といふかはをゐていきけれ
+          <lb n="13r-04"/>けり<placeName ref="#akutagawa">あくた河</placeName>といふかはをゐていきけれ
           <lb n="13r-05"/>はくさのうへにをきたりける露をかれ
           <lb n="13r-06"/>はなにそとなんおとこにとひける行
           <lb n="13r-07"/>さきおほく夜もふけにけれはおにある所

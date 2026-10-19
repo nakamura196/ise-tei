@@ -1066,6 +1066,66 @@
         "seq": 71
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.7947, 34.6911 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "平城京",
+        "note": "奈良の都。座標は Wikidata の値（粗い）",
+        "type": "city",
+        "seq": 72
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.842, 34.685 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "春日の里",
+        "note": "Wikidata の項目（奈良市春日）に座標が無い。春日野（今の奈良公園の東）のあたりに手で置いた概略の点",
+        "type": "area",
+        "seq": 73
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.735, 35.003 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "西の京",
+        "note": "平安京の右京。範囲を指す語で、Wikidata に項目が無い。右京の中ほどに手で置いた便宜上の点",
+        "type": "area",
+        "seq": 74
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6189, 34.811 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "芥川",
+        "note": "摂津国の芥川（今の高槻市）とする通説に従った。座標は今の芥川の代表点",
+        "type": "river",
+        "seq": 75
+      },
+      "type": "Feature"
     }
   ]
 }
