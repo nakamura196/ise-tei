@@ -116,7 +116,7 @@
         "confidence": "high",
         "modern_name": "",
         "place_in_text": "比叡の山",
-        "note": "富士の高さのたとえとして出る。旅程の地点ではない",
+        "note": "比叡山。九段では富士の高さのたとえとして出る（type=\"comparison\"）。八十三段は小野が麓にある山として",
         "type": "mountain",
         "seq": 8
       },
@@ -329,6 +329,741 @@
         "note": "福島市の信夫山",
         "type": "mountain",
         "seq": 22
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.9061, 34.3278 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "大和国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 23
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6158, 34.6464 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "河内国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 24
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6413, 34.6315 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "高安郡",
+        "note": "Wikidata の項目に座標が無い。座標は八尾市高安（Q11669131）で代用",
+        "type": "district",
+        "seq": 25
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6873, 34.5931 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "龍田山",
+        "note": "生駒山地の南端の山々の総称。Wikidata に座標が無く、麓の龍田大社（Q246455）で代用",
+        "type": "mountain",
+        "seq": 26
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.679, 34.6785 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "生駒山",
+        "note": "生駒山",
+        "type": "mountain",
+        "seq": 27
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.762, 34.996 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "五条",
+        "note": "平安京の五条大路（今の松原通）あたり。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "area",
+        "seq": 28
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.3014, 34.8569 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "摂津国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 29
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.27, 34.725 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "菟原郡",
+        "note": "Wikidata の項目に座標が無い。芦屋と神戸の間に手で置いた概略の点",
+        "type": "district",
+        "seq": 30
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.7032, 34.9432 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "長岡",
+        "note": "長岡京の跡の代表点（Wikidata）",
+        "type": "settlement",
+        "seq": 31
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.79, 35 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "東山",
+        "note": "京の東の山並み。Wikidata の項目に座標が無く、点は手で置いた概略のもの",
+        "type": "mountain",
+        "seq": 32
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 131.3746, 33.526 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "宇佐",
+        "note": "宇佐神宮",
+        "type": "shrine",
+        "seq": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 130.5238, 33.5129 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "筑紫",
+        "note": "範囲を指す語。Wikidata の項目に座標が無く、大宰府のあった太宰府市（Q728218）の代表点で代用",
+        "type": "region",
+        "seq": 34
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 130.53, 33.517 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "染河",
+        "note": "伝承地は太宰府の藍染川。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "river",
+        "seq": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 130.5913, 32.7121 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "たはれ島",
+        "note": "宇土市沖の風流島",
+        "type": "island",
+        "seq": 36
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.773, 35.0391 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "御手洗川",
+        "note": "賀茂社の御手洗川。下鴨・上賀茂のどちらかは決めない。座標は下鴨神社（Q701620）で代用",
+        "type": "river",
+        "seq": 37
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.51, 34.687 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "難波",
+        "note": "難波津。Wikidata の項目に座標が無く、点は手で置いた概略のもの",
+        "type": "region",
+        "seq": 38
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.5, 34.676 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "御津",
+        "note": "難波の御津。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "landmark",
+        "seq": 39
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.3825, 34.3886 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "和泉国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 40
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.4929, 34.6125 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "住吉",
+        "note": "郡・里・浜をまとめて一つの地名にした。座標は住吉大社",
+        "type": "shrine",
+        "seq": 41
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.8557, 34.9942 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "逢坂の関",
+        "note": "逢坂関",
+        "type": "pass",
+        "seq": 42
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 136.6235, 34.5477 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "大淀",
+        "note": "伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、明和町（Q1203258）の代表点で代用",
+        "type": "landmark",
+        "seq": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6561, 34.9603 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "大原野",
+        "note": "Wikidata の項目に座標が無い。座標は大原野神社（Q3594020）で代用",
+        "type": "area",
+        "seq": 44
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6342, 34.9617 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "小塩の山",
+        "note": "小塩山",
+        "type": "mountain",
+        "seq": 45
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.8158, 34.9957 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "安祥寺",
+        "note": "今の寺の位置。当時の伽藍は山上にもあった",
+        "type": "temple",
+        "seq": 46
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.8136, 34.9725 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "山科",
+        "note": "山科区の代表点（Wikidata）",
+        "type": "area",
+        "seq": 47
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.7306, 33.7753 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "紀伊国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.318, 33.757 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "千里の浜",
+        "note": "みなべ町の千里の浜。Wikidata の項目に座標が無く、点は手で置いた概略のもの",
+        "type": "coast",
+        "seq": 49
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.77, 34.991 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "鴨川",
+        "note": "座標は六条あたりの鴨川に手で置いた",
+        "type": "river",
+        "seq": 50
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.765, 34.9905 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "六条",
+        "note": "平安京の六条、鴨川の近く（河原院のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "area",
+        "seq": 51
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.022, 38.3144 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "塩竈",
+        "note": "塩竈市の代表点（Wikidata）",
+        "type": "settlement",
+        "seq": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6885, 34.9028 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "山崎",
+        "note": "大山崎町の代表点（Wikidata）",
+        "type": "settlement",
+        "seq": 53
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.673, 34.8849 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "水無瀬",
+        "note": "座標は水無瀬離宮の跡とされる水無瀬神宮（Q705121）",
+        "type": "settlement",
+        "seq": 54
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6799, 34.7879 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "交野",
+        "note": "交野が原。範囲を指す語で、座標は交野市の代表点で代用",
+        "type": "area",
+        "seq": 55
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6614, 34.8233 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "渚の院",
+        "note": "惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "building",
+        "seq": 56
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.6433, 34.8194 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "天の河",
+        "note": "枚方・交野を流れる天野川",
+        "type": "river",
+        "seq": 57
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.834, 35.114 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "小野",
+        "note": "山城国愛宕郡の小野（大原のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "settlement",
+        "seq": 58
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.3041, 34.727 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "芦屋",
+        "note": "芦屋市の代表点（Wikidata）",
+        "type": "settlement",
+        "seq": 59
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.1939, 34.7097 ]
+      },
+      "properties": {
+        "confidence": "high",
+        "modern_name": "",
+        "place_in_text": "布引の滝",
+        "note": "神戸市の布引の滝",
+        "type": "waterfall",
+        "seq": 60
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.755, 34.98 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "九条",
+        "note": "平安京の九条大路のあたり。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "area",
+        "seq": 61
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.735, 35.0292 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "右近の馬場",
+        "note": "北野の右近馬場。Wikidata に項目が無く、北野天満宮（Q662176）で代用",
+        "type": "landmark",
+        "seq": 62
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.7181, 34.5956 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "龍田川",
+        "note": "今の竜田川の代表点。歌枕の龍田川は大和川の一部を指すとする説もある",
+        "type": "river",
+        "seq": 63
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.1337, 34.6586 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "須磨",
+        "note": "須磨区の代表点（Wikidata）",
+        "type": "coast",
+        "seq": 64
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.745, 34.935 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "芹川",
+        "note": "山城国の芹川（鳥羽のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの。滋賀県の芹川（Q9072119）とは別",
+        "type": "river",
+        "seq": 65
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.0055, 38.2865 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "沖の井",
+        "note": "伝承地は多賀城市八幡。Wikidata に項目が無く、点は手で置いた概略のもの",
+        "type": "landmark",
+        "seq": 66
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 141.01, 38.29 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "都島",
+        "note": "陸奥の都島。所在は定まらない。沖の井の近くとして手で置いた便宜上の点",
+        "type": "landmark",
+        "seq": 67
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 136.1239, 35.2114 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "近江国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 68
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.8006, 34.8819 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "山城国",
+        "note": "国の代表点（Wikidata）",
+        "type": "province",
+        "seq": 69
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.8145, 34.8005 ]
+      },
+      "properties": {
+        "confidence": "med",
+        "modern_name": "",
+        "place_in_text": "井手",
+        "note": "井手町の代表点（Wikidata）",
+        "type": "settlement",
+        "seq": 70
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 135.773, 34.955 ]
+      },
+      "properties": {
+        "confidence": "low",
+        "modern_name": "",
+        "place_in_text": "深草",
+        "note": "Wikidata の項目に座標が無い。伏見区深草のあたりに手で置いた概略の点",
+        "type": "area",
+        "seq": 71
       },
       "type": "Feature"
     }

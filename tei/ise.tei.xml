@@ -90,7 +90,7 @@
             <place xml:id="hiei" type="mountain" n="8" cert="high">
               <placeName>比叡の山</placeName>
               <location><geo>35.0667 135.8383</geo></location>
-              <note>富士の高さのたとえとして出る。旅程の地点ではない</note>
+              <note>比叡山。九段では富士の高さのたとえとして出る（type="comparison"）。八十三段は小野が麓にある山として</note>
               <idno type="wikidata">Q748040</idno>
             </place>
             <place xml:id="musashi" type="province" n="9" cert="medium">
@@ -174,6 +174,286 @@
               <location><geo>37.7760 140.4743</geo></location>
               <note>福島市の信夫山</note>
               <idno type="wikidata">Q6923612</idno>
+            </place>
+            <place xml:id="yamato" type="province" n="23" cert="medium">
+              <placeName>大和国</placeName>
+              <location><geo>34.3278 135.9061</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q907495</idno>
+            </place>
+            <place xml:id="kawachi" type="province" n="24" cert="medium">
+              <placeName>河内国</placeName>
+              <location><geo>34.6464 135.6158</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1047150</idno>
+            </place>
+            <place xml:id="takayasu" type="district" n="25" cert="medium">
+              <placeName>高安郡</placeName>
+              <location><geo>34.6315 135.6413</geo></location>
+              <note>Wikidata の項目に座標が無い。座標は八尾市高安（Q11669131）で代用</note>
+              <idno type="wikidata">Q98491944</idno>
+            </place>
+            <place xml:id="tatsutayama" type="mountain" n="26" cert="low">
+              <placeName>龍田山</placeName>
+              <location><geo>34.5931 135.6873</geo></location>
+              <note>生駒山地の南端の山々の総称。Wikidata に座標が無く、麓の龍田大社（Q246455）で代用</note>
+              <idno type="wikidata">Q11598371</idno>
+            </place>
+            <place xml:id="ikoma" type="mountain" n="27" cert="high">
+              <placeName>生駒山</placeName>
+              <location><geo>34.6785 135.6790</geo></location>
+              <note>生駒山</note>
+              <idno type="wikidata">Q996259</idno>
+            </place>
+            <place xml:id="gojo" type="area" n="28" cert="low">
+              <placeName>五条</placeName>
+              <location><geo>34.9960 135.7620</geo></location>
+              <note>平安京の五条大路（今の松原通）あたり。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="settsu" type="province" n="29" cert="medium">
+              <placeName>摂津国</placeName>
+              <location><geo>34.8569 135.3014</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q864163</idno>
+            </place>
+            <place xml:id="unahara" type="district" n="30" cert="low">
+              <placeName>菟原郡</placeName>
+              <location><geo>34.7250 135.2700</geo></location>
+              <note>Wikidata の項目に座標が無い。芦屋と神戸の間に手で置いた概略の点</note>
+              <idno type="wikidata">Q11619987</idno>
+            </place>
+            <place xml:id="nagaoka" type="settlement" n="31" cert="medium">
+              <placeName>長岡</placeName>
+              <location><geo>34.9432 135.7032</geo></location>
+              <note>長岡京の跡の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1052803</idno>
+            </place>
+            <place xml:id="higashiyama" type="mountain" n="32" cert="low">
+              <placeName>東山</placeName>
+              <location><geo>35.0000 135.7900</geo></location>
+              <note>京の東の山並み。Wikidata の項目に座標が無く、点は手で置いた概略のもの</note>
+              <idno type="wikidata">Q10343950</idno>
+            </place>
+            <place xml:id="usa" type="shrine" n="33" cert="medium">
+              <placeName>宇佐</placeName>
+              <location><geo>33.5260 131.3746</geo></location>
+              <note>宇佐神宮</note>
+              <idno type="wikidata">Q715632</idno>
+            </place>
+            <place xml:id="tsukushi" type="region" n="34" cert="low">
+              <placeName>筑紫</placeName>
+              <location><geo>33.5129 130.5238</geo></location>
+              <note>範囲を指す語。Wikidata の項目に座標が無く、大宰府のあった太宰府市（Q728218）の代表点で代用</note>
+              <idno type="wikidata">Q1206461</idno>
+            </place>
+            <place xml:id="somekawa" type="river" n="35" cert="low">
+              <placeName>染河</placeName>
+              <location><geo>33.5170 130.5300</geo></location>
+              <note>伝承地は太宰府の藍染川。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="tawarejima" type="island" n="36" cert="high">
+              <placeName>たはれ島</placeName>
+              <location><geo>32.7121 130.5913</geo></location>
+              <note>宇土市沖の風流島</note>
+              <idno type="wikidata">Q11665527</idno>
+            </place>
+            <place xml:id="mitarashigawa" type="river" n="37" cert="low">
+              <placeName>御手洗川</placeName>
+              <location><geo>35.0391 135.7730</geo></location>
+              <note>賀茂社の御手洗川。下鴨・上賀茂のどちらかは決めない。座標は下鴨神社（Q701620）で代用</note>
+            </place>
+            <place xml:id="naniwa" type="region" n="38" cert="low">
+              <placeName>難波</placeName>
+              <location><geo>34.6870 135.5100</geo></location>
+              <note>難波津。Wikidata の項目に座標が無く、点は手で置いた概略のもの</note>
+              <idno type="wikidata">Q11659550</idno>
+            </place>
+            <place xml:id="mitsu" type="landmark" n="39" cert="low">
+              <placeName>御津</placeName>
+              <location><geo>34.6760 135.5000</geo></location>
+              <note>難波の御津。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="izumi" type="province" n="40" cert="medium">
+              <placeName>和泉国</placeName>
+              <location><geo>34.3886 135.3825</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1047117</idno>
+            </place>
+            <place xml:id="sumiyoshi" type="shrine" n="41" cert="medium">
+              <placeName>住吉</placeName>
+              <location><geo>34.6125 135.4929</geo></location>
+              <note>郡・里・浜をまとめて一つの地名にした。座標は住吉大社</note>
+              <idno type="wikidata">Q705949</idno>
+            </place>
+            <place xml:id="ausaka" type="pass" n="42" cert="medium">
+              <placeName>逢坂の関</placeName>
+              <location><geo>34.9942 135.8557</geo></location>
+              <note>逢坂関</note>
+              <idno type="wikidata">Q10551417</idno>
+            </place>
+            <place xml:id="oyodo" type="landmark" n="43" cert="low">
+              <placeName>大淀</placeName>
+              <location><geo>34.5477 136.6235</geo></location>
+              <note>伊勢の大淀の浜（明和町大淀）。Wikidata に項目が無く、明和町（Q1203258）の代表点で代用</note>
+            </place>
+            <place xml:id="oharano" type="area" n="44" cert="medium">
+              <placeName>大原野</placeName>
+              <location><geo>34.9603 135.6561</geo></location>
+              <note>Wikidata の項目に座標が無い。座標は大原野神社（Q3594020）で代用</note>
+              <idno type="wikidata">Q29841191</idno>
+            </place>
+            <place xml:id="oshio" type="mountain" n="45" cert="high">
+              <placeName>小塩の山</placeName>
+              <location><geo>34.9617 135.6342</geo></location>
+              <note>小塩山</note>
+              <idno type="wikidata">Q11459560</idno>
+            </place>
+            <place xml:id="anshoji" type="temple" n="46" cert="medium">
+              <placeName>安祥寺</placeName>
+              <location><geo>34.9957 135.8158</geo></location>
+              <note>今の寺の位置。当時の伽藍は山上にもあった</note>
+              <idno type="wikidata">Q11451144</idno>
+            </place>
+            <place xml:id="yamashina" type="area" n="47" cert="medium">
+              <placeName>山科</placeName>
+              <location><geo>34.9725 135.8136</geo></location>
+              <note>山科区の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1076993</idno>
+            </place>
+            <place xml:id="kii" type="province" n="48" cert="medium">
+              <placeName>紀伊国</placeName>
+              <location><geo>33.7753 135.7306</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q864053</idno>
+            </place>
+            <place xml:id="chisato" type="coast" n="49" cert="low">
+              <placeName>千里の浜</placeName>
+              <location><geo>33.7570 135.3180</geo></location>
+              <note>みなべ町の千里の浜。Wikidata の項目に座標が無く、点は手で置いた概略のもの</note>
+              <idno type="wikidata">Q11406837</idno>
+            </place>
+            <place xml:id="kamogawa" type="river" n="50" cert="medium">
+              <placeName>鴨川</placeName>
+              <location><geo>34.9910 135.7700</geo></location>
+              <note>座標は六条あたりの鴨川に手で置いた</note>
+              <idno type="wikidata">Q27218</idno>
+            </place>
+            <place xml:id="rokujo" type="area" n="51" cert="low">
+              <placeName>六条</placeName>
+              <location><geo>34.9905 135.7650</geo></location>
+              <note>平安京の六条、鴨川の近く（河原院のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="shiogama" type="settlement" n="52" cert="medium">
+              <placeName>塩竈</placeName>
+              <location><geo>38.3144 141.0220</geo></location>
+              <note>塩竈市の代表点（Wikidata）</note>
+              <idno type="wikidata">Q496448</idno>
+            </place>
+            <place xml:id="yamazaki" type="settlement" n="53" cert="medium">
+              <placeName>山崎</placeName>
+              <location><geo>34.9028 135.6885</geo></location>
+              <note>大山崎町の代表点（Wikidata）</note>
+              <idno type="wikidata">Q450287</idno>
+            </place>
+            <place xml:id="minase" type="settlement" n="54" cert="medium">
+              <placeName>水無瀬</placeName>
+              <location><geo>34.8849 135.6730</geo></location>
+              <note>座標は水無瀬離宮の跡とされる水無瀬神宮（Q705121）</note>
+            </place>
+            <place xml:id="katano" type="area" n="55" cert="low">
+              <placeName>交野</placeName>
+              <location><geo>34.7879 135.6799</geo></location>
+              <note>交野が原。範囲を指す語で、座標は交野市の代表点で代用</note>
+              <idno type="wikidata">Q819646</idno>
+            </place>
+            <place xml:id="nagisanoin" type="building" n="56" cert="low">
+              <placeName>渚の院</placeName>
+              <location><geo>34.8233 135.6614</geo></location>
+              <note>惟喬親王の別荘。枚方市渚元町の渚院跡。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="amanokawa" type="river" n="57" cert="medium">
+              <placeName>天の河</placeName>
+              <location><geo>34.8194 135.6433</geo></location>
+              <note>枚方・交野を流れる天野川</note>
+              <idno type="wikidata">Q11443656</idno>
+            </place>
+            <place xml:id="ono" type="settlement" n="58" cert="low">
+              <placeName>小野</placeName>
+              <location><geo>35.1140 135.8340</geo></location>
+              <note>山城国愛宕郡の小野（大原のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="ashiya" type="settlement" n="59" cert="medium">
+              <placeName>芦屋</placeName>
+              <location><geo>34.7270 135.3041</geo></location>
+              <note>芦屋市の代表点（Wikidata）</note>
+              <idno type="wikidata">Q725514</idno>
+            </place>
+            <place xml:id="nunobiki" type="waterfall" n="60" cert="high">
+              <placeName>布引の滝</placeName>
+              <location><geo>34.7097 135.1939</geo></location>
+              <note>神戸市の布引の滝</note>
+              <idno type="wikidata">Q3695449</idno>
+            </place>
+            <place xml:id="kujo" type="area" n="61" cert="low">
+              <placeName>九条</placeName>
+              <location><geo>34.9800 135.7550</geo></location>
+              <note>平安京の九条大路のあたり。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="ukon" type="landmark" n="62" cert="low">
+              <placeName>右近の馬場</placeName>
+              <location><geo>35.0292 135.7350</geo></location>
+              <note>北野の右近馬場。Wikidata に項目が無く、北野天満宮（Q662176）で代用</note>
+            </place>
+            <place xml:id="tatsutagawa" type="river" n="63" cert="medium">
+              <placeName>龍田川</placeName>
+              <location><geo>34.5956 135.7181</geo></location>
+              <note>今の竜田川の代表点。歌枕の龍田川は大和川の一部を指すとする説もある</note>
+              <idno type="wikidata">Q11598373</idno>
+            </place>
+            <place xml:id="suma" type="coast" n="64" cert="medium">
+              <placeName>須磨</placeName>
+              <location><geo>34.6586 135.1337</geo></location>
+              <note>須磨区の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1155010</idno>
+            </place>
+            <place xml:id="serikawa" type="river" n="65" cert="low">
+              <placeName>芹川</placeName>
+              <location><geo>34.9350 135.7450</geo></location>
+              <note>山城国の芹川（鳥羽のあたり）。Wikidata に項目が無く、点は手で置いた概略のもの。滋賀県の芹川（Q9072119）とは別</note>
+            </place>
+            <place xml:id="okinoi" type="landmark" n="66" cert="low">
+              <placeName>沖の井</placeName>
+              <location><geo>38.2865 141.0055</geo></location>
+              <note>伝承地は多賀城市八幡。Wikidata に項目が無く、点は手で置いた概略のもの</note>
+            </place>
+            <place xml:id="miyakojima" type="landmark" n="67" cert="low">
+              <placeName>都島</placeName>
+              <location><geo>38.2900 141.0100</geo></location>
+              <note>陸奥の都島。所在は定まらない。沖の井の近くとして手で置いた便宜上の点</note>
+            </place>
+            <place xml:id="omi" type="province" n="68" cert="medium">
+              <placeName>近江国</placeName>
+              <location><geo>35.2114 136.1239</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q843882</idno>
+            </place>
+            <place xml:id="yamashiro" type="province" n="69" cert="medium">
+              <placeName>山城国</placeName>
+              <location><geo>34.8819 135.8006</geo></location>
+              <note>国の代表点（Wikidata）</note>
+              <idno type="wikidata">Q749276</idno>
+            </place>
+            <place xml:id="ide" type="settlement" n="70" cert="medium">
+              <placeName>井手</placeName>
+              <location><geo>34.8005 135.8145</geo></location>
+              <note>井手町の代表点（Wikidata）</note>
+              <idno type="wikidata">Q1203097</idno>
+            </place>
+            <place xml:id="fukakusa" type="area" n="71" cert="low">
+              <placeName>深草</placeName>
+              <location><geo>34.9550 135.7730</geo></location>
+              <note>Wikidata の項目に座標が無い。伏見区深草のあたりに手で置いた概略の点</note>
+              <idno type="wikidata">Q30933141</idno>
             </place>
         </listPlace>
       </settingDesc>
@@ -1187,7 +1467,7 @@
       <div type="dan" n="20" xml:id="dan020">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise020"/>
-          <lb n="31r-03"/>むかし男やまとにある女を見てよはひて
+          <lb n="31r-03"/>むかし男<placeName ref="#yamato">やまと</placeName>にある女を見てよはひて
           <lb n="31r-04"/>あひにけりさてほとへて宮つかへする人
           <lb n="31r-05"/>なりけれはかへりくるみちにやよひはかり
           <lb n="31r-06"/>にかえてのもみちのいとおもしろきを
@@ -1195,7 +1475,7 @@
           <lb n="31r-08"/><seg type="waka">君かためたおれるえたははるなから
           <pb n="31l" facs="#z031l"/>
           <lb n="31l-01"/>かくこそ秋のもみちしにけれ</seg>
-          <lb n="31l-02"/>とてやりたりけれは返事は京にきつき
+          <lb n="31l-02"/>とてやりたりけれは返事は<placeName ref="#kyo">京</placeName>にきつき
           <lb n="31l-03"/>てなんもてきたりける
           <lb n="31l-04"/><seg type="waka">いつのまにうつろふいろのつきぬ覧
           <lb n="31l-05"/>きみかさとには春なかるらし</seg>
@@ -1292,30 +1572,30 @@
           <pb n="37l" facs="#z037l"/>
           <lb n="37l-01"/>さてとしころふるほとに女おやなくた
           <lb n="37l-02"/>よりなくなるままにもろともにいふかひ
-          <lb n="37l-03"/>なくてあらんやはとてかうちのくにた
-          <lb n="37l-04"/>かやすのこほりにいきかよふ所いてき
+          <lb n="37l-03"/>なくてあらんやはとて<placeName ref="#kawachi">かうち</placeName>のくに<placeName ref="#takayasu">た
+          <lb n="37l-04"/>かやす</placeName>のこほりにいきかよふ所いてき
           <lb n="37l-05"/>にけりさりけれとこのもとの女あしと思
           <lb n="37l-06"/>へるけしきもなくていたしやりけれは
           <lb n="37l-07"/>男こと心ありてかかるにやあらむとおもひ
           <lb n="37l-08"/>うたかひてせむさいのなかにかくれ
-          <lb n="37l-09"/>ゐてかうちへいぬるかほにてみれはこの
+          <lb n="37l-09"/>ゐて<placeName ref="#kawachi">かうち</placeName>へいぬるかほにてみれはこの
           <pb n="38r" facs="#z038r"/>
           <lb n="38r-01"/>女いとようけさうしてうちなかめて
-          <lb n="38r-02"/><seg type="waka">風ふけはおきつしらなみたつた山
+          <lb n="38r-02"/><seg type="waka">風ふけはおきつしらなみ<placeName ref="#tatsutayama">たつた山</placeName>
           <lb n="38r-03"/>夜半にやきみかひとりこゆらん</seg>
           <lb n="38r-04"/>とよみけるをききてかきりなくかなしと
-          <lb n="38r-05"/>おもひてかうちへもいかすなりにけり
+          <lb n="38r-05"/>おもひて<placeName ref="#kawachi">かうち</placeName>へもいかすなりにけり
           <pb n="38l" facs="#z038l"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise023c"/>
           <pb n="39r" facs="#z039r"/>
-          <lb n="39r-01"/>まれまれかのたかやすにきてみれははし
+          <lb n="39r-01"/>まれまれかの<placeName ref="#takayasu">たかやす</placeName>にきてみれははし
           <lb n="39r-02"/>めこそこころにくくもつくりけれいまは
           <lb n="39r-03"/>うちとけててつからいゐかひとりてけ
           <lb n="39r-04"/>このうつは物にもりけるを見て心う
           <lb n="39r-05"/>かりていかすなりにけりさりけれはかの
-          <lb n="39r-06"/>女やまとのかたを見やりて
-          <lb n="39r-07"/><seg type="waka">きみかあたりみつつををらんい駒山
+          <lb n="39r-06"/>女<placeName ref="#yamato">やまと</placeName>のかたを見やりて
+          <lb n="39r-07"/><seg type="waka">きみかあたりみつつををらん<placeName ref="#ikoma">い駒山</placeName>
           <lb n="39r-08"/>くもなかくしそ雨はふるとも</seg>
-          <lb n="39r-09"/>といひてみいたすにからうしてやまと
+          <lb n="39r-09"/>といひてみいたすにからうして<placeName ref="#yamato">やまと</placeName>
           <pb n="39l" facs="#z039l"/>
           <lb n="39l-01"/>ひとこんといへりよろこひてまつに
           <lb n="39l-02"/>たひたひ過ぬれは
@@ -1374,7 +1654,7 @@
       <div type="dan" n="26" xml:id="dan026">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise026"/>
-          <lb n="42l-05"/>むかし男五条わたりなりける女をええす
+          <lb n="42l-05"/>むかし男<placeName ref="#gojo">五条</placeName>わたりなりける女をええす
           <lb n="42l-06"/>なりけることとわひたりける人の返事に
           <lb n="42l-07"/><seg type="waka">おもほえず袖にみなとのさはくかな
           <lb n="42l-08"/>もろこし舟のよりしはかりに</seg>
@@ -1449,7 +1729,7 @@
       <div type="dan" n="33" xml:id="dan033">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise033"/>
-          <lb n="45l-06"/>むかし男つのくにむはらのこほりにかよ
+          <lb n="45l-06"/>むかし男<placeName ref="#settsu">つのくに</placeName><placeName ref="#unahara">むはらのこほり</placeName>にかよ
           <lb n="45l-07"/>ひける女このたひいきては又はこじとお
           <lb n="45l-08"/>もへるけしきなれはおとこ
           <lb n="45l-09"/><seg type="waka">あしへよりみちくるしほのいやましに
@@ -1592,7 +1872,7 @@
           <lb n="50l-06"/>さうのうへのきぬを見いててやるとて
           <lb n="50l-07"/><seg type="waka">むらさきのいろこき時はめもはるに
           <lb n="50l-08"/>野なるくさ木そわかれさりける</seg>
-          <lb n="50l-09"/>むさし野の心なるへし
+          <lb n="50l-09"/><placeName ref="#musashino">むさし野</placeName>の心なるへし
         </ab>
       </div>
       <div type="dan" n="42" xml:id="dan042">
@@ -1822,8 +2102,8 @@
       <div type="dan" n="58" xml:id="dan058">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise058"/>
-          <lb n="65r-08"/>昔こころつきて色このみなるおとこなか
-          <lb n="65r-09"/>をかといふ所にいゑつくりてをりけり
+          <lb n="65r-08"/>昔こころつきて色このみなるおとこ<placeName ref="#nagaoka">なか
+          <lb n="65r-09"/>をか</placeName>といふ所にいゑつくりてをりけり
           <lb n="65r-10"/>そこのとなりなりける宮はらにことも
           <pb n="65l" facs="#z065l"/>
           <lb n="65l-01"/>なき女とものゐなかなりけれは田からん
@@ -1846,8 +2126,8 @@
       <div type="dan" n="59" xml:id="dan059">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise059"/>
-          <lb n="66r-06"/>むかしおとこ京をいかか思ひけむひんかし
-          <lb n="66r-07"/>山にすまむとおもひいりて
+          <lb n="66r-06"/>むかしおとこ<placeName ref="#kyo">京</placeName>をいかか思ひけむ<placeName ref="#higashiyama">ひんかし
+          <lb n="66r-07"/>山</placeName>にすまむとおもひいりて
           <lb n="66r-08"/><seg type="waka">すみわひぬいまはかきりと山さとに
           <lb n="66r-09"/>身をかくすへきやともとめてむ</seg>
           <pb n="66l" facs="#z066l"/>
@@ -1864,7 +2144,7 @@
           <lb n="66l-06"/>昔おとこありけり宮つかへいそかしく
           <lb n="66l-07"/>心もまめならさりけるほとのいへとうし
           <lb n="66l-08"/>まめにおもはんといふ人につきて人の
-          <lb n="66l-09"/>くにへいにけりこのおとこ宇佐のつかひ
+          <lb n="66l-09"/>くにへいにけりこのおとこ<placeName ref="#usa">宇佐</placeName>のつかひ
           <pb n="67r" facs="#z067r"/>
           <lb n="67r-01"/>にていきけるにあるくにのしそうの
           <lb n="67r-02"/>官人のめにてなむあるとききて女あるし
@@ -1882,13 +2162,13 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise061"/>
           <pb n="68r" facs="#z068r"/>
-          <lb n="68r-01"/>昔おとこつくしまていきたりけるに
+          <lb n="68r-01"/>昔おとこ<placeName ref="#tsukushi">つくし</placeName>まていきたりけるに
           <lb n="68r-02"/>これはいろこのむといふすきものとすた
           <lb n="68r-03"/>れのうちなる人のいひけるをききて
-          <lb n="68r-04"/><seg type="waka">そめ川をわたらんひとのいかてかは
+          <lb n="68r-04"/><seg type="waka"><placeName ref="#somekawa">そめ川</placeName>をわたらんひとのいかてかは
           <lb n="68r-05"/>色になるてふことのなからん</seg>
           <lb n="68r-06"/>女返し
-          <lb n="68r-07"/><seg type="waka">なにしおははあたにそあるへきたはれ嶋
+          <lb n="68r-07"/><seg type="waka">なにしおははあたにそあるへき<placeName ref="#tawarejima">たはれ嶋</placeName>
           <lb n="68r-08"/>なみのぬれきぬきるといふなり</seg>
         </ab>
       </div>
@@ -2002,7 +2282,7 @@
           <lb n="73r-08"/>さりてありしよりけにこひしくの
           <lb n="73r-09"/>みおほえけれは
           <pb n="73l" facs="#z073l"/>
-          <lb n="73l-01"/><seg type="waka">恋せしとみたらし川にせしみそき
+          <lb n="73l-01"/><seg type="waka">恋せしと<placeName ref="#mitarashigawa">みたらし川</placeName>にせしみそき
           <lb n="73l-02"/>神はうけすもなりにけるかな</seg>
           <lb n="73l-03"/>といひてなむいにける
           <pb n="74r" facs="#z074r"/><figure><figDesc>挿絵</figDesc></figure><milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise065b"/>
@@ -2042,11 +2322,11 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise066"/>
           <pb n="76r" facs="#z076r"/>
-          <lb n="76r-01"/>昔おとこつのくににしる所ありけるに
-          <lb n="76r-02"/>あにおととともたちひきゐてなに
-          <lb n="76r-03"/>はのかたにいきけりなきさを見れは舟
+          <lb n="76r-01"/>昔おとこ<placeName ref="#settsu">つのくに</placeName>にしる所ありけるに
+          <lb n="76r-02"/>あにおととともたちひきゐて<placeName ref="#naniwa">なに
+          <lb n="76r-03"/>は</placeName>のかたにいきけりなきさを見れは舟
           <lb n="76r-04"/>とものあるをみて
-          <lb n="76r-05"/><seg type="waka">なにはつをけさこそみつのうらことに
+          <lb n="76r-05"/><seg type="waka"><placeName ref="#naniwa">なには</placeName>つをけさこそ<placeName ref="#mitsu">みつのうら</placeName>ことに
           <lb n="76r-06"/>これやこのよをうみわたるふね</seg>
           <lb n="76r-07"/>これをあはれかりて人々かへりにけり
         </ab>
@@ -2055,9 +2335,9 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise067"/>
           <lb n="76r-08"/>昔おとこせうえうしにおもふとちかひ
-          <lb n="76r-09"/>つらねていつみのくにへきさらきはかりに
+          <lb n="76r-09"/>つらねて<placeName ref="#izumi">いつみのくに</placeName>へきさらきはかりに
           <pb n="76l" facs="#z076l"/>
-          <lb n="76l-01"/>いきけりかうちのくにいこまの山を
+          <lb n="76l-01"/>いきけり<placeName ref="#kawachi">かうちのくに</placeName><placeName ref="#ikoma">いこまの山</placeName>を
           <lb n="76l-02"/>見れはくもりみはれみ立ゐるくもやま
           <lb n="76l-03"/>すあしたよりくもりてひるはれたり
           <lb n="76l-04"/>雪いとしろう木のすゑにふりたりそ
@@ -2072,13 +2352,13 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise068"/>
           <pb n="77l" facs="#z077l"/>
-          <lb n="77l-01"/>むかしおとこいつみのくにへいきけり
-          <lb n="77l-02"/>住よしのこほり住吉のさとすみよし
+          <lb n="77l-01"/>むかしおとこ<placeName ref="#izumi">いつみのくに</placeName>へいきけり
+          <lb n="77l-02"/><placeName ref="#sumiyoshi">住よし</placeName>のこほり<placeName ref="#sumiyoshi">住吉</placeName>のさと<placeName ref="#sumiyoshi">すみよし</placeName>
           <lb n="77l-03"/>のはまをゆくにいとおもしろけれはおり
-          <lb n="77l-04"/>ゐつつゆくある人すみよしのはまとよ
+          <lb n="77l-04"/>ゐつつゆくある人<placeName ref="#sumiyoshi">すみよし</placeName>のはまとよ
           <lb n="77l-05"/>めといふ
           <lb n="77l-06"/><seg type="waka">かりなきて菊のはなさく秋はあれと
-          <lb n="77l-07"/>春のうみ辺にすみよしのはま</seg>
+          <lb n="77l-07"/>春のうみ辺に<placeName ref="#sumiyoshi">すみよし</placeName>のはま</seg>
           <lb n="77l-08"/>とよめりけれはみなひとひとよますなり
           <lb n="77l-09"/>にけり
           <pb n="78r" facs="#z078r"/><figure><figDesc>挿絵</figDesc></figure>
@@ -2088,8 +2368,8 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise069"/>
           <pb n="78l" facs="#z078l"/>
-          <lb n="78l-01"/>昔おとこ有けりそのおとこいせのくにに
-          <lb n="78l-02"/>かりのつかひにいきけるにかのいせ
+          <lb n="78l-01"/>昔おとこ有けりそのおとこ<placeName ref="#ise">いせ</placeName>のくにに
+          <lb n="78l-02"/>かりのつかひにいきけるにかの<placeName ref="#ise">いせ</placeName>
           <lb n="78l-03"/>の斎宮なりけるひとのおやつねのつかひ
           <lb n="78l-04"/>よりはこの人よくいたはれといひやれり
           <lb n="78l-05"/>けれはおやの事なりけれはいとねん
@@ -2126,7 +2406,7 @@
           <lb n="80r-06"/>ていととくあはんと思ふにくにのかみいつ
           <lb n="80r-07"/>きの宮のかみかけたるかりのつかひあり
           <lb n="80r-08"/>とききて夜ひとよさけのみしけれはも
-          <lb n="80r-09"/>はらあひこともえせてあけはおはりの国
+          <lb n="80r-09"/>はらあひこともえせてあけは<placeName ref="#owari">おはり</placeName>の国
           <pb n="80l" facs="#z080l"/>
           <lb n="80l-01"/>へたちなんとすれはおとこも人しれす
           <lb n="80l-02"/>ちの涙をなかせとえあはす夜やうやう
@@ -2138,8 +2418,8 @@
           <lb n="80l-08"/>につゐまつのすみしてうたのすゑ
           <lb n="80l-09"/>をかきつく
           <pb n="81r" facs="#z081r"/>
-          <lb n="81r-01"/><seg type="waka">又あふさかのせきはこえなん</seg>
-          <lb n="81r-02"/>とてあくれはおはりのくにへこえにけり
+          <lb n="81r-01"/><seg type="waka">又<placeName ref="#ausaka">あふさかのせき</placeName>はこえなん</seg>
+          <lb n="81r-02"/>とてあくれは<placeName ref="#owari">おはり</placeName>のくにへこえにけり
           <lb n="81r-03"/>斎宮は水のおの御とき文徳天皇の御女こ
           <lb n="81r-04"/>れたかのみこのいもうと
           <pb n="81l" facs="#z081l"/><figure><figDesc>挿絵</figDesc></figure>
@@ -2150,7 +2430,7 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise070"/>
           <pb n="82r" facs="#z082r"/>
           <lb n="82r-01"/>むかしおとこかりのつかひよりかへりき
-          <lb n="82r-02"/>けるにおほよとのわたりにやとり
+          <lb n="82r-02"/>けるに<placeName ref="#oyodo">おほよと</placeName>のわたりにやとり
           <lb n="82r-03"/>ていつきのみやのわらはへにいひかけ
           <lb n="82r-04"/>ける
           <lb n="82r-05"/><seg type="waka">みるめかる方やいつこそさほさして
@@ -2160,7 +2440,7 @@
       <div type="dan" n="71" xml:id="dan071">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise071"/>
-          <lb n="82r-07"/>むかしおとこいせの斎宮に内のつかひ
+          <lb n="82r-07"/>むかしおとこ<placeName ref="#ise">いせ</placeName>の斎宮に内のつかひ
           <lb n="82r-08"/>にてまいれりけれはかのみやにすきこと
           <lb n="82r-09"/>いひける女わたくしことにて
           <pb n="82l" facs="#z082l"/>
@@ -2176,10 +2456,10 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise072"/>
           <pb n="83l" facs="#z083l"/>
-          <lb n="83l-01"/>昔おとこいせのくになりける女又えあ
+          <lb n="83l-01"/>昔おとこ<placeName ref="#ise">いせ</placeName>のくになりける女又えあ
           <lb n="83l-02"/>はてとなりのくにへいくとていみしう
           <lb n="83l-03"/>うらみけれは女
-          <lb n="83l-04"/><seg type="waka">おほよとの松はつらくもあらなくに
+          <lb n="83l-04"/><seg type="waka"><placeName ref="#oyodo">おほよと</placeName>の松はつらくもあらなくに
           <lb n="83l-05"/>うらみてのみもかへるなみかな</seg>
         </ab>
       </div>
@@ -2204,9 +2484,9 @@
       <div type="dan" n="75" xml:id="dan075">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise075"/>
-          <lb n="84r-04"/>むかしおとこいせのくににゐていきて
+          <lb n="84r-04"/>むかしおとこ<placeName ref="#ise">いせ</placeName>のくににゐていきて
           <lb n="84r-05"/>あらんといひけれは女
-          <lb n="84r-06"/><seg type="waka">おほよとの浜におふてふ見るからに
+          <lb n="84r-06"/><seg type="waka"><placeName ref="#oyodo">おほよと</placeName>の浜におふてふ見るからに
           <lb n="84r-07"/>こころはなきぬかたらはねとも</seg>
           <lb n="84r-08"/>といひてましてつれなかりけれはおとこ
           <lb n="84r-09"/><seg type="waka">袖ぬれてあまのかりほすわたつ海の
@@ -2230,7 +2510,7 @@
           <lb n="85r-02"/>にこの衛つかさにさふらひけるおきな
           <lb n="85r-03"/>人々のろくたまはるついてに御車より
           <lb n="85r-04"/>たまはりてよみてたてまつりける
-          <lb n="85r-05"/><seg type="waka">おほはらやをしほの山もけふこそは
+          <lb n="85r-05"/><seg type="waka"><placeName ref="#oharano">おほはら</placeName>や<placeName ref="#oshio">をしほの山</placeName>もけふこそは
           <lb n="85r-06"/>神世のこともおもひいつらめ</seg>
           <lb n="85r-07"/>とて心にもかなしとやおもひけんいかか
           <lb n="85r-08"/>おもひけむしらすかし
@@ -2243,7 +2523,7 @@
           <pb n="85l" facs="#z085l"/>
           <lb n="85l-01"/>はしましけりその時の女御たかき
           <lb n="85l-02"/>こと申すみまそかりけりそれうせ給て
-          <lb n="85l-03"/>安祥寺にてみわさしけり人々ささけ
+          <lb n="85l-03"/><placeName ref="#anshoji">安祥寺</placeName>にてみわさしけり人々ささけ
           <lb n="85l-04"/>物たてまつりけりたてまつりあつめたる物
           <lb n="85l-05"/>ちささけはかりなりそこはくのささけもの
           <lb n="85l-06"/>を木の枝につけてたうのまへにたて
@@ -2269,10 +2549,10 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise078"/>
           <lb n="86l-02"/>むかしたかきこと申す女御おはしま
           <lb n="86l-03"/>しけりうせ給てなななぬかのみわさ
-          <lb n="86l-04"/>安祥寺にてしけり右大将ふちはらの
+          <lb n="86l-04"/><placeName ref="#anshoji">安祥寺</placeName>にてしけり右大将ふちはらの
           <lb n="86l-05"/>つねゆきといふ人いまそかりけりそのみ
           <lb n="86l-06"/>わさにまうて給ひてかへさに山しなの
-          <lb n="86l-07"/>せむしのみこおはしますそのやましな
+          <lb n="86l-07"/>せむしのみこおはしますその<placeName ref="#yamashina">やましな</placeName>
           <lb n="86l-08"/>の宮にたきおとし水はしらせなとして
           <lb n="86l-09"/>おもしろくつくられたるにまうて給うて
           <pb n="87r" facs="#z087r"/>
@@ -2283,7 +2563,7 @@
           <lb n="87r-05"/>せたまふさるにかの大将いててたは
           <lb n="87r-06"/>かり給ふやう宮つかへのはしめにたた
           <lb n="87r-07"/>なをやはあるへき三条のおほみゆきせし
-          <lb n="87r-08"/>時紀のくにの千里のはまにありける
+          <lb n="87r-08"/>時<placeName ref="#kii">紀のくに</placeName>の<placeName ref="#chisato">千里のはま</placeName>にありける
           <lb n="87r-09"/>いとおもしろきいしたてまつれりきほみ
           <pb n="87l" facs="#z087l"/>
           <lb n="87l-01"/>ゆきののちたてまつれりしかはある人
@@ -2336,7 +2616,7 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise081"/>
           <pb n="90l" facs="#z090l"/>
           <lb n="90l-01"/>むかし左のおほいまうちきみいまそかり
-          <lb n="90l-02"/>けりかも河のほとりに六条わたりに家を
+          <lb n="90l-02"/>けり<placeName ref="#kamogawa">かも河</placeName>のほとりに<placeName ref="#rokujo">六条</placeName>わたりに家を
           <lb n="90l-03"/>いとおもしろくつくりてすみ給ひけり神
           <lb n="90l-04"/>な月のつこもりかた菊の花うつろひさか
           <lb n="90l-05"/>りなるに紅葉のちくさに見ゆるおりみこ
@@ -2346,14 +2626,14 @@
           <lb n="90l-09"/>りけるかたゐおきなたいしきのしたには
           <pb n="91r" facs="#z091r"/>
           <lb n="91r-01"/>ひありきて人にみなよませはててよめる
-          <lb n="91r-02"/><seg type="waka">しほかまにいつかきにけんあさなきに
+          <lb n="91r-02"/><seg type="waka"><placeName ref="#shiogama">しほかま</placeName>にいつかきにけんあさなきに
           <lb n="91r-03"/>つりする舟はここによらなん</seg>
-          <lb n="91r-04"/>となむよみけるみちのくににいきたりけ
+          <lb n="91r-04"/>となむよみける<placeName ref="#michinoku">みちのくに</placeName>にいきたりけ
           <lb n="91r-05"/>るにあやしくおもしろきところところおほ
-          <lb n="91r-06"/>かりけりわかみかと六十よ国のなかにし
-          <lb n="91r-07"/>ほかまといふ所ににたる所なかりけりさ
+          <lb n="91r-06"/>かりけりわかみかと六十よ国のなかに<placeName ref="#shiogama">し
+          <lb n="91r-07"/>ほかま</placeName>といふ所ににたる所なかりけりさ
           <lb n="91r-08"/>れはなむかのおきなさらにここをめてて
-          <lb n="91r-09"/>しほかまにいつかきにけんとよめりける
+          <lb n="91r-09"/><placeName ref="#shiogama">しほかま</placeName>にいつかきにけんとよめりける
           <pb n="91l" facs="#z091l"/><figure><figDesc>挿絵</figDesc></figure>
         </ab>
       </div>
@@ -2362,7 +2642,7 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise082a"/>
           <pb n="92r" facs="#z092r"/>
           <lb n="92r-01"/>むかしこれたかのみこと申すみこおは
-          <lb n="92r-02"/>しましけり山さきのあなたにみなせ
+          <lb n="92r-02"/>しましけり<placeName ref="#yamazaki">山さき</placeName>のあなたに<placeName ref="#minase">みなせ</placeName>
           <lb n="92r-03"/>といふところに宮ありけり年ことのさ
           <lb n="92r-04"/>くらの花さかりにはその宮へなむおはし
           <lb n="92r-05"/>ましけるその時みきのむまのかみなり
@@ -2371,8 +2651,8 @@
           <lb n="92r-08"/>名わすれにけりかりはねんころにも
           <lb n="92r-09"/>せてさけをのみのみつつやまとうたに
           <pb n="92l" facs="#z092l"/>
-          <lb n="92l-01"/>かかれりけり今かりするかたののなきさ
-          <lb n="92l-02"/>のいへそのゐんの桜ことにおもしろし
+          <lb n="92l-01"/>かかれりけり今かりする<placeName ref="#katano">かたの</placeName>の<placeName ref="#nagisanoin">なきさ
+          <lb n="92l-02"/>のいへ</placeName>そのゐんの桜ことにおもしろし
           <lb n="92l-03"/>その木のもとにおりゐてえたをおりてか
           <lb n="92l-04"/>さしにさしてかみなかしもみな哥よみ
           <lb n="92l-05"/>けりうまのかみなりける人のよめる
@@ -2385,16 +2665,16 @@
           <lb n="93r-02"/>とてその木のもとはたちてかへるにひ
           <lb n="93r-03"/>くれになりぬ御ともなる人さけをもた
           <lb n="93r-04"/>せて野よりいてきたりこのさけをのみ
-          <lb n="93r-05"/>てむとてよき所をもとめゆくにあまの
-          <lb n="93r-06"/>かはといふ所にいたりぬみこにむまの
+          <lb n="93r-05"/>てむとてよき所をもとめゆくに<placeName ref="#amanokawa">あまの
+          <lb n="93r-06"/>かは</placeName>といふ所にいたりぬみこにむまの
           <lb n="93r-07"/>かみおほみきまいるみこののたまひける
-          <lb n="93r-08"/>かたのをかりてあまのかはのほとりにい
+          <lb n="93r-08"/><placeName ref="#katano">かたの</placeName>をかりて<placeName ref="#amanokawa">あまのかは</placeName>のほとりにい
           <lb n="93r-09"/>たるをたいにてうたよみてさかつきは
           <pb n="93l" facs="#z093l"/>
           <lb n="93l-01"/>させとのたまうけれはかのむまのかみよ
           <lb n="93l-02"/>みてたてまつりける
           <lb n="93l-03"/><seg type="waka">かりくらしたなはたつめに宿からん
-          <lb n="93l-04"/>あまのかはらに我はきにけり</seg>
+          <lb n="93l-04"/><placeName ref="#amanokawa">あまのかは</placeName>らに我はきにけり</seg>
           <lb n="93l-05"/>みこうたを返々すし給うてかへし
           <lb n="93l-06"/>えしたまはすきのありつね御ともに
           <lb n="93l-07"/>つかうまつれりそれか返し
@@ -2418,7 +2698,7 @@
       <div type="dan" n="83" xml:id="dan083">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise083"/>
-          <lb n="95r-02"/>むかしみなせにかよひ給ひしこれたかの
+          <lb n="95r-02"/>むかし<placeName ref="#minase">みなせ</placeName>にかよひ給ひしこれたかの
           <lb n="95r-03"/>みこれいのかりしにおはしますとも
           <lb n="95r-04"/>にうまのかみなるおきなつかうまつれり
           <lb n="95r-05"/>日ころへて宮にかへり給うけり御を
@@ -2433,7 +2713,7 @@
           <lb n="95l-04"/>りかくしつつまうてつかうまつりける
           <lb n="95l-05"/>をおもひのほかに御くしおろし
           <lb n="95l-06"/>たまうてけりむ月におかみたてまつらん
-          <lb n="95l-07"/>とてをのにまうてたるにひえの山のふ
+          <lb n="95l-07"/>とて<placeName ref="#ono">をの</placeName>にまうてたるに<placeName ref="#hiei">ひえの山</placeName>のふ
           <lb n="95l-08"/>もとなれは雪いとたかししゐてみむろ
           <lb n="95l-09"/>にまうてておかみたてまつるにつれつれ
           <pb n="96r" facs="#z096r"/>
@@ -2454,8 +2734,8 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise084"/>
           <pb n="97r" facs="#z097r"/>
           <lb n="97r-01"/>昔おとこありけり身はいやしなからはは
-          <lb n="97r-02"/>なむ宮なりけるそのははなかをかといふ
-          <lb n="97r-03"/>所にすみ給けり子は京に宮つかへし
+          <lb n="97r-02"/>なむ宮なりけるそのはは<placeName ref="#nagaoka">なかをか</placeName>といふ
+          <lb n="97r-03"/>所にすみ給けり子は<placeName ref="#kyo">京</placeName>に宮つかへし
           <lb n="97r-04"/>けれはまうつとしけれとしはしはえ
           <lb n="97r-05"/>まうてすひとつ子にさへありけれはいと
           <lb n="97r-06"/>かなしうし給ひけりさるにしはすはかり
@@ -2510,20 +2790,20 @@
       <div type="dan" n="87" xml:id="dan087">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise087a"/>
-          <lb n="99r-03"/>むかしおとこつの国むはらのこほりあし
-          <lb n="99r-04"/>やのさとにしるよししていきてすみ
+          <lb n="99r-03"/>むかしおとこ<placeName ref="#settsu">つの国</placeName><placeName ref="#unahara">むはらのこほり</placeName><placeName ref="#ashiya">あし
+          <lb n="99r-04"/>や</placeName>のさとにしるよししていきてすみ
           <lb n="99r-05"/>けりむかしのうたに
-          <lb n="99r-06"/><seg type="waka">蘆のやのなたのしほやきいとまなみ
+          <lb n="99r-06"/><seg type="waka"><placeName ref="#ashiya">蘆のや</placeName>のなたのしほやきいとまなみ
           <lb n="99r-07"/>つけのをくしもささすきにけり</seg>
           <lb n="99r-08"/>とよみけるそこのさとをよみけるここ
-          <lb n="99r-09"/>をなんあしやのなたとはいひけるこの
+          <lb n="99r-09"/>をなん<placeName ref="#ashiya">あしや</placeName>のなたとはいひけるこの
           <pb n="99l" facs="#z099l"/>
           <lb n="99l-01"/>おとこなま宮つかへしけれはそれを
           <lb n="99l-02"/>たよりにてゑうのすけともあつまり
           <lb n="99l-03"/>きにけりこの男のこのかみもゑふのかみ
           <lb n="99l-04"/>なりけりそのいゑのまへの海のほとりに
           <lb n="99l-05"/>あそひありきていさこの山のかみにあり
-          <lb n="99l-06"/>といふぬのひきのたき見にのほらんと
+          <lb n="99l-06"/>といふ<placeName ref="#nunobiki">ぬのひきのたき</placeName>見にのほらんと
           <lb n="99l-07"/>いひてのほりて見るにそのたきものより
           <lb n="99l-08"/>ことなりなかさ二十丈ひろさ五丈はかり
           <lb n="99l-09"/>なるいしのおもてにしらきぬにいはを
@@ -2713,7 +2993,7 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise097"/>
           <lb n="108l-08"/>昔ほりかはのおほいまうちきみと申い
-          <lb n="108l-09"/>まそかりけり四十の賀九条の家にてせら
+          <lb n="108l-09"/>まそかりけり四十の賀<placeName ref="#kujo">九条</placeName>の家にてせら
           <pb n="109r" facs="#z109r"/>
           <lb n="109r-01"/>れける日中将なりけるおきな
           <lb n="109r-02"/><seg type="waka">さくら花ちりかひくもれ老らくの
@@ -2739,7 +3019,7 @@
       <div type="dan" n="99" xml:id="dan099">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise099"/>
-          <lb n="110r-01"/>むかしおとこ右近の馬場のひをりの日む
+          <lb n="110r-01"/>むかしおとこ<placeName ref="#ukon">右近の馬場</placeName>のひをりの日む
           <lb n="110r-02"/>かひにたてたりける車に女のかほの
           <lb n="110r-03"/>したすたれよりほのかにみえけれは中将
           <lb n="110r-04"/>なりけるおとこのよみてやりける
@@ -2797,7 +3077,7 @@
           <pb n="113r" facs="#z113r"/>
           <lb n="113r-01"/>昔おとこありけり哥はよまさりけれと世
           <lb n="113r-02"/>のなかを思ひしりたりけりあてなる女の
-          <lb n="113r-03"/>あまになりて世中をおもひうむして京
+          <lb n="113r-03"/>あまになりて世中をおもひうむして<placeName ref="#kyo">京</placeName>
           <lb n="113r-04"/>にもあらすはるかなる山さとにすみけり
           <lb n="113r-05"/>もとしそくなりけれはよみてやりける
           <lb n="113r-06"/><seg type="waka">そむくとて雲にはのらぬものなれと
@@ -2851,8 +3131,8 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise106"/>
           <lb n="114l-06"/>むかしおとこみこたちのせうえうし
-          <lb n="114l-07"/>給う所にまうてて立田川のほとりにて
-          <lb n="114l-08"/><seg type="waka">ちはやふる神代もきかすたつたかは
+          <lb n="114l-07"/>給う所にまうてて<placeName ref="#tatsutagawa">立田川</placeName>のほとりにて
+          <lb n="114l-08"/><seg type="waka">ちはやふる神代もきかす<placeName ref="#tatsutagawa">たつたかは</placeName>
           <lb n="114l-09"/>からくれなゐに水くるるとは</seg>
           <pb n="115r" facs="#z115r"/>
           <lb n="115r-01"/>  【絵】
@@ -2945,7 +3225,7 @@
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise112"/>
           <lb n="118r-07"/>むかしおとこねんころにいひちきり
           <lb n="118r-08"/>ける女のことさまになりにけれは
-          <lb n="118r-09"/><seg type="waka">すまのあまのしほやく煙風をいたみ
+          <lb n="118r-09"/><seg type="waka"><placeName ref="#suma">すま</placeName>のあまのしほやく煙風をいたみ
           <pb n="118l" facs="#z118l"/>
           <lb n="118l-01"/>おもはぬかたにたなひきにけり</seg>
         </ab>
@@ -2961,7 +3241,7 @@
       <div type="dan" n="114" xml:id="dan114">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise114"/>
-          <lb n="118l-05"/>昔仁和のみかとせり川に行かうし
+          <lb n="118l-05"/>昔仁和のみかと<placeName ref="#serikawa">せり川</placeName>に行かうし
           <lb n="118l-06"/>給ける時いまはさることにけなく思けれ
           <lb n="118l-07"/>ともとつきにけることなれはおほたかの
           <lb n="118l-08"/>たかかひにてさふらはせたまひけるすり
@@ -2977,21 +3257,21 @@
       <div type="dan" n="115" xml:id="dan115">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise115"/>
-          <lb n="119r-06"/>むかしみちのくににておとこ女すみけり
-          <lb n="119r-07"/>おとこ宮こへいなんといふこの女いと
+          <lb n="119r-06"/>むかし<placeName ref="#michinoku">みちのくに</placeName>にておとこ女すみけり
+          <lb n="119r-07"/>おとこ<placeName ref="#kyo">宮こ</placeName>へいなんといふこの女いと
           <lb n="119r-08"/>かなしうてむまのはなむけをたにせむと
-          <lb n="119r-09"/>ておきのゐて宮こしまといふ所にてさけ
+          <lb n="119r-09"/>て<placeName ref="#okinoi">おきのゐて</placeName><placeName ref="#miyakojima">宮こしま</placeName>といふ所にてさけ
           <pb n="119l" facs="#z119l"/>
           <lb n="119l-01"/>のませてよめる
           <lb n="119l-02"/><seg type="waka">おきのゐて身をやくよりもかなしきは
-          <lb n="119l-03"/>みやこしまへのわかれなりけり</seg>
+          <lb n="119l-03"/><placeName ref="#miyakojima">みやこしま</placeName>へのわかれなりけり</seg>
         </ab>
       </div>
       <div type="dan" n="116" xml:id="dan116">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise116"/>
-          <lb n="119l-04"/>昔おとこすすろにみちのくにまてまとひ
-          <lb n="119l-05"/>いにけり京に思ふ人にいひやる
+          <lb n="119l-04"/>昔おとこすすろに<placeName ref="#michinoku">みちのくに</placeName>まてまとひ
+          <lb n="119l-05"/>いにけり<placeName ref="#kyo">京</placeName>に思ふ人にいひやる
           <lb n="119l-06"/><seg type="waka">なみまよりみゆるこしまのはまひさし
           <lb n="119l-07"/>ひさしくなりぬ君にあひ見て</seg>
           <lb n="119l-08"/>なに事もみなよくなりにけりとなん
@@ -3002,8 +3282,8 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise117"/>
           <pb n="120r" facs="#z120r"/>
-          <lb n="120r-01"/>むかしみかと住吉に行幸し給ひけり
-          <lb n="120r-02"/><seg type="waka">我見てもひさしくなりぬ住よしの
+          <lb n="120r-01"/>むかしみかと<placeName ref="#sumiyoshi">住吉</placeName>に行幸し給ひけり
+          <lb n="120r-02"/><seg type="waka">我見てもひさしくなりぬ<placeName ref="#sumiyoshi">住よし</placeName>の
           <lb n="120r-03"/>きしのひめ松いく世へぬらん</seg>
           <lb n="120r-04"/>おほむ神けきやうし給ひて
           <lb n="120r-05"/><seg type="waka">むつましと君はしらなみみつかきの
@@ -3037,7 +3317,7 @@
           <lb n="121r-01"/>むかしおとこ女のまたよへすとおほえた
           <lb n="121r-02"/>るか人の御もとにしのひてものきこえ
           <lb n="121r-03"/>てのちほとへて
-          <lb n="121r-04"/><seg type="waka">あふみなるつくまのまつりとくせなむ
+          <lb n="121r-04"/><seg type="waka"><placeName ref="#omi">あふみ</placeName>なるつくまのまつりとくせなむ
           <lb n="121r-05"/>つれなき人のなへのかす見ん</seg>
         </ab>
       </div>
@@ -3058,7 +3338,7 @@
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise122"/>
           <lb n="122r-04"/>むかし男ちきれることあやまれる人に
-          <lb n="122r-05"/><seg type="waka">やましろのゐての玉水てにむすひ
+          <lb n="122r-05"/><seg type="waka"><placeName ref="#yamashiro">やましろ</placeName>の<placeName ref="#ide">ゐて</placeName>の玉水てにむすひ
           <lb n="122r-06"/>たのみしかひもなき世なりけり</seg>
           <lb n="122r-07"/>といひやれといらへもせす
         </ab>
@@ -3066,12 +3346,12 @@
       <div type="dan" n="123" xml:id="dan123">
         <ab>
           <milestone unit="yatanavi" corresp="https://yatanavi.org/text/ise/sag_ise123"/>
-          <lb n="122r-08"/>昔おとこありけりふかくさにすみける女
+          <lb n="122r-08"/>昔おとこありけり<placeName ref="#fukakusa">ふかくさ</placeName>にすみける女
           <lb n="122r-09"/>をやうやうあきかたにやおもひけん
           <pb n="122l" facs="#z122l"/>
           <lb n="122l-01"/>かかるうたをよみけり
           <lb n="122l-02"/><seg type="waka">年をへて住こしさとを出ていなは
-          <lb n="122l-03"/>いととふかくさ野とやなりなむ</seg>
+          <lb n="122l-03"/>いとと<placeName ref="#fukakusa">ふかくさ</placeName>野とやなりなむ</seg>
           <lb n="122l-04"/>女返し
           <lb n="122l-05"/><seg type="waka">野とならはうつらとなりて鳴をらん
           <lb n="122l-06"/>かりにたにやは君はこさらん</seg>
